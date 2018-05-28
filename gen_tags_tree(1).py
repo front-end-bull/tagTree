@@ -21,7 +21,7 @@ def get_json():
             "id": 3,
             "fatherid": 2,
             "label": "无人驾驶车（Driverless Car）",,
-            "label_en": "Autonomous Driving",
+            "label_en": "Driverless Car",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "自动驾驶汽车，又称为无人驾驶汽车、电脑驾驶汽车或轮式移动机器人，是无人地面载具的一种，具有传统汽车的运输能力。作为自动化载具，自动驾驶汽车不需要人为操作即能感测其环境及导航。",
             "description_en": ""
@@ -49,7 +49,7 @@ def get_json():
             "id": 6,
             "fatherid": 3,
             "label": "运动规划（Motion planning）",,
-            "label_en": "Autonomous Driving",
+            "label_en": "Motion Planning",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "运动规划（英语：Motion Planning）是一个过程，用来寻找从起始状态到目标状态的移动步骤。运动规划常常需要在运动受到约束的条件下找到最优解。运动规划多用于机器人学。",
             "description_en": ""
@@ -118,7 +118,7 @@ def get_json():
             "id": 13,
             "fatherid": 8,
             "label": "声纹识别",,
-            "label_en": "Autonomous Driving",
+            "label_en": "Acoustic fingerprint Recognition）",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "声学指纹（Acoustic fingerprint）是通过特定算法从音频信号中提取的一段数字摘要，用于识别声音样本或者快速定位音频数据库中的相似音频。音频压缩技术的进步以及大容量存储器的出现使得互联网上出现了以音乐为主的海量音频信息，手工选取某首歌曲很多时候已经变得不可能，这直接促使产生了可以进行音乐自动识别的数字音频指纹技术。",
             "description_en": ""
@@ -129,8 +129,8 @@ def get_json():
                 8,
                 188
             ],
-            "label": "图像识别",
-            "label_en": "Autonomous Driving",
+            "label": "图像识别（Image Recognition）",
+            "label_en": "Image Recognition",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "",
             "description_en": ""
