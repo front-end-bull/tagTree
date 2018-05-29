@@ -6,7 +6,7 @@ def get_json():
             "label_en":"Artificial Intelligence",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "人工智能（英语：Artificial Intelligence, AI）亦称机器智能，是指由人制造出来的机器所表现出来的智能。通常人工智能是指通过普通计算机程序的手段实现的人类智能技术。该词也指出研究这样的智能系统是否能够实现，以及如何实现的科学领域。",
-            "description_en": ""
+            "description_en": "Artificial intelligence (AI, also machine intelligence, MI) is intelligence demonstrated by machines, in contrast to the natural intelligence (NI) displayed by humans and other animals."
         },
         {
             "id": 2,
@@ -15,7 +15,7 @@ def get_json():
             "label_en": "Autonomous Driving",
             "icon_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Google_self_driving_car_at_the_Googleplex.jpg",
             "description": "自动驾驶（英语：Autopilot）是一种经由机械、电子仪器、液压系统、陀螺仪等，做出无人操控的自动化驾驶。常用在飞行器、船舰及部分的铁路列车。公路交通工具的自动驾驶仍在研究开发中，尚未大规模商用。",
-            "description_en": ""
+            "description_en": "An autopilot is a system used to control the trajectory of an aircraft without constant 'hands-on' control by a human operator being required."
         },
         {
             "id": 3,
@@ -24,7 +24,7 @@ def get_json():
             "label_en": "Driverless Car",
             "icon_url": "https://images.pexels.com/photos/1098662/pexels-photo-1098662.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
             "description": "自动驾驶汽车，又称为无人驾驶汽车、电脑驾驶汽车或轮式移动机器人，是无人地面载具的一种，具有传统汽车的运输能力。作为自动化载具，自动驾驶汽车不需要人为操作即能感测其环境及导航。",
-            "description_en": ""
+            "description_en": "An autonomous car (also known as a driverless car, self-driving car and robotic car[1]) is a vehicle that is capable of sensing its environment and navigating without human input."
         },
         # {
         #     "id": 4,
@@ -52,7 +52,7 @@ def get_json():
             "label_en": "Motion Planning",
             "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Motion_planning_configuration_space_road_map_path.svg/768px-Motion_planning_configuration_space_road_map_path.svg.png",
             "description": "运动规划（英语：Motion Planning）是一个过程，用来寻找从起始状态到目标状态的移动步骤。运动规划常常需要在运动受到约束的条件下找到最优解。运动规划多用于机器人学。",
-            "description_en": ""
+            "description_en": "Motion planning (also known as the navigation problem or the piano mover's problem) is a term used in robotics for the process of breaking down a desired movement task into discrete motions that satisfy movement constraints and possibly optimize some aspect of the movement."
         },
         # {
         #     "id": 7,
@@ -73,7 +73,7 @@ def get_json():
             "label_en": "Autonomous Driving",
             "icon_url": "https://i.stack.imgur.com/TV2AA.jpg",
             "description": "模式识别（英语：Pattern recognition），就是通过计算机用数学技术方法来研究模式的自动处理和判读。我们把环境与客体统称为“模式”。随着计算机技术的发展，人类有可能研究复杂的信息处理过程。信息处理过程的一个重要形式是生命体对环境及客体的识别。",
-            "description_en": ""
+            "description_en": "Pattern recognition is a branch of machine learning that focuses on the recognition of patterns and regularities in data, although it is in some cases considered to be nearly synonymous with machine learning."
         },
         # {
         #     "id": 9,
@@ -94,7 +94,7 @@ def get_json():
             "label_en": "Autonomous Driving",
             "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Portable_scanner_and_OCR_%28video%29.webm/1200px--Portable_scanner_and_OCR_%28video%29.webm.jpg",
             "description": "光学字符识别（英语：Optical Character Recognition, OCR）是指对文本资料的图像文件进行分析识别处理，获取文字及版面信息的过程。",
-            "description_en": ""
+            "description_en": "Optical character recognition (also optical character reader, OCR) is the mechanical or electronic conversion of images of typed, handwritten or printed text into machine-encoded text."
         },
         # {
         #     "id": 11,
@@ -117,11 +117,11 @@ def get_json():
         {
             "id": 13,
             "fatherid": 8,
-            "label": "声纹识别",,
+            "label": "声学指纹",,
             "label_en": "Acoustic fingerprint Recognition）",
             "icon_url": "http://i.stack.imgur.com/aW36s.png",
             "description": "声学指纹（Acoustic fingerprint）是通过特定算法从音频信号中提取的一段数字摘要，用于识别声音样本或者快速定位音频数据库中的相似音频。音频压缩技术的进步以及大容量存储器的出现使得互联网上出现了以音乐为主的海量音频信息，手工选取某首歌曲很多时候已经变得不可能，这直接促使产生了可以进行音乐自动识别的数字音频指纹技术。",
-            "description_en": ""
+            "description_en": "An acoustic fingerprint is a condensed digital summary, a fingerprint, deterministically generated from an audio signal, that can be used to identify an audio sample or quickly locate similar items in an audio database."
         },
         {
             "id": 14,
