@@ -117,7 +117,7 @@ def get_json():
         {
             "id": 13,
             "fatherid": 8,
-            "label": "声学指纹",,
+            "label": "声学指纹（Acoustic fingerprint）",,
             "label_en": "Acoustic fingerprint Recognition）",
             "icon_url": "http://i.stack.imgur.com/aW36s.png",
             "description": "声学指纹（Acoustic fingerprint）是通过特定算法从音频信号中提取的一段数字摘要，用于识别声音样本或者快速定位音频数据库中的相似音频。音频压缩技术的进步以及大容量存储器的出现使得互联网上出现了以音乐为主的海量音频信息，手工选取某首歌曲很多时候已经变得不可能，这直接促使产生了可以进行音乐自动识别的数字音频指纹技术。",
@@ -153,19 +153,19 @@ def get_json():
                 17,
                 188
             ],
-            "label": "人脸识别",
-            "label_en": "Autonomous Driving",
+            "label": "人脸识别（Face perception）",
+            "label_en": "Face perception",
             "icon_url": "https://petapixel.com/assets/uploads/2016/06/facialrecognition_1.jpg",
             "description": "人脸识别，特指利用分析比较人脸视觉特征信息进行身份鉴别的计算机技术。广义的人脸识别实际包括构建人脸识别系统的一系列相关技术，包括人脸图像采集、人脸定位、人脸识别预处理、身份确认以及身份查找等；而狭义的人脸识别特指通过人脸进行身份确认或者身份查找的技术或系统。",
-            "description_en": ""
+            "description_en": "Face perception is an individual's understanding and interpretation of the face, particularly the human face, especially in relation to the associated information processing in the brain."
         },
         {
             "id": 17,
             "fatherid": 8,
-            "label": "生物特征识别",
-            "label_en": "Autonomous Driving",
+            "label": "生物识别技术（Biometrics）",
+            "label_en": "Biometrics",
             "icon_url": "http://whatsnext.nuance.com/wp-content/uploads/eye-and-finger.jpg",
-            "description": "生物识别技术（biometrics，也称生物测定学），是指用数理统计方法对生物进行分析，现在多指对生物体（一般特指人）本身的生物特征来区分生物体个体的计算机技术。研究领域主要包括语音、脸、指纹、手掌纹、虹膜、视网膜、体形、个人习惯（例如敲击键盘的力度和频率、签字）等，相应的识别技术就有说话人识别、人脸识别、指纹识别、掌纹识别、虹膜识别、视网膜识别、体形识别、键盘敲击识别、签字识别等。",
+            "description": "生物识别技术（Biometrics，也称生物测定学），是指用数理统计方法对生物进行分析，现在多指对生物体（一般特指人）本身的生物特征来区分生物体个体的计算机技术。研究领域主要包括语音、脸、指纹、手掌纹、虹膜、视网膜、体形、个人习惯（例如敲击键盘的力度和频率、签字）等，相应的识别技术就有说话人识别、人脸识别、指纹识别、掌纹识别、虹膜识别、视网膜识别、体形识别、键盘敲击识别、签字识别等。",
             "description_en": ""
         },
         {
@@ -228,11 +228,11 @@ def get_json():
                 8,
                 137
             ],
-            "label": "语音识别",
-            "label_en": "Autonomous Driving",
+            "label": "语音识别(Speech Recognition)",
+            "label_en": "Speech Recognition",
             "icon_url": "http://www.wired.com/images_blogs/gadgetlab/2009/12/_g7i9162-660x440.jpg",
             "description": "语音识别（speech recognition；语音辨识／言语辨别）技术，也被称为自动语音识别（英语：Automatic Speech Recognition, ASR）、电脑语音识别（英语：Computer Speech Recognition）或是语音转文本识别（英语：Speech To Text, STT），其目标是以电脑自动将人类的语音内容转换为相应的文字。与说话人识别及说话人确认不同，后者尝试识别或确认发出语音的说话人而非其中所包含的词汇内容。",
-            "description_en": ""
+            "description_en": "Speech recognition is the inter-disciplinary sub-field of computational linguistics that develops methodologies and technologies that enables the recognition and translation of spoken language into text by computers."
         },
         # {
         #     "id": 25,
@@ -445,7 +445,7 @@ def get_json():
             "label_en": "Deep Learning",
             "icon_url": "https://ahmedbesbes.com/images/deep.png",
             "description": "深度学习（deep learning）是机器学习的分支，是一种试图使用包含复杂结构或由多重非线性变换构成的多个处理层对数据进行高层抽象的算法。",
-            "description_en": ""
+            "description_en": "Deep learning (also known as deep structured learning or hierarchical learning) is part of a broader family of machine learning methods based on learning data representations, as opposed to task-specific algorithms. "
         },
         {
             "id": 48,
@@ -498,41 +498,41 @@ def get_json():
             "label": "迁移学习 (Transfer Learning)",
             "label_en": "Transfer Learning",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
-            "description_en": ""
+            "description": "迁移学习(Transfer learning)是就是把已学训练好的模型参数迁移到新的模型来帮助新模型训练。",
+            "description_en": "Transfer learning or inductive transfer is a research problem in machine learning that focuses on storing knowledge gained while solving one problem and applying it to a different but related problem."
         },
         {
             "id": 54,
             "fatherid": [47,67,69],
             "label": "卷积神经网络（CNN）",
-            "label_en": "Autonomous Driving",
+            "label_en": "Convolutional Neural Network",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "卷积神经网络（Convolutional Neural Network, CNN）是一种前馈神经网络，它的人工神经元可以响应一部分覆盖范围内的周围单元，对于大型图像处理有出色表现。卷积神经网络由一个或多个卷积层和顶端的全连通层（对应经典的神经网络）组成，同时也包括关联权重和池化层（pooling layer）。这一结构使得卷积神经网络能够利用输入数据的二维结构。与其他深度学习结构相比，卷积神经网络在图像和语音识别方面能够给出更好的结果。这一模型也可以使用反向传播算法进行训练。相比较其他深度、前馈神经网络，卷积神经网络需要考量的参数更少，使之成为一种颇具吸引力的深度学习结构。",
-            "description_en": ""
+            "description_en": "In machine learning, a convolutional neural network (CNN, or ConvNet) is a class of deep, feed-forward artificial neural networks, most commonly applied to analyzing visual imagery."
         },
         {
             "id": 55,
             "fatherid": 47,
-            "label": "LSTM",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Long_Short_Term_Memory.png",
-            "description": "长短期记忆（英语：Long Short-Term Memory，LSTM）是一种时间递归神经网络（RNN），论文首次发表于1997年。由于独特的设计结构，LSTM适合于处理和预测时间序列中间隔和延迟非常长的重要事件。",
-            "description_en": ""
+            "label": "长短期记忆(Long Short-Term Memory)",
+            "label_en": "Long Short-Term Memory",
+            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "description": "长短期记忆（Long Short-Term Memory，LSTM）是一种时间递归神经网络（RNN），论文首次发表于1997年。由于独特的设计结构，LSTM适合于处理和预测时间序列中间隔和延迟非常长的重要事件。",
+            "description_en": "Long short-term memory (LSTM) units (or blocks) are a building unit for layers of a recurrent neural network (RNN). "
         },
         {
             "id": 56,
             "fatherid": 47,
-            "label": "RNN",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://i.stack.imgur.com/LLDp2.png",
+            "label": "递归神经网络(RNN)",
+            "label_en": "RNN(Recurrent Neural Network)",
+            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "递归神经网络（RNN）是两种人工神经网络的总称。一种是时间递归神经网络（recurrent neural network），另一种是结构递归神经网络（recursive neural network）。时间递归神经网络的神经元间连接构成矩阵，而结构递归神经网络利用相似的神经网络结构递归构造更为复杂的深度网络。RNN一般指代时间递归神经网络。",
-            "description_en": ""
+            "description_en": "A recurrent neural network (RNN) is a class of artificial neural network where connections between nodes form a directed graph along a sequence."
         },
         {
             "id": 57,
             "fatherid": 47,
-            "label": "Caffee（深度学习框架）",
-            "label_en": "Autonomous Driving",
+            "label": "Caffe",
+            "label_en": "Caffe",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "Caffe: a fast open framework for deep learning. <a href='http://caffe.berkeleyvision.org/' target=_blank></a>",
             "description_en": "Caffe: a fast open framework for deep learning. <a href='http://caffe.berkeleyvision.org/' target=_blank></a>"
@@ -541,10 +541,10 @@ def get_json():
             "id": 58,
             "fatherid": 47,
             "label": "TensorFlow",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/TensorFlowLogo.png",
+            "label_en": "TensorFlow",
+            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "TensorFlow是一个开源软件库，用于各种感知和语言理解任务的机器学习。目前被50个团队用于研究和生产许多Google商业产品，如语音识别、Gmail、Google 相册和搜索，其中许多产品曾使用过其前任软件DistBelief。TensorFlow最初由Google Brain团队开发，用于Google的研究和生产，于2015年11月9日在Apache 2.0开源许可证下发布。<a href='https://tensorflow.org' target=_blank></a>",
-            "description_en": "Computation using data flow graphs for scalable machine learning."
+            "description_en": "TensorFlow is an open-source software library for dataflow programming across a range of tasks."
         },
         # {
         #     "id": 59,
@@ -1274,7 +1274,7 @@ def get_json():
         {
             "id": 137,
             "fatherid": 1,
-            "label": "自然语言处理",
+            "label": "自然语言处理(NLP)",
             "label_en": "Autonomous Driving",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "自然语言处理（英语：natural language processing，缩写作 NLP）是人工智能和语言学领域的分支学科。此领域探讨如何处理及运用自然语言；自然语言认知则是指让电脑“懂”人类的语言。自然语言生成系统把计算机数据转化为自然语言。自然语言理解系统把自然语言转化为计算机程序更易于处理的形式。",
