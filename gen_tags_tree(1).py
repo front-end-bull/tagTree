@@ -2,7 +2,7 @@ def get_json():
     return [
         {
             "id": 1,
-            "label": "人工智能（Artificial Intelligence）",
+            "label": "人工智能s（Artificial Intelligence）",
             "label_en":"Artificial Intelligence",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "人工智能（英语：Artificial Intelligence, AI）亦称机器智能，是指由人制造出来的机器所表现出来的智能。通常人工智能是指通过普通计算机程序的手段实现的人类智能技术。该词也指出研究这样的智能系统是否能够实现，以及如何实现的科学领域。",
