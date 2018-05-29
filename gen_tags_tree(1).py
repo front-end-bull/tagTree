@@ -2,11 +2,11 @@ def get_json():
     return [
         {
             "id": 1,
-            "label": "人工智能s（Artificial Intelligence）",
+            "label": "人工智能（Artificial Intelligence）",
             "label_en":"Artificial Intelligence",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "人工智能（英语：Artificial Intelligence, AI）亦称机器智能，是指由人制造出来的机器所表现出来的智能。通常人工智能是指通过普通计算机程序的手段实现的人类智能技术。该词也指出研究这样的智能系统是否能够实现，以及如何实现的科学领域。",
-            "description_en": ""
+            "description_en": "Artificial intelligence (AI, also machine intelligence, MI) is intelligence demonstrated by machines, in contrast to the natural intelligence (NI) displayed by humans and other animals."
         },
         {
             "id": 2,
@@ -15,7 +15,7 @@ def get_json():
             "label_en": "Autonomous Driving",
             "icon_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Google_self_driving_car_at_the_Googleplex.jpg",
             "description": "自动驾驶（英语：Autopilot）是一种经由机械、电子仪器、液压系统、陀螺仪等，做出无人操控的自动化驾驶。常用在飞行器、船舰及部分的铁路列车。公路交通工具的自动驾驶仍在研究开发中，尚未大规模商用。",
-            "description_en": ""
+            "description_en": "An autopilot is a system used to control the trajectory of an aircraft without constant 'hands-on' control by a human operator being required."
         },
         {
             "id": 3,
@@ -24,7 +24,7 @@ def get_json():
             "label_en": "Driverless Car",
             "icon_url": "https://images.pexels.com/photos/1098662/pexels-photo-1098662.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
             "description": "自动驾驶汽车，又称为无人驾驶汽车、电脑驾驶汽车或轮式移动机器人，是无人地面载具的一种，具有传统汽车的运输能力。作为自动化载具，自动驾驶汽车不需要人为操作即能感测其环境及导航。",
-            "description_en": ""
+            "description_en": "An autonomous car (also known as a driverless car, self-driving car and robotic car[1]) is a vehicle that is capable of sensing its environment and navigating without human input."
         },
         # {
         #     "id": 4,
@@ -47,12 +47,12 @@ def get_json():
         # },
         {
             "id": 6,
-            "fatherid": 3,
+            "fatherid": [3,174],
             "label": "运动规划（Motion planning）",,
             "label_en": "Motion Planning",
             "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Motion_planning_configuration_space_road_map_path.svg/768px-Motion_planning_configuration_space_road_map_path.svg.png",
             "description": "运动规划（英语：Motion Planning）是一个过程，用来寻找从起始状态到目标状态的移动步骤。运动规划常常需要在运动受到约束的条件下找到最优解。运动规划多用于机器人学。",
-            "description_en": ""
+            "description_en": "Motion planning (also known as the navigation problem or the piano mover's problem) is a term used in robotics for the process of breaking down a desired movement task into discrete motions that satisfy movement constraints and possibly optimize some aspect of the movement."
         },
         # {
         #     "id": 7,
@@ -73,7 +73,7 @@ def get_json():
             "label_en": "Autonomous Driving",
             "icon_url": "https://i.stack.imgur.com/TV2AA.jpg",
             "description": "模式识别（英语：Pattern recognition），就是通过计算机用数学技术方法来研究模式的自动处理和判读。我们把环境与客体统称为“模式”。随着计算机技术的发展，人类有可能研究复杂的信息处理过程。信息处理过程的一个重要形式是生命体对环境及客体的识别。",
-            "description_en": ""
+            "description_en": "Pattern recognition is a branch of machine learning that focuses on the recognition of patterns and regularities in data, although it is in some cases considered to be nearly synonymous with machine learning."
         },
         # {
         #     "id": 9,
@@ -94,7 +94,7 @@ def get_json():
             "label_en": "Autonomous Driving",
             "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Portable_scanner_and_OCR_%28video%29.webm/1200px--Portable_scanner_and_OCR_%28video%29.webm.jpg",
             "description": "光学字符识别（英语：Optical Character Recognition, OCR）是指对文本资料的图像文件进行分析识别处理，获取文字及版面信息的过程。",
-            "description_en": ""
+            "description_en": "Optical character recognition (also optical character reader, OCR) is the mechanical or electronic conversion of images of typed, handwritten or printed text into machine-encoded text."
         },
         # {
         #     "id": 11,
@@ -117,11 +117,11 @@ def get_json():
         {
             "id": 13,
             "fatherid": 8,
-            "label": "声纹识别",,
+            "label": "声学指纹",,
             "label_en": "Acoustic fingerprint Recognition）",
             "icon_url": "http://i.stack.imgur.com/aW36s.png",
             "description": "声学指纹（Acoustic fingerprint）是通过特定算法从音频信号中提取的一段数字摘要，用于识别声音样本或者快速定位音频数据库中的相似音频。音频压缩技术的进步以及大容量存储器的出现使得互联网上出现了以音乐为主的海量音频信息，手工选取某首歌曲很多时候已经变得不可能，这直接促使产生了可以进行音乐自动识别的数字音频指纹技术。",
-            "description_en": ""
+            "description_en": "An acoustic fingerprint is a condensed digital summary, a fingerprint, deterministically generated from an audio signal, that can be used to identify an audio sample or quickly locate similar items in an audio database."
         },
         {
             "id": 14,
@@ -150,7 +150,8 @@ def get_json():
             "fatherid": [
                 8,
                 14,
-                17
+                17,
+                188
             ],
             "label": "人脸识别",
             "label_en": "Autonomous Driving",
@@ -587,7 +588,7 @@ def get_json():
         },
         {
             "id": 63,
-            "fatherid": 62,
+            "fatherid": [62,123]
             "label": "Leela Zero（围棋AI）",
             "label_en": "Autonomous Driving",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
@@ -686,7 +687,7 @@ def get_json():
         # },
         {
             "id": 73,
-            "fatherid": 69,
+            "fatherid": [69,154],
             "label": "神经机器翻译(NMT)",
             "label_en": "Autonomous Driving",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
@@ -695,7 +696,7 @@ def get_json():
         },
         {
             "id": 74,
-            "fatherid": 73,
+            "fatherid": [73,155],
             "label": "OpenNMT",
             "label_en": "Autonomous Driving",
             "icon_url": "screenshot",
@@ -749,7 +750,7 @@ def get_json():
         # },
         {
             "id": 80,
-            "fatherid": 67,
+            "fatherid": [67,163],
             "label": "决策树（Decision Tree）",
             "label_en": "Decision Tree",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
@@ -1123,7 +1124,7 @@ def get_json():
             "label": "人机对战",
             "label_en": "Autonomous Driving",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
+            "description": "人类与人工智能产品或应用对抗、比赛的活动或研究。",
             "description_en": ""
         },
         {
@@ -1141,106 +1142,106 @@ def get_json():
             "label": "五子棋AI",
             "label_en": "Autonomous Driving",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
+            "description": "通过人工智能算法下五子棋/连珠。国际上每年都会有Gomocup让各类AI进行PK一决胜负。",
             "description_en": ""
         },
-        {
-            "id": 123,
-            "fatherid": 121,
-            "label": "AlphaGo",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
-            "description_en": ""
-        },
-        {
-            "id": 124,
-            "fatherid": 123,
-            "label": "Leela",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
-            "description_en": ""
-        },
-        {
-            "id": 125,
-            "fatherid": 121,
-            "label": "CrazyStone",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
-            "description_en": ""
-        },
+        # {
+        #     "id": 123,
+        #     "fatherid": 121,
+        #     "label": "AlphaGo",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+        #     "description": "",
+        #     "description_en": ""
+        # },
+        # {
+        #     "id": 124,
+        #     "fatherid": 123,
+        #     "label": "Leela",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+        #     "description": "",
+        #     "description_en": ""
+        # },
+        # {
+        #     "id": 125,
+        #     "fatherid": 121,
+        #     "label": "CrazyStone",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+        #     "description": "",
+        #     "description_en": ""
+        # },
         {
             "id": 126,
             "fatherid": 120,
-            "label": "图灵测试",
-            "label_en": "Autonomous Driving",
+            "label": "图灵测试（Turing test）",
+            "label_en": "Turing test",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
+            "description": "图灵测试（英语：Turing test，又译图灵试验）是图灵于1950年提出的一个关于判断机器是否能够思考的著名试验，测试某机器是否能表现出与人等价或无法区分的智能。测试的谈话仅限于使用唯一的文本管道，例如计算机键盘和屏幕，这样的结果是不依赖于计算机把单词转换为音频的能力。",
             "description_en": ""
         },
-        {
-            "id": 127,
-            "fatherid": 126,
-            "label": "反图灵测试",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
-            "description_en": ""
-        },
+        # {
+        #     "id": 127,
+        #     "fatherid": 126,
+        #     "label": "反图灵测试",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+        #     "description": "",
+        #     "description_en": ""
+        # },
         {
             "id": 128,
             "fatherid": 126,
             "label": "验证码",
             "label_en": "Autonomous Driving",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
+            "description": "全自动区分计算机和人类的公开图灵测试（英语：Completely Automated Public Turing test to tell Computers and Humans Apart，简称CAPTCHA），俗称验证码，是一种区分用户是计算机或人的公共全自动程序。在CAPTCHA测试中，作为服务器的计算机会自动生成一个问题由用户来解答。这个问题可以由计算机生成并评判，但是必须只有人类才能解答。由于计算机无法解答CAPTCHA的问题，所以回答出问题的用户就可以被认为是人类。",
             "description_en": ""
         },
-        {
-            "id": 129,
-            "fatherid": 128,
-            "label": "验证码",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
-            "description_en": ""
-        },
+        # {
+        #     "id": 129,
+        #     "fatherid": 128,
+        #     "label": "验证码",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+        #     "description": "",
+        #     "description_en": ""
+        # },
         {
             "id": 130,
             "fatherid": 129,
             "label": "reCAPTCHA",
             "label_en": "Autonomous Driving",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
+            "description": "reCAPTCHA项目是由卡内基梅隆大学所发展的系统，主要目的是利用CAPTCHA技术来帮助典籍数字化的进行，这个项目将由书本扫描下来无法准确的被光学文字辨识技术（OCR, Optical Character Recognition）识别的文字显示在CAPTCHA问题中，让人类在回答CAPTCHA问题时用人脑加以识别[1]。reCAPTCHA正数字化《纽约时报》（New York Times）的扫描存档[2]，目前已经完成20年份的数据，并希望在2010年完成110年份的数据。2009年9月17日，Google宣布收购reCAPTCHA",
             "description_en": ""
         },
-        {
-            "id": 131,
-            "fatherid": 129,
-            "label": "短信验证码",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
-            "description_en": ""
-        },
-        {
-            "id": 132,
-            "fatherid": 120,
-            "label": "计算机博弈",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
-            "description_en": ""
-        },
+        # {
+        #     "id": 131,
+        #     "fatherid": 129,
+        #     "label": "短信验证码",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+        #     "description": "",
+        #     "description_en": ""
+        # },
+        # {
+        #     "id": 132,
+        #     "fatherid": 120,
+        #     "label": "计算机博弈",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+        #     "description": "",
+        #     "description_en": ""
+        # },
         {
             "id": 133,
             "fatherid": 1,
             "label": "智慧城市",
             "label_en": "Autonomous Driving",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
+            "description": "智慧城市（英语：Smart City）是指利用各种信息技术或创新意念，集成城市的组成系统和服务，以提升资源运用的效率，优化城市管理和服务，以及改善市民生活质素。智慧城市把新一代信息技术充分运用在城市的各行各业之中的基于知识社会下一代创新（创新2.0）的城市信息化高级形态，实现信息化、工业化与城镇化深度融合，有助于缓解“大城市病”，提高城镇化质量，实现精细化和动态管理，并提升城市管理成效和改善市民生活质素。",
             "description_en": ""
         },
         {
@@ -1249,7 +1250,7 @@ def get_json():
             "label": "智能交通",
             "label_en": "Autonomous Driving",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
+            "description": "智能运输系统（英文：Intelligent Transport System、Intelligent Transportation System，缩写：ITS，又名：智能交通系统）是将先进的信息技术、通讯技术、传感技术、控制技术及计算机技术等有效率地集成运用于整个交通运输管理体系，而建立起的一种在大范围内及全方位发挥作用的，实时、准确及高效率的综合的运输和管理系统。美国、日本、欧洲率先展开相应的研究并成为ITS发展的三强，此外加拿大、中国、韩国、新加坡、澳大利亚、香港等国家的研究也具有相当规模。",
             "description_en": ""
         },
         {
@@ -1258,7 +1259,7 @@ def get_json():
             "label": "电子警察",
             "label_en": "Autonomous Driving",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
+            "description": "电子警察是一种利用自动化检测与测量技术捕获交通违法或交通事故，利用网络将采集的信息传回公安部门进行分析处理，并以此为证据对肇事者进行处罚，以减少事故发生、辅助交警工作的方法。与交警监管相比，电子警察对事故的判断更准确，捕捉更迅速，在黑夜、恶劣情况下仍能正常工作，而同时减少了交警的人力支出，但对仪器仪表的投入要求相对较高。目前常用的电子警察技术包括：电子眼、传感器、测速仪。",
             "description_en": ""
         },
         {
@@ -1276,18 +1277,18 @@ def get_json():
             "label": "自然语言处理",
             "label_en": "Autonomous Driving",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
+            "description": "自然语言处理（英语：natural language processing，缩写作 NLP）是人工智能和语言学领域的分支学科。此领域探讨如何处理及运用自然语言；自然语言认知则是指让电脑“懂”人类的语言。自然语言生成系统把计算机数据转化为自然语言。自然语言理解系统把自然语言转化为计算机程序更易于处理的形式。",
             "description_en": ""
         },
-        {
-            "id": 138,
-            "fatherid": 137,
-            "label": "HNC概念层次网络理论",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
-            "description_en": ""
-        },
+        # {
+        #     "id": 138,
+        #     "fatherid": 137,
+        #     "label": "HNC概念层次网络理论",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+        #     "description": "",
+        #     "description_en": ""
+        # },
         {
             "id": 139,
             "fatherid": 137,
@@ -1321,7 +1322,7 @@ def get_json():
             "label": "语料库",
             "label_en": "Autonomous Driving",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
+            "description": "语料库一词在语言学上意指大量的文本，通常经过整理，具有既定格式与标记；事实上，语料库英文 'text corpus' 的涵意即为 'body of text'。",
             "description_en": ""
         },
         {
@@ -1330,7 +1331,7 @@ def get_json():
             "label": "分词",
             "label_en": "Autonomous Driving",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
+            "description": "将一个汉字序列切分成一个一个单独的词。",
             "description_en": ""
         },
         {
@@ -1339,7 +1340,7 @@ def get_json():
             "label": "Sphinx(检索引擎）",
             "label_en": "Autonomous Driving",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
+            "description": "<a href='http://sphinxsearch.com' target=_blank></a>",
             "description_en": ""
         },
         # {
@@ -1353,11 +1354,11 @@ def get_json():
         # },
         {
             "id": 146,
-            "fatherid": 137,
-            "label": "主题模型",
-            "label_en": "Autonomous Driving",
+            "fatherid": [137,163],
+            "label": "主题模型（Topic Model）",
+            "label_en": "Topic Model",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
+            "description": "主题模型（Topic Model）在机器学习和自然语言处理等领域是用来在一系列文档中发现抽象主题的一种统计模型。直观来讲，如果一篇文章有一个中心思想，那么一些特定词语会更频繁的出现。比方说，如果一篇文章是在讲狗的，那“狗”和“骨头”等词出现的频率会高些。",
             "description_en": ""
         },
         {
@@ -1366,37 +1367,37 @@ def get_json():
                 146,
                 175
             ],
-            "label": "LDA",
-            "label_en": "Autonomous Driving",
+            "label": "LDA（Latent Dirichlet Allocation）",
+            "label_en": "Latent Dirichlet Allocation",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
+            "description": "隐含狄利克雷分布（Latent Dirichlet allocation，简称LDA），是一种主题模型，它可以将文档集中每篇文档的主题按照概率分布的形式给出。同时它是一种无监督学习算法，在训练时不需要手工标注的训练集，需要的仅仅是文档集以及指定主题的数量k即可。此外LDA的另一个优点则是，对于每一个主题均可找出一些词语来描述它。LDA首先由Blei, David M.、吴恩达和Jordan, Michael I于2003年提出[1]，目前在文本挖掘领域包括文本主题识别、文本分类以及文本相似度计算方面都有应用。",
             "description_en": ""
         },
         {
             "id": 148,
             "fatherid": 146,
-            "label": "pLSA",
+            "label": "PLSA",
             "label_en": "Autonomous Driving",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
+            "description": "概率潜在语义分析（PLSA），也称为 概率潜在语义索引（PLSI），尤其是在信息检索领域)是一个一种用于分析双模式和共现数据的统计技术。 实际上，就像从PLSA进化而来的潜在语义分析一样，可以根据它们对某些隐藏变量的亲和性来导出观察变量的低维表示。",
             "description_en": ""
         },
-        {
-            "id": 149,
-            "fatherid": 146,
-            "label": "LSA",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
-            "description_en": ""
-        },
+        # {
+        #     "id": 149,
+        #     "fatherid": 146,
+        #     "label": "LSA",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+        #     "description": "",
+        #     "description_en": ""
+        # },
         {
             "id": 150,
-            "fatherid": 137,
+            "fatherid": [137,163],
             "label": "文本挖掘",
             "label_en": "Autonomous Driving",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
+            "description": "文本挖掘有时也被称为文字探勘、文本数据挖掘等，大致相当于文字分析，一般指文本处理过程中产生高质量的信息。高质量的信息通常通过分类和预测来产生，如模式识别。文本挖掘通常涉及输入文本的处理过程（通常进行分析，同时加上一些衍生语言特征以及消除杂音，随后插入到数据库中） ，产生结构化数据，并最终评价和解释输出。",
             "description_en": ""
         },
         {
@@ -1405,7 +1406,7 @@ def get_json():
             "label": "简繁转换",
             "label_en": "Autonomous Driving",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
+            "description": "繁简转换，指繁体字与简体字的互相转换，实际使用时通常包括台湾、香港、澳门、中国大陆、新加坡、马来西亚地区所使用的标准中文之中不同字、词的相互转换。由于中国大陆对汉字简化并非全部采用“一对一”方式，有部分用字采用“一对多”[1]方式，因此准确的汉字转换相当困难。目前已经有相当多的专业人士正利用各种方法解决这个难题。",
             "description_en": ""
         },
         {
@@ -1423,7 +1424,7 @@ def get_json():
             "label": "语义搜索",
             "label_en": "Autonomous Driving",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
+            "description": "语义检索 ，是为了生成更相关的结果，使用语义网络中的数据来帮助区分(disambiguation)查询和网页的内容，所进行的在线检索过程。Hildebrand et al.[1] 有一个对语义检索系统的全面回顾报告，并且说明了语义在检索过程中的相关使用情况。",
             "description_en": ""
         },
         {
@@ -1432,52 +1433,52 @@ def get_json():
             "label": "机器翻译",
             "label_en": "Autonomous Driving",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
+            "description": "机器翻译（英语：Machine Translation，经常简写为MT，俗称机翻）属于计算语言学的范畴，其研究借由计算机程序将文字或演说从一种自然语言翻译成另一种自然语言。简单来说，机器翻译是通过将一个自然语言的字辞取代成另一个自然语言的字辞。借由使用语料库的技术，可达成更加复杂的自动翻译，包含可更佳的处理不同的文法结构、辞汇辨识、惯用语的对应等。",
             "description_en": ""
         },
-        {
-            "id": 155,
-            "fatherid": 154,
-            "label": "神经机器翻译（NMT) ",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
-            "description_en": ""
-        },
-        {
-            "id": 156,
-            "fatherid": 155,
-            "label": "OpenNMT) ",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
-            "description_en": ""
-        },
+        # {
+        #     "id": 155,
+        #     "fatherid": 154,
+        #     "label": "神经机器翻译（NMT) ",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+        #     "description": "",
+        #     "description_en": ""
+        # },
+        # {
+        #     "id": 156,
+        #     "fatherid": 155,
+        #     "label": "OpenNMT) ",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+        #     "description": "",
+        #     "description_en": ""
+        # },
         {
             "id": 157,
             "fatherid": 137,
             "label": "问答系统",
             "label_en": "Autonomous Driving",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
+            "description": "问答系统（英语：Question answering），是未来自然语言处理的明日之星。问答系统外部的行为上来看，其与目前主流资讯检索技术有两点不同：首先是查询方式为完整而口语化的问句，再来则是其回传的为高精准度网页结果或明确的答案字串。以Ask Jeeves为例，使用者不需要思考该使用什么样的问法才能够得到理想的答案，只需要用口语化的方式直接提问如“请问谁是美国总统？”即可。而系统在了解使用者问句后，会非常清楚地回答“奥巴马是美国总统”。",
             "description_en": ""
         },
-        {
-            "id": 158,
-            "fatherid": 157,
-            "label": "Question2Answer",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
-            "description_en": ""
-        },
+        # {
+        #     "id": 158,
+        #     "fatherid": 157,
+        #     "label": "Question2Answer",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+        #     "description": "",
+        #     "description_en": ""
+        # },
         {
             "id": 159,
             "fatherid": 137,
             "label": "NLTK",
             "label_en": "Autonomous Driving",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
+            "description": "<a href='http://nltk.org/' target=_blank></a>",
             "description_en": ""
         },
         {
@@ -1486,7 +1487,7 @@ def get_json():
             "label": "语音合成",
             "label_en": "Autonomous Driving",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
+            "description": "语音合成是将人类语音用人工的方式所产生。若是将电脑系统用在语音合成上，则称为语音合成器，而语音合成器可以用软/硬件所实现。文字转语音（text-to-speech，TTS）系统则是将一般语言的文字转换为语音，其他的系统可以描绘语言符号的表示方式，就像音标转换至语音一样。",
             "description_en": ""
         },
         {
@@ -1495,7 +1496,7 @@ def get_json():
             "label": "TTS(text-to-speech)",
             "label_en": "Autonomous Driving",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
+            "description": "语音合成，语音合成的一种方式，文字转语音(text-to-speech)。",
             "description_en": ""
         },
         {
@@ -1504,7 +1505,7 @@ def get_json():
             "label": "专家系统",
             "label_en": "Autonomous Driving",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
+            "description": "专家系统是早期人工智能的一个重要分支，它可以看作是一类具有专门知识和经验的计算机智能程序系统，一般采用人工智能中的知识表示和知识推理技术来模拟通常由领域专家才能解决的复杂问题。一般来说，专家系统=知识库+推理机，因此专家系统也被称为基于知识的系统。",
             "description_en": ""
         },
         {
@@ -1513,36 +1514,36 @@ def get_json():
             "label": "数据挖掘",
             "label_en": "Autonomous Driving",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
+            "description": "数据挖掘（英语：data mining）是一个跨学科的计算机科学分支[1][2][3] 它是用人工智能、机器学习、统计学和数据库的交叉方法在相对较大型的数据集中发现模式的计算过程[1]。数据挖掘过程的总体目标是从一个数据集中提取信息，并将其转换成可理解的结构，以进一步使用[1]。除了原始分析步骤，它还涉及到数据库和数据管理方面、数据预处理、模型与推断方面考量、兴趣度度量、复杂度的考虑，以及发现结构、可视化及在线更新等后处理[1]。",
             "description_en": ""
         },
-        {
-            "id": 164,
-            "fatherid": 163,
-            "label": "核心数据指标",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
-            "description_en": ""
-        },
-        {
-            "id": 165,
-            "fatherid": 163,
-            "label": "用户画像",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
-            "description_en": ""
-        },
-        {
-            "id": 166,
-            "fatherid": 163,
-            "label": "topic model",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
-            "description_en": ""
-        },
+        # {
+        #     "id": 164,
+        #     "fatherid": 163,
+        #     "label": "核心数据指标",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+        #     "description": "",
+        #     "description_en": ""
+        # },
+        # {
+        #     "id": 165,
+        #     "fatherid": 163,
+        #     "label": "用户画像",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+        #     "description": "",
+        #     "description_en": ""
+        # },
+        # {
+        #     "id": 166,
+        #     "fatherid": 163,
+        #     "label": "topic model",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+        #     "description": "",
+        #     "description_en": ""
+        # },
         # {
         #     "id": 167,
         #     "fatherid": 163,
@@ -1552,67 +1553,67 @@ def get_json():
         #     "description": "",
         #     "description_en": ""
         # },
-        {
-            "id": 168,
-            "fatherid": 163,
-            "label": "多媒体数据挖掘",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
-            "description_en": ""
-        },
-        {
-            "id": 169,
-            "fatherid": 163,
-            "label": "文本分析",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
-            "description_en": ""
-        },
-        {
-            "id": 170,
-            "fatherid": 163,
-            "label": "决策树",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
-            "description_en": ""
-        },
+        # {
+        #     "id": 168,
+        #     "fatherid": 163,
+        #     "label": "多媒体数据挖掘",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+        #     "description": "",
+        #     "description_en": ""
+        # },
+        # {
+        #     "id": 169,
+        #     "fatherid": 163,
+        #     "label": "文本分析",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+        #     "description": "",
+        #     "description_en": ""
+        # },
+        # {
+        #     "id": 170,
+        #     "fatherid": 163,
+        #     "label": "决策树",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+        #     "description": "",
+        #     "description_en": ""
+        # },
         {
             "id": 171,
             "fatherid": 163,
-            "label": "数据挖掘SPSS",
+            "label": "数据挖掘 SPSS",
             "label_en": "Autonomous Driving",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
+            "description": "SPSS是统计产品与服务解决方案（Statistical Product and Service Solutions）的简称，为IBM公司推出的一系列用于统计学分析运算、数据挖掘、预测分析和决策支持任务的软件产品及相关服务的总称，有Windows和macOS等版本。",
             "description_en": ""
         },
-        {
-            "id": 172,
-            "fatherid": 163,
-            "label": "文本挖掘",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
-            "description_en": ""
-        },
+        # {
+        #     "id": 172,
+        #     "fatherid": 163,
+        #     "label": "文本挖掘",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+        #     "description": "",
+        #     "description_en": ""
+        # },
         {
             "id": 173,
             "fatherid": 163,
-            "label": "数据科学家",
+            "label": "数据科学",
             "label_en": "Autonomous Driving",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
+            "description": "数据科学（英语：Data Science），又称资料科学，是一门利用数据学习知识的学科，其目标是通过从数据中提取出有价值的部分来生产数据产品[1]。它结合了诸多领域中的理论和技术，包括应用数学，统计，模式识别，机器学习，数据可视化，数据仓库，以及高性能计算。数据科学通过运用各种相关的数据来帮助非专业人士理解问题。 数据科学技术可以帮助我们如何正确的处理数据并协助我们在生物，社会科学，人类学等领域进行研究调研。此外，数据科学也对商业竞争有极大的帮助[2]。",
             "description_en": ""
         },
         {
             "id": 174,
             "fatherid": 1,
-            "label": "机器人",
-            "label_en": "Autonomous Driving",
+            "label": "机器人（Robot）",
+            "label_en": "Robot",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
+            "description": "机器人（Robot）包括一切模拟人类行为或思想与模拟其他生物的机械（如机器狗，机器猫等）。狭义上对机器人的定义还有很多分类法及争议，有些电脑程序甚至也被称为机器人。在当代工业中，机器人指能自动运行任务的人造机器设备，用以取代或协助人类工作，一般会是机电设备，由计算机程序或是电子电路控制。",
             "description_en": ""
         },
         {
@@ -1621,18 +1622,18 @@ def get_json():
             "label": "推荐系统",
             "label_en": "Autonomous Driving",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
+            "description": "推荐系统是一种信息过滤系统，用于预测用户对物品的“评分”或“偏好”。",
             "description_en": ""
         },
-        {
-            "id": 176,
-            "fatherid": 175,
-            "label": "推荐引擎",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
-            "description_en": ""
-        },
+        # {
+        #     "id": 176,
+        #     "fatherid": 175,
+        #     "label": "推荐引擎",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+        #     "description": "",
+        #     "description_en": ""
+        # },
         # {
         #     "id": 177,
         #     "fatherid": 176,
@@ -1687,33 +1688,33 @@ def get_json():
         #     "description": "",
         #     "description_en": ""
         # },
-        {
-            "id": 183,
-            "fatherid": 175,
-            "label": "个性化推荐",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
-            "description_en": ""
-        },
-        {
-            "id": 184,
-            "fatherid": 183,
-            "label": "个性化推荐技术",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
-            "description_en": ""
-        },
-        {
-            "id": 185,
-            "fatherid": 175,
-            "label": "推荐系统实现",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
-            "description_en": ""
-        },
+        # {
+        #     "id": 183,
+        #     "fatherid": 175,
+        #     "label": "个性化推荐",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+        #     "description": "",
+        #     "description_en": ""
+        # },
+        # {
+        #     "id": 184,
+        #     "fatherid": 183,
+        #     "label": "个性化推荐技术",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+        #     "description": "",
+        #     "description_en": ""
+        # },
+        # {
+        #     "id": 185,
+        #     "fatherid": 175,
+        #     "label": "推荐系统实现",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+        #     "description": "",
+        #     "description_en": ""
+        # },
         {
             "id": 186,
             "fatherid": 1,
@@ -1738,7 +1739,7 @@ def get_json():
             "label": "计算机视觉",
             "label_en": "Autonomous Driving",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
+            "description": "计算机视觉是一门研究如何使机器“看”的科学，更进一步的说，就是指用摄影机和计算机代替人眼对目标进行识别、跟踪和测量等机器视觉，并进一步做图像处理，用计算机处理成为更适合人眼观察或传送给仪器检测的图像。",
             "description_en": ""
         },
         {
@@ -1747,7 +1748,7 @@ def get_json():
             "label": "视觉显著性",
             "label_en": "Autonomous Driving",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
+            "description": "灵长类动物在进行高级视觉处理前会选择出图像的子集来进行深度处理，以此减少场景的复杂度。这种选择部分区域来进行注意的机制就叫做视觉显著性。",
             "description_en": ""
         },
         {
@@ -1756,7 +1757,7 @@ def get_json():
             "label": "OpenCV",
             "label_en": "Autonomous Driving",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
+            "description": "OpenCV的全称是Open Source Computer Vision Library，是一个跨平台的计算机视觉库。OpenCV是由英特尔公司发起并参与开发，以BSD许可证授权发行，可以在商业和研究领域中免费使用。OpenCV可用于开发实时的图像处理、计算机视觉以及模式识别程序。该程序库也可以使用英特尔公司的IPP进行加速处理。",
             "description_en": ""
         },
         {
@@ -1765,25 +1766,25 @@ def get_json():
             "label": "图像处理",
             "label_en": "Autonomous Driving",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
+            "description": "图像处理( Image Processing )，指使用计算机对图像进行一系列加工，以达到所需的结果。常见的处理有图像数字化、图像编码、图像增强、图像复原、图像分割和图像分析等。",
             "description_en": ""
         },
-        {
-            "id": 192,
-            "fatherid": 188,
-            "label": "物体识别",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
-            "description_en": ""
-        },
+        # {
+        #     "id": 192,
+        #     "fatherid": 188,
+        #     "label": "物体识别",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+        #     "description": "",
+        #     "description_en": ""
+        # },
         {
             "id": 193,
             "fatherid": 188,
             "label": "行人重识别",
             "label_en": "Autonomous Driving",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
+            "description": "行人重识别 (Person re-ID)  也称行人再识别，为跨监控摄像的行人检索问题。",
             "description_en": ""
         },
         {
@@ -1792,84 +1793,84 @@ def get_json():
             "label": "增强现实（AR）",
             "label_en": "Autonomous Driving",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
+            "description": "增强现实（Augmented Reality，简称 AR），是一种实时地计算摄影机影像的位置及角度并加上相应图像的技术，这种技术的目标是在屏幕上把虚拟世界套在现实世界并进行互动。",
             "description_en": ""
         },
-        {
-            "id": 195,
-            "fatherid": 194,
-            "label": "HoloLens",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
-            "description_en": ""
-        },
-        {
-            "id": 196,
-            "fatherid": 194,
-            "label": "刀剑神域",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
-            "description_en": ""
-        },
-        {
-            "id": 197,
-            "fatherid": 194,
-            "label": "实时渲染",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
-            "description_en": ""
-        },
-        {
-            "id": 198,
-            "fatherid": [
-                197,
-                200
-            ],
-            "label": "Cycles 4D",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
-            "description_en": ""
-        },
-        {
-            "id": 199,
-            "fatherid": 197,
-            "label": "Twinmotion",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
-            "description_en": ""
-        },
-        {
-            "id": 200,
-            "fatherid": 197,
-            "label": "Cycles渲染器",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
-            "description_en": ""
-        },
-        {
-            "id": 201,
-            "fatherid": 200,
-            "label": "gpu渲染器",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
-            "description_en": ""
-        },
-        {
-            "id": 202,
-            "fatherid": 201,
-            "label": "Twinmotion",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
-            "description_en": ""
-        },
+        # {
+        #     "id": 195,
+        #     "fatherid": 194,
+        #     "label": "HoloLens",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+        #     "description": "",
+        #     "description_en": ""
+        # },
+        # {
+        #     "id": 196,
+        #     "fatherid": 194,
+        #     "label": "刀剑神域",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+        #     "description": "",
+        #     "description_en": ""
+        # },
+        # {
+        #     "id": 197,
+        #     "fatherid": 194,
+        #     "label": "实时渲染",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+        #     "description": "",
+        #     "description_en": ""
+        # },
+        # {
+        #     "id": 198,
+        #     "fatherid": [
+        #         197,
+        #         200
+        #     ],
+        #     "label": "Cycles 4D",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+        #     "description": "",
+        #     "description_en": ""
+        # },
+        # {
+        #     "id": 199,
+        #     "fatherid": 197,
+        #     "label": "Twinmotion",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+        #     "description": "",
+        #     "description_en": ""
+        # },
+        # {
+        #     "id": 200,
+        #     "fatherid": 197,
+        #     "label": "Cycles渲染器",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+        #     "description": "",
+        #     "description_en": ""
+        # },
+        # {
+        #     "id": 201,
+        #     "fatherid": 200,
+        #     "label": "gpu渲染器",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+        #     "description": "",
+        #     "description_en": ""
+        # },
+        # {
+        #     "id": 202,
+        #     "fatherid": 201,
+        #     "label": "Twinmotion",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+        #     "description": "",
+        #     "description_en": ""
+        # },
         {
             "id": 203,
             "fatherid": 188,
@@ -1879,49 +1880,49 @@ def get_json():
             "description": "",
             "description_en": ""
         },
-        {
-            "id": 204,
-            "fatherid": 188,
-            "label": "Niantic,Inc.",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
-            "description_en": ""
-        },
+        # {
+        #     "id": 204,
+        #     "fatherid": 188,
+        #     "label": "Niantic,Inc.",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+        #     "description": "",
+        #     "description_en": ""
+        # },
         {
             "id": 205,
             "fatherid": 188,
-            "label": "RealSense",
+            "label": "体感技术（RealSense）",
             "label_en": "Autonomous Driving",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "",
             "description_en": ""
         },
-        {
-            "id": 206,
-            "fatherid": 188,
-            "label": "Magic Leap",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
-            "description_en": ""
-        },
-        {
-            "id": 207,
-            "fatherid": 206,
-            "label": "Magic Leap One",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
-            "description_en": ""
-        },
+        # {
+        #     "id": 206,
+        #     "fatherid": 188,
+        #     "label": "Magic Leap",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+        #     "description": "",
+        #     "description_en": ""
+        # },
+        # {
+        #     "id": 207,
+        #     "fatherid": 206,
+        #     "label": "Magic Leap One",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+        #     "description": "",
+        #     "description_en": ""
+        # },
         {
             "id": 208,
             "fatherid": 188,
             "label": "图像检索",
             "label_en": "Autonomous Driving",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
+            "description": "图像检索，又称图像检索 ，系统是一个电脑浏览的系统，从一个大型的数字图像数据库去检索和检索图像。大多传统和一般图像检索的方式是利用一些增加元数据(metadata)的方法，例如：字幕、关键词或是图像的说明，如此一来就可以通过注解词完成检索。人工的图像注解是费时、费力并且昂贵；为了解决这个问题，已经有大量的研究在做自动图像注解方面上。此外，越来越多的社会网络应用和语义网已经产生了数个以网络为基底发展的图像注解工具。",
             "description_en": ""
         },
         {
@@ -1930,18 +1931,18 @@ def get_json():
             "label": "基于内容的图像检索",
             "label_en": "Autonomous Driving",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
+            "description": "基于内容的图像检索（英语：Content-based image retrieval，CBIR；或content-based visual information retrieval），属于图像分析的一个研究领域。基于内容的图像检索目的是在给定查询图像的前提下，依据内容信息或指定查询标准，在图像数据库中搜索并查找出符合查询条件的相应图片。",
             "description_en": ""
         },
-        {
-            "id": 210,
-            "fatherid": 188,
-            "label": "人脸识别",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
-            "description_en": ""
-        },
+        # {
+        #     "id": 210,
+        #     "fatherid": 188,
+        #     "label": "人脸识别",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+        #     "description": "",
+        #     "description_en": ""
+        # },
         {
             "id": 211,
             "fatherid": 188,
@@ -1966,7 +1967,7 @@ def get_json():
             "label": "运动推断结构（SfM）",
             "label_en": "Autonomous Driving",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
+            "description": "运动推断结构（SfM）是一种摄影测量范围成像技术，用于估计二维图像序列中的三维结构，这些图像可能与局部运动信号相结合。它是在计算机视觉和视觉感知领域进行研究的。在生物视觉上，运动推断结指的是人类和其他生物能够从一个移动物体或场景中投射的二维（视网膜）运动场中恢复三维结构的现象。",
             "description_en": ""
         }
     ]
