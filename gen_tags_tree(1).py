@@ -71,7 +71,7 @@ def get_json():
             "fatherid": 1,
             "label": "模式识别（Pattern Recognition）",,
             "label_en": "Autonomous Driving",
-            "icon_url": "https://petapixel.com/assets/uploads/2016/06/facialrecognition_1.jpg",
+            "icon_url": "https://i.stack.imgur.com/TV2AA.jpg",
             "description": "模式识别（英语：Pattern recognition），就是通过计算机用数学技术方法来研究模式的自动处理和判读。我们把环境与客体统称为“模式”。随着计算机技术的发展，人类有可能研究复杂的信息处理过程。信息处理过程的一个重要形式是生命体对环境及客体的识别。",
             "description_en": ""
         },
@@ -119,7 +119,7 @@ def get_json():
             "fatherid": 8,
             "label": "声纹识别",,
             "label_en": "Acoustic fingerprint Recognition）",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "http://i.stack.imgur.com/aW36s.png",
             "description": "声学指纹（Acoustic fingerprint）是通过特定算法从音频信号中提取的一段数字摘要，用于识别声音样本或者快速定位音频数据库中的相似音频。音频压缩技术的进步以及大容量存储器的出现使得互联网上出现了以音乐为主的海量音频信息，手工选取某首歌曲很多时候已经变得不可能，这直接促使产生了可以进行音乐自动识别的数字音频指纹技术。",
             "description_en": ""
         },
@@ -132,7 +132,7 @@ def get_json():
             ],
             "label": "图像识别（Image Recognition）",
             "label_en": "Image Recognition",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://singularityhub.com/wp-content/uploads/2017/11/facial-recognition-illustration-scan-blue.jpg",
             "description": "",
             "description_en": ""
         },
@@ -433,7 +433,7 @@ def get_json():
             "fatherid": 1,
             "label": "人工智能算法",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://tse4-mm.cn.bing.net/th?id=OIP.LddZS5V0DKu9KtTIsPGsSgHaHa&pid=15.1&P=0&w=300&h=300",
             "description": "",
             "description_en": ""
         },
