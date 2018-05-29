@@ -442,7 +442,7 @@ def get_json():
             "fatherid": 46,
             "label": "深度学习（Deep Learning）",
             "label_en": "Deep Learning",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://ahmedbesbes.com/images/deep.png",
             "description": "深度学习（deep learning）是机器学习的分支，是一种试图使用包含复杂结构或由多重非线性变换构成的多个处理层对数据进行高层抽象的算法。",
             "description_en": ""
         },
