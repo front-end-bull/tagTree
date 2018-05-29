@@ -488,7 +488,7 @@ def get_json():
             "fatherid": 47,
             "label": "Torch (深度学习框架)",
             "label_en": "Torch",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/en/f/f5/Torch_2014_logo.png",
             "description": "Torch is the main package in Torch7 where data structures for multi-dimensional tensors and mathematical operations over these are defined. Additionally, it provides many utilities for accessing files, serializing objects of arbitrary types and other useful utilities. <a href='https://github.com/torch/torch7' target=_blank></a>",
             "description_en": "Torch is the main package in Torch7 where data structures for multi-dimensional tensors and mathematical operations over these are defined. Additionally, it provides many utilities for accessing files, serializing objects of arbitrary types and other useful utilities. <a href='https://github.com/torch/torch7' target=_blank></a>"
         },
@@ -612,7 +612,7 @@ def get_json():
             ],
             "label": "强化学习（Reinforcement Learning）",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Rl_agent.png/369px-Rl_agent.png",
             "description": "强化学习（英语：Reinforcement learning，简称RL）是机器学习中的一个领域，强调如何基于环境而行动，以取得最大化的预期利益。其灵感来源于心理学中的行为主义理论，即有机体如何在环境给予的奖励或惩罚的刺激下，逐步形成对刺激的预期，产生能获得最大利益的习惯性行为。",
             "description_en": ""
         },
@@ -645,7 +645,7 @@ def get_json():
             "fatherid": 67,
             "label": "人工神经网络（Artificial Neural Network）",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Single-layer_feedforward_artificial_neural_network.png",
             "description": "人工神经网络（英语：Artificial Neural Network，ANN），简称神经网络（Neural Network，NN）或类神经网络，在机器学习和认知科学领域，是一种模仿生物神经网络（动物的中枢神经系统，特别是大脑）的结构和功能的数学模型或计算模型，用于对函数进行估计或近似。神经网络由大量的人工神经元联结进行计算。大多数情况下人工神经网络能在外界信息的基础上改变内部结构，是一种自适应系统。",
             "description_en": ""
         },
@@ -699,7 +699,7 @@ def get_json():
             "fatherid": [73,155],
             "label": "OpenNMT",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "screenshot",
             "description": "Open Source Neural Machine Translation in Torch. <a href='http://opennmt.net/' target=_blank></a>",
             "description_en": ""
         },
@@ -771,7 +771,7 @@ def get_json():
             "fatherid": 67,
             "label": "贝叶斯统计",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Bayes_theorem_drugs_example_tree.svg/1280px-Bayes_theorem_drugs_example_tree.svg.png",
             "description": "贝叶斯定理（英语：Bayes' theorem）是概率论中的一个定理，它跟随机变量的条件概率以及边缘概率分布有关。在有些关于概率的解释中，贝叶斯定理（贝叶斯公式）能够告知我们如何利用新证据修改已有的看法。这个名称来自于托马斯·贝叶斯。",
             "description_en": ""
         },
