@@ -487,7 +487,7 @@ def get_json():
             "fatherid": 47,
             "label": "Torch (深度学习框架)",
             "label_en": "Torch",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/en/f/f5/Torch_2014_logo.png",
             "description": "Torch is the main package in Torch7 where data structures for multi-dimensional tensors and mathematical operations over these are defined. Additionally, it provides many utilities for accessing files, serializing objects of arbitrary types and other useful utilities. <a href='https://github.com/torch/torch7' target=_blank></a>",
             "description_en": "Torch is the main package in Torch7 where data structures for multi-dimensional tensors and mathematical operations over these are defined. Additionally, it provides many utilities for accessing files, serializing objects of arbitrary types and other useful utilities. <a href='https://github.com/torch/torch7' target=_blank></a>"
         },
@@ -514,7 +514,7 @@ def get_json():
             "fatherid": 47,
             "label": "LSTM",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Long_Short_Term_Memory.png",
             "description": "长短期记忆（英语：Long Short-Term Memory，LSTM）是一种时间递归神经网络（RNN），论文首次发表于1997年。由于独特的设计结构，LSTM适合于处理和预测时间序列中间隔和延迟非常长的重要事件。",
             "description_en": ""
         },
@@ -523,7 +523,7 @@ def get_json():
             "fatherid": 47,
             "label": "RNN",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://i.stack.imgur.com/LLDp2.png",
             "description": "递归神经网络（RNN）是两种人工神经网络的总称。一种是时间递归神经网络（recurrent neural network），另一种是结构递归神经网络（recursive neural network）。时间递归神经网络的神经元间连接构成矩阵，而结构递归神经网络利用相似的神经网络结构递归构造更为复杂的深度网络。RNN一般指代时间递归神经网络。",
             "description_en": ""
         },
@@ -541,7 +541,7 @@ def get_json():
             "fatherid": 47,
             "label": "TensorFlow",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/TensorFlowLogo.png",
             "description": "TensorFlow是一个开源软件库，用于各种感知和语言理解任务的机器学习。目前被50个团队用于研究和生产许多Google商业产品，如语音识别、Gmail、Google 相册和搜索，其中许多产品曾使用过其前任软件DistBelief。TensorFlow最初由Google Brain团队开发，用于Google的研究和生产，于2015年11月9日在Apache 2.0开源许可证下发布。<a href='https://tensorflow.org' target=_blank></a>",
             "description_en": "Computation using data flow graphs for scalable machine learning."
         },
@@ -611,7 +611,7 @@ def get_json():
             ],
             "label": "强化学习（Reinforcement Learning）",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Rl_agent.png/369px-Rl_agent.png",
             "description": "强化学习（英语：Reinforcement learning，简称RL）是机器学习中的一个领域，强调如何基于环境而行动，以取得最大化的预期利益。其灵感来源于心理学中的行为主义理论，即有机体如何在环境给予的奖励或惩罚的刺激下，逐步形成对刺激的预期，产生能获得最大利益的习惯性行为。",
             "description_en": ""
         },
@@ -644,7 +644,7 @@ def get_json():
             "fatherid": 67,
             "label": "人工神经网络（Artificial Neural Network）",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Single-layer_feedforward_artificial_neural_network.png",
             "description": "人工神经网络（英语：Artificial Neural Network，ANN），简称神经网络（Neural Network，NN）或类神经网络，在机器学习和认知科学领域，是一种模仿生物神经网络（动物的中枢神经系统，特别是大脑）的结构和功能的数学模型或计算模型，用于对函数进行估计或近似。神经网络由大量的人工神经元联结进行计算。大多数情况下人工神经网络能在外界信息的基础上改变内部结构，是一种自适应系统。",
             "description_en": ""
         },
@@ -698,7 +698,7 @@ def get_json():
             "fatherid": 73,
             "label": "OpenNMT",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "screenshot",
             "description": "Open Source Neural Machine Translation in Torch. <a href='http://opennmt.net/' target=_blank></a>",
             "description_en": ""
         },
@@ -770,7 +770,7 @@ def get_json():
             "fatherid": 67,
             "label": "贝叶斯统计",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Bayes_theorem_drugs_example_tree.svg/1280px-Bayes_theorem_drugs_example_tree.svg.png",
             "description": "贝叶斯定理（英语：Bayes' theorem）是概率论中的一个定理，它跟随机变量的条件概率以及边缘概率分布有关。在有些关于概率的解释中，贝叶斯定理（贝叶斯公式）能够告知我们如何利用新证据修改已有的看法。这个名称来自于托马斯·贝叶斯。",
             "description_en": ""
         },
