@@ -172,7 +172,7 @@ def get_json():
             "fatherid": 17,
             "label": "虹膜识别",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "http://biometricsecurity.wikispaces.com/file/view/IrisScan.jpg/119837635/280x210/IrisScan.jpg",
             "description": "虹膜又称黄仁，眼睛构造的一部分，虹膜中心有一圆形开口，称为瞳孔，犹如相机当中可调整大小的光圈，内含色素决定眼睛的颜色。因为每个人的虹膜都是不同的，所以也用于身份辨识。",
             "description_en": ""
         },
@@ -181,7 +181,7 @@ def get_json():
             "fatherid": 17,
             "label": "指纹识别",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "http://digitalfire.ucd.ie/wp-content/uploads/2012/10/JackyFoxBlog.jpg",
             "description": "指纹识别技术是一种生物识别技术，指纹识别系统是一套包括指纹图像获取、处理、特征提取和比对等模块的模式识别系统。常用于需要人员身份确认的场所，如门禁系统、考勤系统、笔记本电脑、银行内部处理、银行支付等。",
             "description_en": ""
         },
@@ -229,7 +229,7 @@ def get_json():
             ],
             "label": "语音识别",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "http://www.wired.com/images_blogs/gadgetlab/2009/12/_g7i9162-660x440.jpg",
             "description": "语音识别（speech recognition；语音辨识／言语辨别）技术，也被称为自动语音识别（英语：Automatic Speech Recognition, ASR）、电脑语音识别（英语：Computer Speech Recognition）或是语音转文本识别（英语：Speech To Text, STT），其目标是以电脑自动将人类的语音内容转换为相应的文字。与说话人识别及说话人确认不同，后者尝试识别或确认发出语音的说话人而非其中所包含的词汇内容。",
             "description_en": ""
         },
