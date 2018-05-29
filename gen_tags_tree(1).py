@@ -13,7 +13,7 @@ def get_json():
             "fatherid": 1,
             "label": "自动驾驶（Autonomous Driving）",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Google_self_driving_car_at_the_Googleplex.jpg",
             "description": "自动驾驶（英语：Autopilot）是一种经由机械、电子仪器、液压系统、陀螺仪等，做出无人操控的自动化驾驶。常用在飞行器、船舰及部分的铁路列车。公路交通工具的自动驾驶仍在研究开发中，尚未大规模商用。",
             "description_en": ""
         },
@@ -22,7 +22,7 @@ def get_json():
             "fatherid": 2,
             "label": "无人驾驶车（Driverless Car）",,
             "label_en": "Driverless Car",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://images.pexels.com/photos/1098662/pexels-photo-1098662.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
             "description": "自动驾驶汽车，又称为无人驾驶汽车、电脑驾驶汽车或轮式移动机器人，是无人地面载具的一种，具有传统汽车的运输能力。作为自动化载具，自动驾驶汽车不需要人为操作即能感测其环境及导航。",
             "description_en": ""
         },
@@ -50,7 +50,7 @@ def get_json():
             "fatherid": 3,
             "label": "运动规划（Motion planning）",,
             "label_en": "Motion Planning",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Motion_planning_configuration_space_road_map_path.svg/768px-Motion_planning_configuration_space_road_map_path.svg.png",
             "description": "运动规划（英语：Motion Planning）是一个过程，用来寻找从起始状态到目标状态的移动步骤。运动规划常常需要在运动受到约束的条件下找到最优解。运动规划多用于机器人学。",
             "description_en": ""
         },
@@ -71,7 +71,7 @@ def get_json():
             "fatherid": 1,
             "label": "模式识别（Pattern Recognition）",,
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://petapixel.com/assets/uploads/2016/06/facialrecognition_1.jpg",
             "description": "模式识别（英语：Pattern recognition），就是通过计算机用数学技术方法来研究模式的自动处理和判读。我们把环境与客体统称为“模式”。随着计算机技术的发展，人类有可能研究复杂的信息处理过程。信息处理过程的一个重要形式是生命体对环境及客体的识别。",
             "description_en": ""
         },
@@ -92,7 +92,7 @@ def get_json():
             "fatherid": 9,
             "label": "OCR（光学字符识别）",,
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Portable_scanner_and_OCR_%28video%29.webm/1200px--Portable_scanner_and_OCR_%28video%29.webm.jpg",
             "description": "光学字符识别（英语：Optical Character Recognition, OCR）是指对文本资料的图像文件进行分析识别处理，获取文字及版面信息的过程。",
             "description_en": ""
         },
@@ -154,7 +154,7 @@ def get_json():
             ],
             "label": "人脸识别",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://petapixel.com/assets/uploads/2016/06/facialrecognition_1.jpg",
             "description": "人脸识别，特指利用分析比较人脸视觉特征信息进行身份鉴别的计算机技术。广义的人脸识别实际包括构建人脸识别系统的一系列相关技术，包括人脸图像采集、人脸定位、人脸识别预处理、身份确认以及身份查找等；而狭义的人脸识别特指通过人脸进行身份确认或者身份查找的技术或系统。",
             "description_en": ""
         },
