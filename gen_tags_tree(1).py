@@ -569,7 +569,7 @@ def get_json():
             "fatherid": 47,
             "label": "PaddlePaddle",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "screenshot logo",
             "description": "百度开源的并行分布式全功能深度学习平台 <a href='http://www.paddlepaddle.org/' target=_blank></a>",
             "description_en": ""
         },
@@ -591,7 +591,7 @@ def get_json():
             "fatherid": [62,123]
             "label": "Leela Zero（围棋AI）",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "http://n.sinaimg.cn/sinacn/20170305/4706-fycapec1624581.jpg",
             "description": "Leela 是一款免费围棋软件，稳定正式版为 0.11.0，最新开源版本为 Leela Zero。2017年11月作者 gcp 启动 Leela Zero 项目，以 AlphaGo Zero 和 AlphaZero 论文为基础编程，尝试复现 AlphaGo，并开源，采用分布式训练，受到全世界网友的协助。权重迭代与等级分增长曲线参见官网 Leela Zero。目前，Leela 已经是水平最高的家用围棋软件。",
             "description_en": ""
         },
@@ -636,7 +636,7 @@ def get_json():
             ],
             "label": "机器学习",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://whatsnext.nuance.com/wp-content/uploads/deep-machine-learning-metaphors-624x468.jpg",
             "description": "机器学习是人工智能的一个分支。人工智能的研究历史有着一条从以“推理”为重点，到以“知识”为重点，再到以“学习”为重点的自然、清晰的脉络。显然，机器学习是实现人工智能的一个途径，即以机器学习为手段解决人工智能中的问题。机器学习在近30多年已发展为一门多领域交叉学科，涉及概率论、统计学、逼近论、凸分析、计算复杂性理论等多门学科。机器学习理论主要是设计和分析一些让计算机可以自动“学习”的算法。机器学习算法是一类从数据中自动分析获得规律，并利用规律对未知数据进行预测的算法。因为学习算法中涉及了大量的统计学理论，机器学习与推断统计学联系尤为密切，也被称为统计学习理论。",
             "description_en": ""
         },
@@ -699,7 +699,7 @@ def get_json():
             "fatherid": [73,155],
             "label": "OpenNMT",
             "label_en": "Autonomous Driving",
-            "icon_url": "screenshot",
+            "icon_url": "screenshot logo",
             "description": "Open Source Neural Machine Translation in Torch. <a href='http://opennmt.net/' target=_blank></a>",
             "description_en": ""
         },
@@ -735,7 +735,7 @@ def get_json():
             "fatherid": 67,
             "label": "社会网络分析",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "http://upload.wikimedia.org/wikipedia/commons/d/dc/Social_Network.png",
             "description": "社会网络（英语：Social network），是由许多节点以及节点间关系构成的一个网络结构。节点通常是指个人或组织（又称社团）。社会网络代表各种社会关系，经由这些社会关系，把从偶然相识的泛泛之交到紧密结合的家人关系的各种人们或组织串连起来。社会网络依赖于一种到多种关系而形成，如价值观、理想、观念、兴趣爱好、友谊、血缘关系、共同厌恶的事物、冲突或贸易。由此产生的网络结构往往是非常复杂的。社会网络分析是用来查看节点、链接之间的社会关系的分析方式。",
             "description_en": ""
         },
@@ -753,7 +753,7 @@ def get_json():
             "fatherid": [67,163],
             "label": "决策树（Decision Tree）",
             "label_en": "Decision Tree",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://i.stack.imgur.com/daDkw.gif",
             "description": "决策论中 （如风险管理），决策树（Decision tree）由一个决策图和可能的结果（包括资源成本和风险）组成， 用来创建到达目标的规划。决策树建立并用来辅助决策，是一种特殊的树结构。决策树是一个利用像树一样的图形或决策模型的决策支持工具，包括随机事件结果，资源代价和实用性。它是一个算法显示的方法。决策树经常在运筹学中使用，特别是在决策分析中，它帮助确定一个能最可能达到目标的策略。如果在实际中，决策不得不在没有完备知识的情况下被在线采用，一个决策树应该平行概率模型作为最佳的选择模型或在线选择模型算法。决策树的另一个使用是作为计算条件概率的描述性手段。",
             "description_en": ""
         },
@@ -802,7 +802,7 @@ def get_json():
             "fatherid": 84,
             "label": "哈希函数",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Hash_function.svg/520px-Hash_function.svg.png",
             "description": "散列函数（英语：Hash function）又称散列算法、哈希函数，是一种从任何一种数据中创建小的数字“指纹”的方法。散列函数把消息或数据压缩成摘要，使得数据量变小，将数据的格式固定下来。该函数将数据打乱混合，重新创建一个叫做散列值（hash values，hash codes，hash sums，或hashes）的指纹。散列值通常用一个短的随机字母和数字组成的字符串来代表。好的散列函数在输入域中很少出现散列冲突。在散列表和数据处理中，不抑制冲突来区别数据，会使得数据库记录更难找到。",
             "description_en": ""
         },
