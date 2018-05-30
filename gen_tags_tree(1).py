@@ -24,7 +24,7 @@ def get_json():
             "label_en": "Driverless Car",
             "icon_url": "https://images.pexels.com/photos/1098662/pexels-photo-1098662.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
             "description": "自动驾驶汽车，又称为无人驾驶汽车、电脑驾驶汽车或轮式移动机器人，是无人地面载具的一种，具有传统汽车的运输能力。作为自动化载具，自动驾驶汽车不需要人为操作即能感测其环境及导航。",
-            "description_en": "An autonomous car (also known as a driverless car, self-driving car and robotic car[1]) is a vehicle that is capable of sensing its environment and navigating without human input."
+            "description_en": "An autonomous car (also known as a driverless car, self-driving car and robotic car) is a vehicle that is capable of sensing its environment and navigating without human input."
         },
         # {
         #     "id": 4,
@@ -452,7 +452,7 @@ def get_json():
             "fatherid": 47,
             "label": "Theano",
             "label_en": "Theano",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "screenshot logo",
             "description": "Theano is a Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently. It can use GPUs and perform efficient symbolic differentiation. <a href='http://www.deeplearning.net/software/theano/' target=_blank></a>",
             "description_en": "Theano is a Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently. It can use GPUs and perform efficient symbolic differentiation. <a href='http://www.deeplearning.net/software/theano/' target=_blank></a>"
         },
@@ -461,7 +461,7 @@ def get_json():
             "fatherid": [47,58,67]
             "label": "TensorLayer（深度学习库）",
             "label_en": "TensorLayer",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "screenshot logo",
             "description": "A Deep Learning Library for Researchers and Engineers built on top of TensorFlow. <a href='https://github.com/tensorlayer/tensorlayer' target=_blank></a>",
             "description_en": "A Deep Learning Library for Researchers and Engineers built on top of TensorFlow. <a href='https://github.com/tensorlayer/tensorlayer' target=_blank></a>"
         },
@@ -470,7 +470,7 @@ def get_json():
             "fatherid": 47,
             "label": "PyTorch",
             "label_en": "PyTorch",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "screenshot logo",
             "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration. <a href='http://pytorch.org/' target=_blank></a>",
             "description_en": "Tensors and Dynamic neural networks in Python with strong GPU acceleration. <a href='http://pytorch.org/' target=_blank></a>"
         },
@@ -479,7 +479,7 @@ def get_json():
             "fatherid": 47,
             "label": "MXNet",
             "label_en": "MXNet",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://tse2-mm.cn.bing.net/th?id=OIP.GOVadQfvYExnZxuU1V-zFQHaHa&pid=15.1&P=0&w=300&h=300",
             "description": "Lightweight, Portable, Flexible Distributed/Mobile Deep Learning with Dynamic, Mutation-aware Dataflow Dep Scheduler; for Python, R, Julia, Scala, Go, Javascript and more. <a href='https://mxnet.apache.org' target=_blank></a>",
             "description_en": "Lightweight, Portable, Flexible Distributed/Mobile Deep Learning with Dynamic, Mutation-aware Dataflow Dep Scheduler; for Python, R, Julia, Scala, Go, Javascript and more. <a href='https://mxnet.apache.org' target=_blank></a>"
         },
@@ -533,7 +533,7 @@ def get_json():
             "fatherid": 47,
             "label": "Caffe",
             "label_en": "Caffe",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "screenshot logo",
             "description": "Caffe: a fast open framework for deep learning. <a href='http://caffe.berkeleyvision.org/' target=_blank></a>",
             "description_en": "Caffe: a fast open framework for deep learning. <a href='http://caffe.berkeleyvision.org/' target=_blank></a>"
         },
@@ -542,7 +542,7 @@ def get_json():
             "fatherid": 47,
             "label": "TensorFlow",
             "label_en": "TensorFlow",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/TensorFlowLogo.png",
             "description": "TensorFlow是一个开源软件库，用于各种感知和语言理解任务的机器学习。目前被50个团队用于研究和生产许多Google商业产品，如语音识别、Gmail、Google 相册和搜索，其中许多产品曾使用过其前任软件DistBelief。TensorFlow最初由Google Brain团队开发，用于Google的研究和生产，于2015年11月9日在Apache 2.0开源许可证下发布。<a href='https://tensorflow.org' target=_blank></a>",
             "description_en": "TensorFlow is an open-source software library for dataflow programming across a range of tasks."
         },
@@ -568,13 +568,8 @@ def get_json():
             "id": 61,
             "fatherid": 47,
             "label": "PaddlePaddle",
-<<<<<<< HEAD
             "label_en": "PaddlePaddle",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-=======
-            "label_en": "Autonomous Driving",
             "icon_url": "screenshot logo",
->>>>>>> f50050b42e97b18c23ef9f43b74557ef9e01aa06
             "description": "百度开源的并行分布式全功能深度学习平台 <a href='http://www.paddlepaddle.org/' target=_blank></a>",
             "description_en": "Baidu's deep learning open source platform <a href='http://www.paddlepaddle.org/' target=_blank></a>"
         },
@@ -594,15 +589,9 @@ def get_json():
         {
             "id": 63,
             "fatherid": [62,123]
-<<<<<<< HEAD
             "label": "Leela Zero",
             "label_en": "Leela Zero",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-=======
-            "label": "Leela Zero（围棋AI）",
-            "label_en": "Autonomous Driving",
             "icon_url": "http://n.sinaimg.cn/sinacn/20170305/4706-fycapec1624581.jpg",
->>>>>>> f50050b42e97b18c23ef9f43b74557ef9e01aa06
             "description": "Leela 是一款免费围棋软件，稳定正式版为 0.11.0，最新开源版本为 Leela Zero。2017年11月作者 gcp 启动 Leela Zero 项目，以 AlphaGo Zero 和 AlphaZero 论文为基础编程，尝试复现 AlphaGo，并开源，采用分布式训练，受到全世界网友的协助。权重迭代与等级分增长曲线参见官网 Leela Zero。目前，Leela 已经是水平最高的家用围棋软件。",
             "description_en": "Leela Zero is a free and open-source computer Go software released on 25 October 2017."
         },
@@ -645,15 +634,9 @@ def get_json():
                 1,
                 46
             ],
-<<<<<<< HEAD
             "label": "机器学习（Machine Learning）",
             "label_en": "ML (Machine Learning)",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-=======
-            "label": "机器学习",
-            "label_en": "Autonomous Driving",
             "icon_url": "https://whatsnext.nuance.com/wp-content/uploads/deep-machine-learning-metaphors-624x468.jpg",
->>>>>>> f50050b42e97b18c23ef9f43b74557ef9e01aa06
             "description": "机器学习是人工智能的一个分支。人工智能的研究历史有着一条从以“推理”为重点，到以“知识”为重点，再到以“学习”为重点的自然、清晰的脉络。显然，机器学习是实现人工智能的一个途径，即以机器学习为手段解决人工智能中的问题。机器学习在近30多年已发展为一门多领域交叉学科，涉及概率论、统计学、逼近论、凸分析、计算复杂性理论等多门学科。机器学习理论主要是设计和分析一些让计算机可以自动“学习”的算法。机器学习算法是一类从数据中自动分析获得规律，并利用规律对未知数据进行预测的算法。因为学习算法中涉及了大量的统计学理论，机器学习与推断统计学联系尤为密切，也被称为统计学习理论。",
             "description_en": "Machine learning is a field of computer science that often uses statistical techniques to give computers the ability to "learn" (i.e., progressively improve performance on a specific task) with data, without being explicitly programmed."
         },
@@ -715,13 +698,8 @@ def get_json():
             "id": 74,
             "fatherid": [73,155],
             "label": "OpenNMT",
-<<<<<<< HEAD
             "label_en": "OpenNMT",
-            "icon_url": "screenshot",
-=======
-            "label_en": "Autonomous Driving",
             "icon_url": "screenshot logo",
->>>>>>> f50050b42e97b18c23ef9f43b74557ef9e01aa06
             "description": "Open Source Neural Machine Translation in Torch. <a href='http://opennmt.net/' target=_blank></a>",
             "description_en": "Open Source Neural Machine Translation in Torch. <a href='http://opennmt.net/' target=_blank></a>"
         },
@@ -756,17 +734,10 @@ def get_json():
             "id": 78,
             "fatherid": 67,
             "label": "社会网络分析",
-<<<<<<< HEAD
             "label_en": "Social Network Analysis",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "http://upload.wikimedia.org/wikipedia/commons/d/dc/Social_Network.png",
             "description": "社会网络分析方法是由社会学家根据数学方法、图论等发展起来的定量分析方法，该方法在职业流动、城市化对个体幸福的影响、世界政治和经济体系、国际贸易等领域广泛应用，并发挥了重要作用。",
             "description_en": "Social network analysis (SNA) is the process of investigating social structures through the use of networks and graph theory."
-=======
-            "label_en": "Autonomous Driving",
-            "icon_url": "http://upload.wikimedia.org/wikipedia/commons/d/dc/Social_Network.png",
-            "description": "社会网络（英语：Social network），是由许多节点以及节点间关系构成的一个网络结构。节点通常是指个人或组织（又称社团）。社会网络代表各种社会关系，经由这些社会关系，把从偶然相识的泛泛之交到紧密结合的家人关系的各种人们或组织串连起来。社会网络依赖于一种到多种关系而形成，如价值观、理想、观念、兴趣爱好、友谊、血缘关系、共同厌恶的事物、冲突或贸易。由此产生的网络结构往往是非常复杂的。社会网络分析是用来查看节点、链接之间的社会关系的分析方式。",
-            "description_en": ""
->>>>>>> f50050b42e97b18c23ef9f43b74557ef9e01aa06
         },
         # {
         #     "id": 79,
@@ -822,47 +793,27 @@ def get_json():
             ],
             "label": "异常检测（Anomaly Detection）",
             "label_en": "Anomaly Detection",
-<<<<<<< HEAD
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://i.stack.imgur.com/CqrBo.png",
             "description": "在数据挖掘中，异常检测（Anomaly Detection）对不匹配预期模式或数据集中其他项目的项目、事件或观测值的识别。通常异常项目会转变成银行欺诈、结构缺陷、医疗问题、文本错误等类型的问题。异常也被称为离群值、新奇、噪声、偏差和例外。",
             "description_en": "In data mining, anomaly detection (also outlier detection) is the identification of items, events or observations which do not conform to an expected pattern or other items in a dataset."
-=======
-            "icon_url": "https://i.stack.imgur.com/CqrBo.png",
-            "description": "在数据挖掘中，异常检测（英语：Anomaly Detection）对不匹配预期模式或数据集中其他项目的项目、事件或观测值的识别。通常异常项目会转变成银行欺诈、结构缺陷、医疗问题、文本错误等类型的问题。异常也被称为离群值、新奇、噪声、偏差和例外。",
-            "description_en": ""
->>>>>>> f50050b42e97b18c23ef9f43b74557ef9e01aa06
         },
         {
             "id": 85,
             "fatherid": 84,
             "label": "哈希函数",
             "label_en": "Autonomous Driving",
-<<<<<<< HEAD
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Hash_function.svg/520px-Hash_function.svg.png",
             "description": "哈希函数（Hash function）又称散列算法、散列函数，是一种从任何一种数据中创建小的数字“指纹”的方法。散列函数把消息或数据压缩成摘要，使得数据量变小，将数据的格式固定下来。该函数将数据打乱混合，重新创建一个叫做散列值（hash values，hash codes，hash sums，或hashes）的指纹。散列值通常用一个短的随机字母和数字组成的字符串来代表。好的散列函数在输入域中很少出现散列冲突。在散列表和数据处理中，不抑制冲突来区别数据，会使得数据库记录更难找到。",
             "description_en": "A hash function is any function that can be used to map data of arbitrary size to data of fixed size. The values returned by a hash function are called hash values, hash codes, digests, or simply hashes."
-=======
-            "icon_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Hash_function.svg/520px-Hash_function.svg.png",
-            "description": "散列函数（英语：Hash function）又称散列算法、哈希函数，是一种从任何一种数据中创建小的数字“指纹”的方法。散列函数把消息或数据压缩成摘要，使得数据量变小，将数据的格式固定下来。该函数将数据打乱混合，重新创建一个叫做散列值（hash values，hash codes，hash sums，或hashes）的指纹。散列值通常用一个短的随机字母和数字组成的字符串来代表。好的散列函数在输入域中很少出现散列冲突。在散列表和数据处理中，不抑制冲突来区别数据，会使得数据库记录更难找到。",
-            "description_en": ""
->>>>>>> f50050b42e97b18c23ef9f43b74557ef9e01aa06
         },
         {
             "id": 86,
             "fatherid": 85,
-<<<<<<< HEAD
             "label": "安全散列算法1（Secure Hash Algorithm 1）",
             "label_en": "Secure Hash Algorithm 1",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/SHA-1.svg/1200px-SHA-1.svg.png",
             "description": "SHA-1（Secure Hash Algorithm 1）是一种密码散列函数，美国国家安全局设计，并由美国国家标准技术研究所（NIST）发布为联邦数据处理标准（FIPS）[2]。SHA-1可以生成一个被称为消息摘要的160位（20字节）散列值，散列值通常的呈现形式为40个十六进制数。SHA-1已经不再视为可抵御有充足资金、充足计算资源的攻击者。",
             "description_en": "In cryptography, SHA-1 (Secure Hash Algorithm 1) is a cryptographic hash function which takes an input and produces a 160-bit (20-byte) hash value known as a message digest - typically rendered as a hexadecimal number, 40 digits long."
-=======
-            "label": "SHA-1",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/SHA-1.svg/1200px-SHA-1.svg.png",
-            "description": "SHA-1（英语：Secure Hash Algorithm 1，中文名：安全散列算法1）是一种密码散列函数，美国国家安全局设计，并由美国国家标准技术研究所（NIST）发布为联邦数据处理标准（FIPS）[2]。SHA-1可以生成一个被称为消息摘要的160位（20字节）散列值，散列值通常的呈现形式为40个十六进制数。SHA-1已经不再视为可抵御有充足资金、充足计算资源的攻击者。",
-            "description_en": ""
->>>>>>> f50050b42e97b18c23ef9f43b74557ef9e01aa06
         },
         {
             "id": 87,
@@ -896,7 +847,7 @@ def get_json():
             "fatherid": 89,
             "label": "主成分分析（Principal Components Analysis）",
             "label_en": "PCA（Principal Components Analysis）",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "http://phdthesis-bioinformatics-maxplanckinstitute-molecularplantphys.matthias-scholz.de/fig_pca_illu3d.png",
             "description": "在多元统计分析中，主成分分析（Principal components analysis）是一种分析、简化数据集的技术。主成分分析经常用于减少数据集的维数，同时保持数据集中的对方差贡献最大的特征。这是通过保留低阶主成分，忽略高阶主成分做到的。这样低阶成分往往能够保留住数据的最重要方面。但是，这也不是一定的，要视具体应用而定。由于主成分分析依赖所给数据，所以数据的准确性对分析结果影响很大。",
             "description_en": "Principal component analysis (PCA) is a statistical procedure that uses an orthogonal transformation to convert a set of observations of possibly correlated variables into a set of values of linearly uncorrelated variables called principal components."
         },
@@ -905,7 +856,11 @@ def get_json():
             "fatherid": 89,
             "label": "因子分析（Factor Analysis）",
             "label_en": "Factor Analysis",
+<<<<<<< HEAD
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+=======
+            "icon_url": "https://i.stack.imgur.com/JFtTa.png",
+>>>>>>> d53334e130c39a2646420a5378e346297f81ae6d
             "description": "因子分析是一种统计学方法，用于描述观察到的相关变量之间的变异性，这些变量可能包含较少数量的未观察到的变量，称为因子。",
             "description_en": "Factor analysis is a statistical method used to describe variability among observed, correlated variables in terms of a potentially lower number of unobserved variables called factors."
         },
@@ -1167,6 +1122,7 @@ def get_json():
             "description": "提升方法（Boosting），是一种可以用来减小监督式学习中偏差的机器学习元算法。面对的问题是迈可·肯斯（Michael Kearns）提出的：[1]一组“弱学习者”的集合能否生成一个“强学习者”？弱学习者一般是指一个分类器，它的结果只比随机分类好一点点；强学习者指分类器的结果非常接近真值。",
             "description_en": "Boosting is a machine learning ensemble meta-algorithm for primarily reducing bias, and also variance in supervised learning, and a family of machine learning algorithms that convert weak learners to strong ones."
         },
+<<<<<<< HEAD
         # {
         #     "id": 120,
         #     "fatherid": 1,
@@ -1184,6 +1140,25 @@ def get_json():
         #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
         #     "description": "",
         #     "description_en": ""
+=======
+        {
+            "id": 120,
+            "fatherid": 1,
+            "label": "人机对战",
+            "label_en": "Autonomous Driving",
+            "icon_url": "https://chessprogramming.wikispaces.com/file/view/personal-robot-04-by-franz-steiner.jpg/508408800/personal-robot-04-by-franz-steiner.jpg",
+            "description": "人类与人工智能产品或应用对抗、比赛的活动或研究。",
+            "description_en": ""
+        },
+        {
+            "id": 121,
+            "fatherid": 120,
+            "label": "对弈人工智能",
+            "label_en": "Autonomous Driving",
+            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "description": "",
+            "description_en": ""
+>>>>>>> d53334e130c39a2646420a5378e346297f81ae6d
         },
         {
             "id": 122,
@@ -1544,7 +1519,7 @@ def get_json():
             "fatherid": 160,
             "label": "TTS(text-to-speech)",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Google_Text_to_Speech_logo.svg/1024px-Google_Text_to_Speech_logo.svg.png",
             "description": "语音合成，语音合成的一种方式，文字转语音(text-to-speech)。",
             "description_en": ""
         },
@@ -1553,7 +1528,7 @@ def get_json():
             "fatherid": 1,
             "label": "专家系统",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "http://www.atariarchives.org/deli/expert_systems1.jpg",
             "description": "专家系统是早期人工智能的一个重要分支，它可以看作是一类具有专门知识和经验的计算机智能程序系统，一般采用人工智能中的知识表示和知识推理技术来模拟通常由领域专家才能解决的复杂问题。一般来说，专家系统=知识库+推理机，因此专家系统也被称为基于知识的系统。",
             "description_en": ""
         },
@@ -1562,7 +1537,7 @@ def get_json():
             "fatherid": 1,
             "label": "数据挖掘",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "http://blogs.lse.ac.uk/impactofsocialsciences/files/2014/03/data-mining.png",
             "description": "数据挖掘（英语：data mining）是一个跨学科的计算机科学分支[1][2][3] 它是用人工智能、机器学习、统计学和数据库的交叉方法在相对较大型的数据集中发现模式的计算过程[1]。数据挖掘过程的总体目标是从一个数据集中提取信息，并将其转换成可理解的结构，以进一步使用[1]。除了原始分析步骤，它还涉及到数据库和数据管理方面、数据预处理、模型与推断方面考量、兴趣度度量、复杂度的考虑，以及发现结构、可视化及在线更新等后处理[1]。",
             "description_en": ""
         },
@@ -1787,7 +1762,7 @@ def get_json():
             "fatherid": 1,
             "label": "计算机视觉",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "http://silveiraneto.net/wp-content/uploads/2009/11/digital_eye.jpeg",
             "description": "计算机视觉是一门研究如何使机器“看”的科学，更进一步的说，就是指用摄影机和计算机代替人眼对目标进行识别、跟踪和测量等机器视觉，并进一步做图像处理，用计算机处理成为更适合人眼观察或传送给仪器检测的图像。",
             "description_en": ""
         },
@@ -1815,7 +1790,7 @@ def get_json():
             "label": "图像处理",
             "label_en": "Autonomous Driving",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "图像处理( Image Processing )，指使用计算机对图像进行一系列加工，以达到所需的结果。常见的处理有图像数字化、图像编码、图像增强、图像复原、图像分割和图像分析等。",
+            "description": "图像处理(Image Processing)，指使用计算机对图像进行一系列加工，以达到所需的结果。常见的处理有图像数字化、图像编码、图像增强、图像复原、图像分割和图像分析等。",
             "description_en": ""
         },
         # {
@@ -1832,7 +1807,7 @@ def get_json():
             "fatherid": 188,
             "label": "行人重识别",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://ercim-news.ercim.eu/images/stories/EN95/bak1.jpg",
             "description": "行人重识别 (Person re-ID)  也称行人再识别，为跨监控摄像的行人检索问题。",
             "description_en": ""
         },
@@ -1943,7 +1918,7 @@ def get_json():
             "fatherid": 188,
             "label": "体感技术（RealSense）",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://tse3-mm.cn.bing.net/th?id=OIP.GFGhILLdH3iAbyGjIJEqvgHaDI&pid=15.1&P=0&w=459&h=195",
             "description": "",
             "description_en": ""
         },
@@ -1971,7 +1946,7 @@ def get_json():
             "label": "图像检索",
             "label_en": "Autonomous Driving",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "图像检索，又称图像检索 ，系统是一个电脑浏览的系统，从一个大型的数字图像数据库去检索和检索图像。大多传统和一般图像检索的方式是利用一些增加元数据(metadata)的方法，例如：字幕、关键词或是图像的说明，如此一来就可以通过注解词完成检索。人工的图像注解是费时、费力并且昂贵；为了解决这个问题，已经有大量的研究在做自动图像注解方面上。此外，越来越多的社会网络应用和语义网已经产生了数个以网络为基底发展的图像注解工具。",
+            "description": "图像检索，又称图像检索，系统是一个电脑浏览的系统，从一个大型的数字图像数据库去检索和检索图像。大多传统和一般图像检索的方式是利用一些增加元数据(metadata)的方法，例如：字幕、关键词或是图像的说明，如此一来就可以通过注解词完成检索。人工的图像注解是费时、费力并且昂贵；为了解决这个问题，已经有大量的研究在做自动图像注解方面上。此外，越来越多的社会网络应用和语义网已经产生了数个以网络为基底发展的图像注解工具。",
             "description_en": ""
         },
         {
@@ -1997,7 +1972,7 @@ def get_json():
             "fatherid": 188,
             "label": "行人检测",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "http://upload.wikimedia.org/wikipedia/commons/c/cc/D%C3%A9tection_de_personne_-_exemple_2.jpg",
             "description": "",
             "description_en": ""
         },
