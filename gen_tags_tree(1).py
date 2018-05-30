@@ -856,7 +856,11 @@ def get_json():
             "fatherid": 89,
             "label": "因子分析（Factor Analysis）",
             "label_en": "Factor Analysis",
+<<<<<<< HEAD
+            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+=======
             "icon_url": "https://i.stack.imgur.com/JFtTa.png",
+>>>>>>> d53334e130c39a2646420a5378e346297f81ae6d
             "description": "因子分析是一种统计学方法，用于描述观察到的相关变量之间的变异性，这些变量可能包含较少数量的未观察到的变量，称为因子。",
             "description_en": "Factor analysis is a statistical method used to describe variability among observed, correlated variables in terms of a potentially lower number of unobserved variables called factors."
         },
@@ -918,7 +922,7 @@ def get_json():
             "id": 98,
             "fatherid": 67,
             "label": "半监督学习（Semi-supervised Learning）",
-            "label_en": "Autonomous Driving",
+            "label_en": "Semi-supervised Learning",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "在有标签数据+无标签数据混合成的训练数据中使用的机器学习算法，一般假设，无标签数据比有标签数据多，甚至多得多。半监督深度学习，深度学习需要用到大量有标签数据，即使在大数据时代，干净能用的有标签数据也是不多的，由此引发深度学习与半监督学习的结合。",
             "description_en": ""
@@ -930,7 +934,7 @@ def get_json():
             "label_en": "Deep Learning",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "深度学习（deep learning）是机器学习的分支，是一种试图使用包含复杂结构或由多重非线性变换构成的多个处理层对数据进行高层抽象的算法。深度学习是机器学习中一种基于对数据进行表征学习的算法。观测值（例如一幅图像）可以使用多种方式来表示，如每个像素强度值的向量，或者更抽象地表示成一系列边、特定形状的区域等。而使用某些特定的表示方法更容易从实例中学习任务（例如，人脸识别或面部表情识别）。深度学习的好处是用非监督式或半监督式的特征学习和分层特征提取高效算法来替代手工获取特征。",
-            "description_en": ""
+            "description_en": "Deep learning (also known as deep structured learning or hierarchical learning) is part of a broader family of machine learning methods based on learning data representations, as opposed to task-specific algorithms. "
         },
         # {
         #     "id": 100,
@@ -948,10 +952,10 @@ def get_json():
                 137
             ],
             "label": "word2vec",
-            "label_en": "Autonomous Driving",
+            "label_en": "Vector Representations of Words",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "将字词转换成多维向量的技术，由 Google 发布。<a href='https://www.tensorflow.org/tutorials/word2vec' target=_blank></a>",
-            "description_en": ""
+            "description_en": "This model is used for learning vector representations of words, called "word embeddings".<a href='https://www.tensorflow.org/tutorials/word2vec' target=_blank></a>"
         },
         {
             "id": 102,
@@ -960,16 +964,16 @@ def get_json():
             "label_en": "Feature Selection",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "在机器学习和统计学中，特征选择（英语：feature selection）也被称为变量选择、属性选择 或变量子集选择 。它是指：为了构建模型而选择相关特征（即属性、指标）子集的过程。",
-            "description_en": ""
+            "description_en": "In machine learning and statistics, feature selection, also known as variable selection, attribute selection or variable subset selection, is the process of selecting a subset of relevant features (variables, predictors) for use in model construction."
         },
         {
             "id": 103,
             "fatherid": 67,
             "label": "xgboost",
-            "label_en": "Autonomous Driving",
+            "label_en": "xgboost",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "Scalable, Portable and Distributed Gradient Boosting (GBDT, GBRT or GBM) Library, for Python, R, Java, Scala, C++ and more. Runs on single machine, Hadoop, Spark, Flink and DataFlow. <a href='https://github.com/dmlc/xgboost' target=_blank></a>",
-            "description_en": ""
+            "description_en": "Scalable, Portable and Distributed Gradient Boosting (GBDT, GBRT or GBM) Library, for Python, R, Java, Scala, C++ and more. Runs on single machine, Hadoop, Spark, Flink and DataFlow. <a href='https://github.com/dmlc/xgboost' target=_blank></a>""
         },
         # {
         #     "id": 104,
@@ -986,8 +990,8 @@ def get_json():
             "label": "监督式学习（Supervised learning）",
             "label_en": "Supervised learning",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "监督式学习（英语：Supervised learning），是一个机器学习中的方法，可以由训练资料中学到或建立一个模式（函数 / learning model），并依此模式推测新的实例。训练资料是由输入物件（通常是向量）和预期输出所组成。函数的输出可以是一个连续的值（称为回归分析），或是预测一个分类标签（称作分类）。",
-            "description_en": ""
+            "description": "监督式学习（Supervised learning），是一个机器学习中的方法，可以由训练资料中学到或建立一个模式（函数 / learning model），并依此模式推测新的实例。训练资料是由输入物件（通常是向量）和预期输出所组成。函数的输出可以是一个连续的值（称为回归分析），或是预测一个分类标签（称作分类）。",
+            "description_en": "Supervised learning is the machine learning task of learning a function that maps an input to an output based on example input-output pairs."
         },
         {
             "id": 106,
@@ -995,11 +999,11 @@ def get_json():
                 105,
                 107
             ],
-            "label": "SVM（支持向量机）",
-            "label_en": "Autonomous Driving",
+            "label": "支持向量机（Support Vector Machine）",
+            "label_en": "SVM (Support Vector Machine)",
             "icon_url": "https://i.stack.imgur.com/zeRTm.png",
-            "description": "在机器学习中，支持向量机（英语：support vector machine，常简称为SVM，又名支持向量网络[1]）是在分类与回归分析中分析数据的监督式学习模型与相关的学习算法。给定一组训练实例，每个训练实例被标记为属于两个类别中的一个或另一个，SVM训练算法创建一个将新的实例分配给两个类别之一的模型，使其成为非概率二元线性分类器。SVM模型是将实例表示为空间中的点，这样映射就使得单独类别的实例被尽可能宽的明显的间隔分开。然后，将新的实例映射到同一空间，并基于它们落在间隔的哪一侧来预测所属类别。",
-            "description_en": ""
+            "description": "在机器学习中，支持向量机（support vector machine，常简称为SVM，又名支持向量网络）是在分类与回归分析中分析数据的监督式学习模型与相关的学习算法。给定一组训练实例，每个训练实例被标记为属于两个类别中的一个或另一个，SVM训练算法创建一个将新的实例分配给两个类别之一的模型，使其成为非概率二元线性分类器。SVM模型是将实例表示为空间中的点，这样映射就使得单独类别的实例被尽可能宽的明显的间隔分开。然后，将新的实例映射到同一空间，并基于它们落在间隔的哪一侧来预测所属类别。",
+            "description_en": "In machine learning, support vector machines (SVMs, also support vector networks) are supervised learning models with associated learning algorithms that analyze data used for classification and regression analysis. "
         },
         # {
         #     "id": 107,
@@ -1013,11 +1017,11 @@ def get_json():
         {
             "id": 108,
             "fatherid": 105,
-            "label": "回归分析（英语：Regression Analysis）",
+            "label": "回归分析（Regression Analysis）",
             "label_en": "Regression Analysis",
             "icon_url": "http://upload.wikimedia.org/wikipedia/en/1/13/Linear_regression.png",
-            "description": "回归分析（英语：Regression Analysis）是一种统计学上分析数据的方法，目的在于了解两个或多个变量间是否相关、相关方向与强度，并建立数学模型以便观察特定变量来预测研究者感兴趣的变量。更具体的来说，回归分析可以帮助人们了解在只有一个自变量变化时因变量的变化量。一般来说，通过回归分析我们可以由给出的自变量估计因变量的条件期望。",
-            "description_en": ""
+            "description": "回归分析（Regression Analysis）是一种统计学上分析数据的方法，目的在于了解两个或多个变量间是否相关、相关方向与强度，并建立数学模型以便观察特定变量来预测研究者感兴趣的变量。更具体的来说，回归分析可以帮助人们了解在只有一个自变量变化时因变量的变化量。一般来说，通过回归分析我们可以由给出的自变量估计因变量的条件期望。",
+            "description_en": "In statistical modeling, regression analysis is a set of statistical processes for estimating the relationships among variables. "
         },
         # {
         #     "id": 109,
@@ -1040,11 +1044,11 @@ def get_json():
         {
             "id": 111,
             "fatherid": 108,
-            "label": "一般线性模型",
-            "label_en": "Autonomous Driving",
+            "label": "一般线性模型（The General Linear Model）",
+            "label_en": "GLM (The General Linear Model)",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "一般线性模型（the General Linear Model, GLM）是一个统计学上常见的线性模型。这个模型在计量经济学的应用中十分重要。",
-            "description_en": ""
+            "description_en": "The general linear model or multivariate regression model is a statistical linear model. "
         },
         {
             "id": 112,
@@ -1052,8 +1056,8 @@ def get_json():
             "label": "逻辑回归（Logistic regression）",
             "label_en": "Logistic regression",
             "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Logistic-sigmoid-vs-scaled-probit.svg/1024px-Logistic-sigmoid-vs-scaled-probit.svg.png",
-            "description": "逻辑回归（英语：Logistic regression 或logit regression），即逻辑模型（英语：Logit model，也译作“评定模型”、“分类评定模型”）是离散选择法模型之一，属于多重变量分析范畴，是社会学、生物统计学、临床、数量心理学、计量经济学、市场营销等统计实证分析的常用方法。",
-            "description_en": ""
+            "description": "逻辑回归（Logistic regression 或logit regression），即逻辑模型（Logit model，也译作“评定模型”、“分类评定模型”）是离散选择法模型之一，属于多重变量分析范畴，是社会学、生物统计学、临床、数量心理学、计量经济学、市场营销等统计实证分析的常用方法。",
+            "description_en": "In statistics, the logistic model (or logit model) is a statistical model that is usually taken to apply to a binary dependent variable. In regression analysis, logistic regression or logit regression is estimating the parameters of a logistic model."
         },
         # {
         #     "id": 113,
@@ -1080,16 +1084,16 @@ def get_json():
             "label_en": "Linear regression",
             "icon_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Linear-regression.svg/600px-Linear-regression.svg.png",
             "description": "在统计学中，线性回归（Linear regression）是利用称为线性回归方程的最小二乘函数对一个或多个自变量和因变量之间关系进行建模的一种回归分析。这种函数是一个或多个称为回归系数的模型参数的线性组合。只有一个自变量的情况称为简单回归，大于一个自变量情况的叫做多元回归。（这反过来又应当由多个相关的因变量预测的多元线性回归区别[来源请求]，而不是一个单一的标量变量。）",
-            "description_en": ""
+            "description_en": "In statistics, linear regression is a linear approach to modelling the relationship between a scalar response (or dependent variable) and one or more explanatory variables (or independent variables). "
         },
         {
             "id": 116,
             "fatherid": 67,
-            "label": "无监督学习",
-            "label_en": "Autonomous Driving",
+            "label": "非监督式学习（Unsupervised learning）",
+            "label_en": "Unsupervised learning",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "非监督式学习是一种机器学习的方式，并不需要人力来输入标签。它是监督式学习和强化学习等策略之外的一种选择。在监督式学习中，典型的任务是分类和回归分析，且需要使用到人工预先准备好的范例(base)。一个常见的非监督式学习是数据聚类。在人工神经网络中，生成对抗网络（GAN）、自组织映射（SOM）和适应性共振理论（ART）则是最常用的非监督式学习。",
-            "description_en": ""
+            "description_en": "Unsupervised machine learning is the machine learning task of inferring a function to describe hidden structure from "unlabeled" data (a classification or categorization is not included in the observations). "
         },
         {
             "id": 117,
@@ -1097,8 +1101,8 @@ def get_json():
             "label": "聚类分析（Cluster analysis）",
             "label_en": "Cluster analysis",
             "icon_url": "http://i.stack.imgur.com/e2UeU.png",
-            "description": "聚类分析（英语：Cluster analysis，亦称为群集分析）是对于统计数据分析的一门技术，在许多领域受到广泛应用，包括机器学习，数据挖掘，模式识别，图像分析以及生物信息。聚类是把相似的对象通过静态分类的方法分成不同的组别或者更多的子集（subset），这样让在同一个子集中的成员对象都有相似的一些属性，常见的包括在坐标系中更加短的空间距离等。",
-            "description_en": ""
+            "description": "聚类分析（Cluster analysis，亦称为群集分析）是对于统计数据分析的一门技术，在许多领域受到广泛应用，包括机器学习，数据挖掘，模式识别，图像分析以及生物信息。聚类是把相似的对象通过静态分类的方法分成不同的组别或者更多的子集（subset），这样让在同一个子集中的成员对象都有相似的一些属性，常见的包括在坐标系中更加短的空间距离等。",
+            "description_en": "Cluster analysis or clustering is the task of grouping a set of objects in such a way that objects in the same group (called a cluster) are more similar (in some sense) to each other than to those in other groups (clusters)."
         },
         # {
         #     "id": 118,
@@ -1113,11 +1117,30 @@ def get_json():
             "id": 119,
             "fatherid": 46,
             "label": "提升方法（Boosting）",
-            "label_en": "Autonomous Driving",
+            "label_en": "Boosting",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "提升方法（Boosting），是一种可以用来减小监督式学习中偏差的机器学习元算法。面对的问题是迈可·肯斯（Michael Kearns）提出的：[1]一组“弱学习者”的集合能否生成一个“强学习者”？弱学习者一般是指一个分类器，它的结果只比随机分类好一点点；强学习者指分类器的结果非常接近真值。",
-            "description_en": ""
+            "description_en": "Boosting is a machine learning ensemble meta-algorithm for primarily reducing bias, and also variance in supervised learning, and a family of machine learning algorithms that convert weak learners to strong ones."
         },
+<<<<<<< HEAD
+        # {
+        #     "id": 120,
+        #     "fatherid": 1,
+        #     "label": "人机对战",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+        #     "description": "人类与人工智能产品或应用对抗、比赛的活动或研究。",
+        #     "description_en": ""
+        # },
+        # {
+        #     "id": 121,
+        #     "fatherid": 120,
+        #     "label": "对弈人工智能",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+        #     "description": "",
+        #     "description_en": ""
+=======
         {
             "id": 120,
             "fatherid": 1,
@@ -1135,6 +1158,7 @@ def get_json():
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "",
             "description_en": ""
+>>>>>>> d53334e130c39a2646420a5378e346297f81ae6d
         },
         {
             "id": 122,
