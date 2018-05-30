@@ -24,7 +24,7 @@ def get_json():
             "label_en": "Driverless Car",
             "icon_url": "https://images.pexels.com/photos/1098662/pexels-photo-1098662.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
             "description": "自动驾驶汽车，又称为无人驾驶汽车、电脑驾驶汽车或轮式移动机器人，是无人地面载具的一种，具有传统汽车的运输能力。作为自动化载具，自动驾驶汽车不需要人为操作即能感测其环境及导航。",
-            "description_en": "An autonomous car (also known as a driverless car, self-driving car and robotic car[1]) is a vehicle that is capable of sensing its environment and navigating without human input."
+            "description_en": "An autonomous car (also known as a driverless car, self-driving car and robotic car) is a vehicle that is capable of sensing its environment and navigating without human input."
         },
         # {
         #     "id": 4,
@@ -452,7 +452,7 @@ def get_json():
             "fatherid": 47,
             "label": "Theano",
             "label_en": "Theano",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "screenshot logo",
             "description": "Theano is a Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently. It can use GPUs and perform efficient symbolic differentiation. <a href='http://www.deeplearning.net/software/theano/' target=_blank></a>",
             "description_en": "Theano is a Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently. It can use GPUs and perform efficient symbolic differentiation. <a href='http://www.deeplearning.net/software/theano/' target=_blank></a>"
         },
@@ -461,7 +461,7 @@ def get_json():
             "fatherid": [47,58,67]
             "label": "TensorLayer（深度学习库）",
             "label_en": "TensorLayer",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "screenshot logo",
             "description": "A Deep Learning Library for Researchers and Engineers built on top of TensorFlow. <a href='https://github.com/tensorlayer/tensorlayer' target=_blank></a>",
             "description_en": "A Deep Learning Library for Researchers and Engineers built on top of TensorFlow. <a href='https://github.com/tensorlayer/tensorlayer' target=_blank></a>"
         },
@@ -470,7 +470,7 @@ def get_json():
             "fatherid": 47,
             "label": "PyTorch",
             "label_en": "PyTorch",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "screenshot logo",
             "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration. <a href='http://pytorch.org/' target=_blank></a>",
             "description_en": "Tensors and Dynamic neural networks in Python with strong GPU acceleration. <a href='http://pytorch.org/' target=_blank></a>"
         },
@@ -479,7 +479,7 @@ def get_json():
             "fatherid": 47,
             "label": "MXNet",
             "label_en": "MXNet",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://tse2-mm.cn.bing.net/th?id=OIP.GOVadQfvYExnZxuU1V-zFQHaHa&pid=15.1&P=0&w=300&h=300",
             "description": "Lightweight, Portable, Flexible Distributed/Mobile Deep Learning with Dynamic, Mutation-aware Dataflow Dep Scheduler; for Python, R, Julia, Scala, Go, Javascript and more. <a href='https://mxnet.apache.org' target=_blank></a>",
             "description_en": "Lightweight, Portable, Flexible Distributed/Mobile Deep Learning with Dynamic, Mutation-aware Dataflow Dep Scheduler; for Python, R, Julia, Scala, Go, Javascript and more. <a href='https://mxnet.apache.org' target=_blank></a>"
         },
@@ -533,7 +533,7 @@ def get_json():
             "fatherid": 47,
             "label": "Caffe",
             "label_en": "Caffe",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "screenshot logo",
             "description": "Caffe: a fast open framework for deep learning. <a href='http://caffe.berkeleyvision.org/' target=_blank></a>",
             "description_en": "Caffe: a fast open framework for deep learning. <a href='http://caffe.berkeleyvision.org/' target=_blank></a>"
         },
@@ -1123,7 +1123,7 @@ def get_json():
             "fatherid": 1,
             "label": "人机对战",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://chessprogramming.wikispaces.com/file/view/personal-robot-04-by-franz-steiner.jpg/508408800/personal-robot-04-by-franz-steiner.jpg",
             "description": "人类与人工智能产品或应用对抗、比赛的活动或研究。",
             "description_en": ""
         },
