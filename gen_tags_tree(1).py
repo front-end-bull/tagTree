@@ -1141,7 +1141,7 @@ def get_json():
             "fatherid": 121,
             "label": "五子棋AI",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "http://upload.wikimedia.org/wikipedia/commons/8/80/Go_board_part.jpg",
             "description": "通过人工智能算法下五子棋/连珠。国际上每年都会有Gomocup让各类AI进行PK一决胜负。",
             "description_en": ""
         },
@@ -1177,7 +1177,7 @@ def get_json():
             "fatherid": 120,
             "label": "图灵测试（Turing test）",
             "label_en": "Turing test",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://62e528761d0685343e1c-f3d1b99a743ffa4142d9d7f1978d9686.ssl.cf2.rackcdn.com/files/50549/width668/r6zbqvs2-1402296443.jpg",
             "description": "图灵测试（英语：Turing test，又译图灵试验）是图灵于1950年提出的一个关于判断机器是否能够思考的著名试验，测试某机器是否能表现出与人等价或无法区分的智能。测试的谈话仅限于使用唯一的文本管道，例如计算机键盘和屏幕，这样的结果是不依赖于计算机把单词转换为音频的能力。",
             "description_en": ""
         },
@@ -1195,7 +1195,7 @@ def get_json():
             "fatherid": 126,
             "label": "验证码",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://www.urlteam.org/wp-content/uploads/2017/03/QQ20170315-101521@2x.png",
             "description": "全自动区分计算机和人类的公开图灵测试（英语：Completely Automated Public Turing test to tell Computers and Humans Apart，简称CAPTCHA），俗称验证码，是一种区分用户是计算机或人的公共全自动程序。在CAPTCHA测试中，作为服务器的计算机会自动生成一个问题由用户来解答。这个问题可以由计算机生成并评判，但是必须只有人类才能解答。由于计算机无法解答CAPTCHA的问题，所以回答出问题的用户就可以被认为是人类。",
             "description_en": ""
         },
@@ -1213,7 +1213,7 @@ def get_json():
             "fatherid": 129,
             "label": "reCAPTCHA",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/RecaptchaLogo.svg/1200px-RecaptchaLogo.svg.png",
             "description": "reCAPTCHA项目是由卡内基梅隆大学所发展的系统，主要目的是利用CAPTCHA技术来帮助典籍数字化的进行，这个项目将由书本扫描下来无法准确的被光学文字辨识技术（OCR, Optical Character Recognition）识别的文字显示在CAPTCHA问题中，让人类在回答CAPTCHA问题时用人脑加以识别[1]。reCAPTCHA正数字化《纽约时报》（New York Times）的扫描存档[2]，目前已经完成20年份的数据，并希望在2010年完成110年份的数据。2009年9月17日，Google宣布收购reCAPTCHA",
             "description_en": ""
         },
@@ -1240,7 +1240,7 @@ def get_json():
             "fatherid": 1,
             "label": "智慧城市",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Smart_City.jpg/1200px-Smart_City.jpg",
             "description": "智慧城市（英语：Smart City）是指利用各种信息技术或创新意念，集成城市的组成系统和服务，以提升资源运用的效率，优化城市管理和服务，以及改善市民生活质素。智慧城市把新一代信息技术充分运用在城市的各行各业之中的基于知识社会下一代创新（创新2.0）的城市信息化高级形态，实现信息化、工业化与城镇化深度融合，有助于缓解“大城市病”，提高城镇化质量，实现精细化和动态管理，并提升城市管理成效和改善市民生活质素。",
             "description_en": ""
         },
@@ -1249,7 +1249,7 @@ def get_json():
             "fatherid": 133,
             "label": "智能交通",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/ERPBugis.JPG",
             "description": "智能运输系统（英文：Intelligent Transport System、Intelligent Transportation System，缩写：ITS，又名：智能交通系统）是将先进的信息技术、通讯技术、传感技术、控制技术及计算机技术等有效率地集成运用于整个交通运输管理体系，而建立起的一种在大范围内及全方位发挥作用的，实时、准确及高效率的综合的运输和管理系统。美国、日本、欧洲率先展开相应的研究并成为ITS发展的三强，此外加拿大、中国、韩国、新加坡、澳大利亚、香港等国家的研究也具有相当规模。",
             "description_en": ""
         },
@@ -1258,7 +1258,7 @@ def get_json():
             "fatherid": 134,
             "label": "电子警察",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "http://fallschurchtimes.com/wp-content/uploads/2009/01/red-light-camera.gif",
             "description": "电子警察是一种利用自动化检测与测量技术捕获交通违法或交通事故，利用网络将采集的信息传回公安部门进行分析处理，并以此为证据对肇事者进行处罚，以减少事故发生、辅助交警工作的方法。与交警监管相比，电子警察对事故的判断更准确，捕捉更迅速，在黑夜、恶劣情况下仍能正常工作，而同时减少了交警的人力支出，但对仪器仪表的投入要求相对较高。目前常用的电子警察技术包括：电子眼、传感器、测速仪。",
             "description_en": ""
         },
@@ -1276,7 +1276,7 @@ def get_json():
             "fatherid": 1,
             "label": "自然语言处理(NLP)",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://mchromiak.github.io/articles/2017/Nov/30/img/nlp-cover.pngq",
             "description": "自然语言处理（英语：natural language processing，缩写作 NLP）是人工智能和语言学领域的分支学科。此领域探讨如何处理及运用自然语言；自然语言认知则是指让电脑“懂”人类的语言。自然语言生成系统把计算机数据转化为自然语言。自然语言理解系统把自然语言转化为计算机程序更易于处理的形式。",
             "description_en": ""
         },
@@ -1339,7 +1339,7 @@ def get_json():
             "fatherid": 143,
             "label": "Sphinx(检索引擎）",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "http://en.wikipedia.org/wiki/Special:FilePath/Sphinx_search_logo.jpg",
             "description": "<a href='http://sphinxsearch.com' target=_blank></a>",
             "description_en": ""
         },
@@ -1432,7 +1432,7 @@ def get_json():
             "fatherid": 137,
             "label": "机器翻译",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Translation_Latin_Alphabet.svg/1280px-Translation_Latin_Alphabet.svg.png",
             "description": "机器翻译（英语：Machine Translation，经常简写为MT，俗称机翻）属于计算语言学的范畴，其研究借由计算机程序将文字或演说从一种自然语言翻译成另一种自然语言。简单来说，机器翻译是通过将一个自然语言的字辞取代成另一个自然语言的字辞。借由使用语料库的技术，可达成更加复杂的自动翻译，包含可更佳的处理不同的文法结构、辞汇辨识、惯用语的对应等。",
             "description_en": ""
         },
@@ -1603,7 +1603,7 @@ def get_json():
             "fatherid": 163,
             "label": "数据科学",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/2/20/DataScienceLogo.png",
             "description": "数据科学（英语：Data Science），又称资料科学，是一门利用数据学习知识的学科，其目标是通过从数据中提取出有价值的部分来生产数据产品[1]。它结合了诸多领域中的理论和技术，包括应用数学，统计，模式识别，机器学习，数据可视化，数据仓库，以及高性能计算。数据科学通过运用各种相关的数据来帮助非专业人士理解问题。 数据科学技术可以帮助我们如何正确的处理数据并协助我们在生物，社会科学，人类学等领域进行研究调研。此外，数据科学也对商业竞争有极大的帮助[2]。",
             "description_en": ""
         },
@@ -1612,7 +1612,7 @@ def get_json():
             "fatherid": 1,
             "label": "机器人（Robot）",
             "label_en": "Robot",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "http://gadgetynews.com/wp-content/uploads/2016/07/ubtech-alpha-1s-kick.jpg",
             "description": "机器人（Robot）包括一切模拟人类行为或思想与模拟其他生物的机械（如机器狗，机器猫等）。狭义上对机器人的定义还有很多分类法及争议，有些电脑程序甚至也被称为机器人。在当代工业中，机器人指能自动运行任务的人造机器设备，用以取代或协助人类工作，一般会是机电设备，由计算机程序或是电子电路控制。",
             "description_en": ""
         },
@@ -1720,7 +1720,7 @@ def get_json():
             "fatherid": 1,
             "label": "人工智能产品",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://cdn.80000hours.org/wp-content/uploads/2017/06/18-ai-researchers-reveal-the-most-impressive-thing-theyve-ever-seen-e1497407330475.png",
             "description": "",
             "description_en": ""
         },
@@ -1729,7 +1729,7 @@ def get_json():
             "fatherid": 1,
             "label": "人工智能公司",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://tse2-mm.cn.bing.net/th?id=OIP.ZDSXlAL5daSgmOpaZ2WE3AAAAA&pid=15.1&P=0&w=232&h=175",
             "description": "",
             "description_en": ""
         },
@@ -1756,7 +1756,7 @@ def get_json():
             "fatherid": 188,
             "label": "OpenCV",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/OpenCV_Logo_with_text_svg_version.svg/1200px-OpenCV_Logo_with_text_svg_version.svg.png",
             "description": "OpenCV的全称是Open Source Computer Vision Library，是一个跨平台的计算机视觉库。OpenCV是由英特尔公司发起并参与开发，以BSD许可证授权发行，可以在商业和研究领域中免费使用。OpenCV可用于开发实时的图像处理、计算机视觉以及模式识别程序。该程序库也可以使用英特尔公司的IPP进行加速处理。",
             "description_en": ""
         },
@@ -1792,7 +1792,7 @@ def get_json():
             "fatherid": 188,
             "label": "增强现实（AR）",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Augmented-reality.jpg/800px-Augmented-reality.jpg",
             "description": "增强现实（Augmented Reality，简称 AR），是一种实时地计算摄影机影像的位置及角度并加上相应图像的技术，这种技术的目标是在屏幕上把虚拟世界套在现实世界并进行互动。",
             "description_en": ""
         },
@@ -1876,7 +1876,7 @@ def get_json():
             "fatherid": 188,
             "label": "AR游戏",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/en/2/22/Desjardins_AR_Augmented_Reality_Game%2C_March_2013.png",
             "description": "",
             "description_en": ""
         },
