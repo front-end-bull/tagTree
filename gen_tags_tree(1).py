@@ -690,7 +690,7 @@ def get_json():
             "fatherid": [69,154],
             "label": "神经机器翻译(NMT)",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://tse4-mm.cn.bing.net/th?id=OIP.XPWN_HT6wAZ7I7plgluohAHaEL&pid=15.1&P=0&w=287&h=163",
             "description": "神经机器翻译，Neural Machine Tranlation, 简称 NMT, 2014年开始兴起的机器翻译方法，逐渐应用卷积神经网络(CNN)，递归神经网络(RNN)，注意力机制等技术，2016年已基本全面取代传统的统计机器翻译(SMT)。Google，百度，搜狗等已上线神经机器翻译系统。",
             "description_en": ""
         },
@@ -838,7 +838,7 @@ def get_json():
             "fatherid": 67,
             "label": "降维（Dimensionality Reduction）",
             "label_en": "Dimensionality Reduction",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Lle_hlle_swissroll.png",
             "description": "在机器学习和统计学领域，降维是指在某些限定条件下，降低随机变量个数，得到一组“不相关”主变量的过程。降维可进一步细分为特征选择和特征提取两大方法。",
             "description_en": "In statistics, machine learning, and information theory, dimensionality reduction or dimension reduction is the process of reducing the number of random variables under consideration by obtaining a set of principal variables"
         },
@@ -856,7 +856,11 @@ def get_json():
             "fatherid": 89,
             "label": "因子分析（Factor Analysis）",
             "label_en": "Factor Analysis",
+<<<<<<< HEAD
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+=======
+            "icon_url": "https://i.stack.imgur.com/JFtTa.png",
+>>>>>>> 52b041d114d0dbee60128332542f1d3735b1ca03
             "description": "因子分析是一种统计学方法，用于描述观察到的相关变量之间的变异性，这些变量可能包含较少数量的未观察到的变量，称为因子。",
             "description_en": "Factor analysis is a statistical method used to describe variability among observed, correlated variables in terms of a potentially lower number of unobserved variables called factors."
         },
@@ -928,7 +932,7 @@ def get_json():
             "fatherid": 67,
             "label": "深度学习（Deep Learning)",
             "label_en": "Deep Learning",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://ask.hellobi.com/uploads/article/20170316/0b84b2fef8c370a51a016b7298b65d95.png",
             "description": "深度学习（deep learning）是机器学习的分支，是一种试图使用包含复杂结构或由多重非线性变换构成的多个处理层对数据进行高层抽象的算法。深度学习是机器学习中一种基于对数据进行表征学习的算法。观测值（例如一幅图像）可以使用多种方式来表示，如每个像素强度值的向量，或者更抽象地表示成一系列边、特定形状的区域等。而使用某些特定的表示方法更容易从实例中学习任务（例如，人脸识别或面部表情识别）。深度学习的好处是用非监督式或半监督式的特征学习和分层特征提取高效算法来替代手工获取特征。",
             "description_en": "Deep learning (also known as deep structured learning or hierarchical learning) is part of a broader family of machine learning methods based on learning data representations, as opposed to task-specific algorithms. "
         },
@@ -1135,6 +1139,18 @@ def get_json():
         #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
         #     "description": "",
         #     "description_en": ""
+<<<<<<< HEAD
+=======
+        # },
+        {
+            "id": 122,
+            "fatherid": 121,
+            "label": "五子棋AI",
+            "label_en": "Autonomous Driving",
+            "icon_url": "http://upload.wikimedia.org/wikipedia/commons/8/80/Go_board_part.jpg",
+            "description": "通过人工智能算法下五子棋/连珠。国际上每年都会有Gomocup让各类AI进行PK一决胜负。",
+            "description_en": ""
+>>>>>>> 52b041d114d0dbee60128332542f1d3735b1ca03
         },
         # {
         #     "id": 122,
@@ -1262,6 +1278,7 @@ def get_json():
             "description": "电子警察是一种利用自动化检测与测量技术捕获交通违法或交通事故，利用网络将采集的信息传回公安部门进行分析处理，并以此为证据对肇事者进行处罚，以减少事故发生、辅助交警工作的方法。与交警监管相比，电子警察对事故的判断更准确，捕捉更迅速，在黑夜、恶劣情况下仍能正常工作，而同时减少了交警的人力支出，但对仪器仪表的投入要求相对较高。目前常用的电子警察技术包括：电子眼、传感器、测速仪。",
             "description_en": ""
         },
+<<<<<<< HEAD
         # {
         #     "id": 136,
         #     "fatherid": 133,
@@ -1271,6 +1288,17 @@ def get_json():
         #     "description": "",
         #     "description_en": ""
         # },
+=======
+        {
+            "id": 136,
+            "fatherid": 133,
+            "label": "智能医疗",
+            "label_en": "Autonomous Driving",
+            "icon_url": "http://awahid.net/wp-content/uploads/2015/05/healthcare.png",
+            "description": "",
+            "description_en": ""
+        },
+>>>>>>> 52b041d114d0dbee60128332542f1d3735b1ca03
         {
             "id": 137,
             "fatherid": 1,
@@ -1405,7 +1433,7 @@ def get_json():
             "fatherid": 137,
             "label": "简繁转换",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Hanzi.svg/200px-Hanzi.svg.png",
             "description": "繁简转换，指繁体字与简体字的互相转换，实际使用时通常包括台湾、香港、澳门、中国大陆、新加坡、马来西亚地区所使用的标准中文之中不同字、词的相互转换。由于中国大陆对汉字简化并非全部采用“一对一”方式，有部分用字采用“一对多”[1]方式，因此准确的汉字转换相当困难。目前已经有相当多的专业人士正利用各种方法解决这个难题。",
             "description_en": ""
         },
@@ -1424,7 +1452,7 @@ def get_json():
             "label": "语义搜索",
             "label_en": "Autonomous Driving",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "语义检索 ，是为了生成更相关的结果，使用语义网络中的数据来帮助区分(disambiguation)查询和网页的内容，所进行的在线检索过程。Hildebrand et al.[1] 有一个对语义检索系统的全面回顾报告，并且说明了语义在检索过程中的相关使用情况。",
+            "description": "语义检索，是为了生成更相关的结果，使用语义网络中的数据来帮助区分(disambiguation)查询和网页的内容，所进行的在线检索过程。Hildebrand et al.[1] 有一个对语义检索系统的全面回顾报告，并且说明了语义在检索过程中的相关使用情况。",
             "description_en": ""
         },
         {
@@ -1432,7 +1460,7 @@ def get_json():
             "fatherid": 137,
             "label": "机器翻译",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Translation_Latin_Alphabet.svg/1280px-Translation_Latin_Alphabet.svg.png",
+            "icon_url": "http://www.somyatrans.com/articles/images/machine-human.jpg",
             "description": "机器翻译（英语：Machine Translation，经常简写为MT，俗称机翻）属于计算语言学的范畴，其研究借由计算机程序将文字或演说从一种自然语言翻译成另一种自然语言。简单来说，机器翻译是通过将一个自然语言的字辞取代成另一个自然语言的字辞。借由使用语料库的技术，可达成更加复杂的自动翻译，包含可更佳的处理不同的文法结构、辞汇辨识、惯用语的对应等。",
             "description_en": ""
         },
@@ -1459,7 +1487,7 @@ def get_json():
             "fatherid": 137,
             "label": "问答系统",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "http://thedivaspen.com/wordpress/wp-content/uploads/2015/03/question_and_answer.png",
             "description": "问答系统（英语：Question answering），是未来自然语言处理的明日之星。问答系统外部的行为上来看，其与目前主流资讯检索技术有两点不同：首先是查询方式为完整而口语化的问句，再来则是其回传的为高精准度网页结果或明确的答案字串。以Ask Jeeves为例，使用者不需要思考该使用什么样的问法才能够得到理想的答案，只需要用口语化的方式直接提问如“请问谁是美国总统？”即可。而系统在了解使用者问句后，会非常清楚地回答“奥巴马是美国总统”。",
             "description_en": ""
         },
@@ -1486,7 +1514,7 @@ def get_json():
             "fatherid": 1,
             "label": "语音合成",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Modeling-Consonant-Vowel-Coarticulation-for-Articulatory-Speech-Synthesis-pone.0060603.s008.ogv/440px--Modeling-Consonant-Vowel-Coarticulation-for-Articulatory-Speech-Synthesis-pone.0060603.s008.ogv.jpg",
             "description": "语音合成是将人类语音用人工的方式所产生。若是将电脑系统用在语音合成上，则称为语音合成器，而语音合成器可以用软/硬件所实现。文字转语音（text-to-speech，TTS）系统则是将一般语言的文字转换为语音，其他的系统可以描绘语言符号的表示方式，就像音标转换至语音一样。",
             "description_en": ""
         },
