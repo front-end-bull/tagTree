@@ -856,11 +856,7 @@ def get_json():
             "fatherid": 89,
             "label": "因子分析（Factor Analysis）",
             "label_en": "Factor Analysis",
-<<<<<<< HEAD
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-=======
-            "icon_url": "https://i.stack.imgur.com/JFtTa.png",
->>>>>>> d53334e130c39a2646420a5378e346297f81ae6d
             "description": "因子分析是一种统计学方法，用于描述观察到的相关变量之间的变异性，这些变量可能包含较少数量的未观察到的变量，称为因子。",
             "description_en": "Factor analysis is a statistical method used to describe variability among observed, correlated variables in terms of a potentially lower number of unobserved variables called factors."
         },
@@ -1122,7 +1118,6 @@ def get_json():
             "description": "提升方法（Boosting），是一种可以用来减小监督式学习中偏差的机器学习元算法。面对的问题是迈可·肯斯（Michael Kearns）提出的：[1]一组“弱学习者”的集合能否生成一个“强学习者”？弱学习者一般是指一个分类器，它的结果只比随机分类好一点点；强学习者指分类器的结果非常接近真值。",
             "description_en": "Boosting is a machine learning ensemble meta-algorithm for primarily reducing bias, and also variance in supervised learning, and a family of machine learning algorithms that convert weak learners to strong ones."
         },
-<<<<<<< HEAD
         # {
         #     "id": 120,
         #     "fatherid": 1,
@@ -1140,35 +1135,16 @@ def get_json():
         #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
         #     "description": "",
         #     "description_en": ""
-=======
-        {
-            "id": 120,
-            "fatherid": 1,
-            "label": "人机对战",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://chessprogramming.wikispaces.com/file/view/personal-robot-04-by-franz-steiner.jpg/508408800/personal-robot-04-by-franz-steiner.jpg",
-            "description": "人类与人工智能产品或应用对抗、比赛的活动或研究。",
-            "description_en": ""
         },
-        {
-            "id": 121,
-            "fatherid": 120,
-            "label": "对弈人工智能",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
-            "description_en": ""
->>>>>>> d53334e130c39a2646420a5378e346297f81ae6d
-        },
-        {
-            "id": 122,
-            "fatherid": 121,
-            "label": "五子棋AI",
-            "label_en": "Autonomous Driving",
-            "icon_url": "http://upload.wikimedia.org/wikipedia/commons/8/80/Go_board_part.jpg",
-            "description": "通过人工智能算法下五子棋/连珠。国际上每年都会有Gomocup让各类AI进行PK一决胜负。",
-            "description_en": ""
-        },
+        # {
+        #     "id": 122,
+        #     "fatherid": 121,
+        #     "label": "五子棋AI",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "http://upload.wikimedia.org/wikipedia/commons/8/80/Go_board_part.jpg",
+        #     "description": "通过人工智能算法下五子棋/连珠。国际上每年都会有Gomocup让各类AI进行PK一决胜负。",
+        #     "description_en": ""
+        # },
         # {
         #     "id": 123,
         #     "fatherid": 121,
@@ -1202,8 +1178,8 @@ def get_json():
             "label": "图灵测试（Turing test）",
             "label_en": "Turing test",
             "icon_url": "https://62e528761d0685343e1c-f3d1b99a743ffa4142d9d7f1978d9686.ssl.cf2.rackcdn.com/files/50549/width668/r6zbqvs2-1402296443.jpg",
-            "description": "图灵测试（英语：Turing test，又译图灵试验）是图灵于1950年提出的一个关于判断机器是否能够思考的著名试验，测试某机器是否能表现出与人等价或无法区分的智能。测试的谈话仅限于使用唯一的文本管道，例如计算机键盘和屏幕，这样的结果是不依赖于计算机把单词转换为音频的能力。",
-            "description_en": ""
+            "description": "图灵测试（Turing test，又译图灵试验）是图灵于1950年提出的一个关于判断机器是否能够思考的著名试验，测试某机器是否能表现出与人等价或无法区分的智能。测试的谈话仅限于使用唯一的文本管道，例如计算机键盘和屏幕，这样的结果是不依赖于计算机把单词转换为音频的能力。",
+            "description_en": "The Turing test, developed by Alan Turing in 1950, is a test of a machine's ability to exhibit intelligent behavior equivalent to, or indistinguishable from, that of a human. "
         },
         # {
         #     "id": 127,
@@ -1218,10 +1194,10 @@ def get_json():
             "id": 128,
             "fatherid": 126,
             "label": "验证码",
-            "label_en": "Autonomous Driving",
+            "label_en": "CAPTCHA",
             "icon_url": "https://www.urlteam.org/wp-content/uploads/2017/03/QQ20170315-101521@2x.png",
-            "description": "全自动区分计算机和人类的公开图灵测试（英语：Completely Automated Public Turing test to tell Computers and Humans Apart，简称CAPTCHA），俗称验证码，是一种区分用户是计算机或人的公共全自动程序。在CAPTCHA测试中，作为服务器的计算机会自动生成一个问题由用户来解答。这个问题可以由计算机生成并评判，但是必须只有人类才能解答。由于计算机无法解答CAPTCHA的问题，所以回答出问题的用户就可以被认为是人类。",
-            "description_en": ""
+            "description": "全自动区分计算机和人类的公开图灵测试（Completely Automated Public Turing test to tell Computers and Humans Apart，简称CAPTCHA），俗称验证码，是一种区分用户是计算机或人的公共全自动程序。在CAPTCHA测试中，作为服务器的计算机会自动生成一个问题由用户来解答。这个问题可以由计算机生成并评判，但是必须只有人类才能解答。由于计算机无法解答CAPTCHA的问题，所以回答出问题的用户就可以被认为是人类。",
+            "description_en": "A CAPTCHA is a type of challenge–response test used in computing to determine whether or not the user is human."
         },
         # {
         #     "id": 129,
@@ -1236,10 +1212,10 @@ def get_json():
             "id": 130,
             "fatherid": 129,
             "label": "reCAPTCHA",
-            "label_en": "Autonomous Driving",
+            "label_en": "reCAPTCHA",
             "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/RecaptchaLogo.svg/1200px-RecaptchaLogo.svg.png",
             "description": "reCAPTCHA项目是由卡内基梅隆大学所发展的系统，主要目的是利用CAPTCHA技术来帮助典籍数字化的进行，这个项目将由书本扫描下来无法准确的被光学文字辨识技术（OCR, Optical Character Recognition）识别的文字显示在CAPTCHA问题中，让人类在回答CAPTCHA问题时用人脑加以识别[1]。reCAPTCHA正数字化《纽约时报》（New York Times）的扫描存档[2]，目前已经完成20年份的数据，并希望在2010年完成110年份的数据。2009年9月17日，Google宣布收购reCAPTCHA",
-            "description_en": ""
+            "description_en": "reCAPTCHA is a CAPTCHA-like system designed to establish that a computer user is human (normally in order to protect websites from bots) and, at the same time, assist in the digitization of books."
         },
         # {
         #     "id": 131,
@@ -1263,19 +1239,19 @@ def get_json():
             "id": 133,
             "fatherid": 1,
             "label": "智慧城市",
-            "label_en": "Autonomous Driving",
+            "label_en": "Smart City",
             "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Smart_City.jpg/1200px-Smart_City.jpg",
-            "description": "智慧城市（英语：Smart City）是指利用各种信息技术或创新意念，集成城市的组成系统和服务，以提升资源运用的效率，优化城市管理和服务，以及改善市民生活质素。智慧城市把新一代信息技术充分运用在城市的各行各业之中的基于知识社会下一代创新（创新2.0）的城市信息化高级形态，实现信息化、工业化与城镇化深度融合，有助于缓解“大城市病”，提高城镇化质量，实现精细化和动态管理，并提升城市管理成效和改善市民生活质素。",
-            "description_en": ""
+            "description": "智慧城市（Smart City）是指利用各种信息技术或创新意念，集成城市的组成系统和服务，以提升资源运用的效率，优化城市管理和服务，以及改善市民生活质素。智慧城市把新一代信息技术充分运用在城市的各行各业之中的基于知识社会下一代创新（创新2.0）的城市信息化高级形态，实现信息化、工业化与城镇化深度融合，有助于缓解“大城市病”，提高城镇化质量，实现精细化和动态管理，并提升城市管理成效和改善市民生活质素。",
+            "description_en": "A smart city is an urban area that uses different types of electronic data collection sensors to supply information which is used to manage assets and resources efficiently."
         },
         {
             "id": 134,
             "fatherid": 133,
-            "label": "智能交通",
-            "label_en": "Autonomous Driving",
+            "label": "智能运输系统",
+            "label_en": "Intelligent Transport System",
             "icon_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/ERPBugis.JPG",
-            "description": "智能运输系统（英文：Intelligent Transport System、Intelligent Transportation System，缩写：ITS，又名：智能交通系统）是将先进的信息技术、通讯技术、传感技术、控制技术及计算机技术等有效率地集成运用于整个交通运输管理体系，而建立起的一种在大范围内及全方位发挥作用的，实时、准确及高效率的综合的运输和管理系统。美国、日本、欧洲率先展开相应的研究并成为ITS发展的三强，此外加拿大、中国、韩国、新加坡、澳大利亚、香港等国家的研究也具有相当规模。",
-            "description_en": ""
+            "description": "智能运输系统（Intelligent Transport System、Intelligent Transportation System，缩写：ITS，又名：智能交通系统）是将先进的信息技术、通讯技术、传感技术、控制技术及计算机技术等有效率地集成运用于整个交通运输管理体系，而建立起的一种在大范围内及全方位发挥作用的，实时、准确及高效率的综合的运输和管理系统。美国、日本、欧洲率先展开相应的研究并成为ITS发展的三强，此外加拿大、中国、韩国、新加坡、澳大利亚、香港等国家的研究也具有相当规模。",
+            "description_en": "An intelligent transportation system (ITS) is an advanced application which, without embodying intelligence as such, aims to provide innovative services relating to different modes of transport and traffic management and enable users to be better informed and make safer, more coordinated, and 'smarter' use of transport networks."
         },
         {
             "id": 135,
@@ -1286,23 +1262,23 @@ def get_json():
             "description": "电子警察是一种利用自动化检测与测量技术捕获交通违法或交通事故，利用网络将采集的信息传回公安部门进行分析处理，并以此为证据对肇事者进行处罚，以减少事故发生、辅助交警工作的方法。与交警监管相比，电子警察对事故的判断更准确，捕捉更迅速，在黑夜、恶劣情况下仍能正常工作，而同时减少了交警的人力支出，但对仪器仪表的投入要求相对较高。目前常用的电子警察技术包括：电子眼、传感器、测速仪。",
             "description_en": ""
         },
-        {
-            "id": 136,
-            "fatherid": 133,
-            "label": "智能医疗",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
-            "description_en": ""
-        },
+        # {
+        #     "id": 136,
+        #     "fatherid": 133,
+        #     "label": "智能医疗",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+        #     "description": "",
+        #     "description_en": ""
+        # },
         {
             "id": 137,
             "fatherid": 1,
-            "label": "自然语言处理(NLP)",
-            "label_en": "Autonomous Driving",
+            "label": "自然语言处理(Natural Language Processing)",
+            "label_en": "NLP (Natural Language Processing)",
             "icon_url": "https://mchromiak.github.io/articles/2017/Nov/30/img/nlp-cover.pngq",
-            "description": "自然语言处理（英语：natural language processing，缩写作 NLP）是人工智能和语言学领域的分支学科。此领域探讨如何处理及运用自然语言；自然语言认知则是指让电脑“懂”人类的语言。自然语言生成系统把计算机数据转化为自然语言。自然语言理解系统把自然语言转化为计算机程序更易于处理的形式。",
-            "description_en": ""
+            "description": "自然语言处理（natural language processing，缩写作 NLP）是人工智能和语言学领域的分支学科。此领域探讨如何处理及运用自然语言；自然语言认知则是指让电脑“懂”人类的语言。自然语言生成系统把计算机数据转化为自然语言。自然语言理解系统把自然语言转化为计算机程序更易于处理的形式。",
+            "description_en": "Natural-language processing (NLP) is an area of computer science and artificial intelligence concerned with the interactions between computers and human (natural) languages, in particular how to program computers to fruitfully process large amounts of natural language data."
         },
         # {
         #     "id": 138,
@@ -1313,33 +1289,33 @@ def get_json():
         #     "description": "",
         #     "description_en": ""
         # },
-        {
-            "id": 139,
-            "fatherid": 137,
-            "label": "文本分类",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
-            "description_en": ""
-        },
-        {
-            "id": 140,
-            "fatherid": 137,
-            "label": "语义识别",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
-            "description_en": ""
-        },
-        {
-            "id": 141,
-            "fatherid": 137,
-            "label": "命名实体识别",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
-            "description_en": ""
-        },
+        # {
+        #     "id": 139,
+        #     "fatherid": 137,
+        #     "label": "文本分类",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+        #     "description": "",
+        #     "description_en": ""
+        # },
+        # {
+        #     "id": 140,
+        #     "fatherid": 137,
+        #     "label": "语义识别",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+        #     "description": "",
+        #     "description_en": ""
+        # },
+        # {
+        #     "id": 141,
+        #     "fatherid": 137,
+        #     "label": "命名实体识别",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+        #     "description": "",
+        #     "description_en": ""
+        # },
         {
             "id": 142,
             "fatherid": 137,
@@ -1347,25 +1323,25 @@ def get_json():
             "label_en": "Autonomous Driving",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "语料库一词在语言学上意指大量的文本，通常经过整理，具有既定格式与标记；事实上，语料库英文 'text corpus' 的涵意即为 'body of text'。",
-            "description_en": ""
+            "description_en": "In linguistics, a corpus (plural corpora) or text corpus is a large and structured set of texts (nowadays usually electronically stored and processed)."
         },
-        {
-            "id": 143,
-            "fatherid": 137,
-            "label": "分词",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "将一个汉字序列切分成一个一个单独的词。",
-            "description_en": ""
-        },
+        # {
+        #     "id": 143,
+        #     "fatherid": 137,
+        #     "label": "分词",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+        #     "description": "将一个汉字序列切分成一个一个单独的词。",
+        #     "description_en": ""
+        # },
         {
             "id": 144,
             "fatherid": 143,
             "label": "Sphinx(检索引擎）",
-            "label_en": "Autonomous Driving",
+            "label_en": "Sphinx",
             "icon_url": "http://en.wikipedia.org/wiki/Special:FilePath/Sphinx_search_logo.jpg",
             "description": "<a href='http://sphinxsearch.com' target=_blank></a>",
-            "description_en": ""
+            "description_en": "<a href='http://sphinxsearch.com' target=_blank></a>"
         },
         # {
         #     "id": 145,
@@ -1383,7 +1359,7 @@ def get_json():
             "label_en": "Topic Model",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "主题模型（Topic Model）在机器学习和自然语言处理等领域是用来在一系列文档中发现抽象主题的一种统计模型。直观来讲，如果一篇文章有一个中心思想，那么一些特定词语会更频繁的出现。比方说，如果一篇文章是在讲狗的，那“狗”和“骨头”等词出现的频率会高些。",
-            "description_en": ""
+            "description_en": "In machine learning and natural language processing, a topic model is a type of statistical model for discovering the abstract "topics" that occur in a collection of documents."
         },
         {
             "id": 147,
@@ -1395,16 +1371,16 @@ def get_json():
             "label_en": "Latent Dirichlet Allocation",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "隐含狄利克雷分布（Latent Dirichlet allocation，简称LDA），是一种主题模型，它可以将文档集中每篇文档的主题按照概率分布的形式给出。同时它是一种无监督学习算法，在训练时不需要手工标注的训练集，需要的仅仅是文档集以及指定主题的数量k即可。此外LDA的另一个优点则是，对于每一个主题均可找出一些词语来描述它。LDA首先由Blei, David M.、吴恩达和Jordan, Michael I于2003年提出[1]，目前在文本挖掘领域包括文本主题识别、文本分类以及文本相似度计算方面都有应用。",
-            "description_en": ""
+            "description_en": "In natural language processing, latent Dirichlet allocation (LDA) is a generative statistical model that allows sets of observations to be explained by unobserved groups that explain why some parts of the data are similar."
         },
         {
             "id": 148,
             "fatherid": 146,
-            "label": "PLSA",
-            "label_en": "Autonomous Driving",
+            "label": "概率潜在语义分析（Probabilistic latent semantic analysis）",
+            "label_en": "Probabilistic latent semantic analysis",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "概率潜在语义分析（PLSA），也称为 概率潜在语义索引（PLSI），尤其是在信息检索领域)是一个一种用于分析双模式和共现数据的统计技术。 实际上，就像从PLSA进化而来的潜在语义分析一样，可以根据它们对某些隐藏变量的亲和性来导出观察变量的低维表示。",
-            "description_en": ""
+            "description_en": "Probabilistic latent semantic analysis (PLSA), also known as probabilistic latent semantic indexing (PLSI, especially in information retrieval circles) is a statistical technique for the analysis of two-mode and co-occurrence data."
         },
         # {
         #     "id": 149,
