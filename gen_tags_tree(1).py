@@ -1495,7 +1495,7 @@ def get_json():
             "fatherid": 160,
             "label": "TTS(text-to-speech)",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Google_Text_to_Speech_logo.svg/1024px-Google_Text_to_Speech_logo.svg.png",
             "description": "语音合成，语音合成的一种方式，文字转语音(text-to-speech)。",
             "description_en": ""
         },
@@ -1504,7 +1504,7 @@ def get_json():
             "fatherid": 1,
             "label": "专家系统",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "http://www.atariarchives.org/deli/expert_systems1.jpg",
             "description": "专家系统是早期人工智能的一个重要分支，它可以看作是一类具有专门知识和经验的计算机智能程序系统，一般采用人工智能中的知识表示和知识推理技术来模拟通常由领域专家才能解决的复杂问题。一般来说，专家系统=知识库+推理机，因此专家系统也被称为基于知识的系统。",
             "description_en": ""
         },
@@ -1513,7 +1513,7 @@ def get_json():
             "fatherid": 1,
             "label": "数据挖掘",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "http://blogs.lse.ac.uk/impactofsocialsciences/files/2014/03/data-mining.png",
             "description": "数据挖掘（英语：data mining）是一个跨学科的计算机科学分支[1][2][3] 它是用人工智能、机器学习、统计学和数据库的交叉方法在相对较大型的数据集中发现模式的计算过程[1]。数据挖掘过程的总体目标是从一个数据集中提取信息，并将其转换成可理解的结构，以进一步使用[1]。除了原始分析步骤，它还涉及到数据库和数据管理方面、数据预处理、模型与推断方面考量、兴趣度度量、复杂度的考虑，以及发现结构、可视化及在线更新等后处理[1]。",
             "description_en": ""
         },
@@ -1738,7 +1738,7 @@ def get_json():
             "fatherid": 1,
             "label": "计算机视觉",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "http://silveiraneto.net/wp-content/uploads/2009/11/digital_eye.jpeg",
             "description": "计算机视觉是一门研究如何使机器“看”的科学，更进一步的说，就是指用摄影机和计算机代替人眼对目标进行识别、跟踪和测量等机器视觉，并进一步做图像处理，用计算机处理成为更适合人眼观察或传送给仪器检测的图像。",
             "description_en": ""
         },
@@ -1766,7 +1766,7 @@ def get_json():
             "label": "图像处理",
             "label_en": "Autonomous Driving",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "图像处理( Image Processing )，指使用计算机对图像进行一系列加工，以达到所需的结果。常见的处理有图像数字化、图像编码、图像增强、图像复原、图像分割和图像分析等。",
+            "description": "图像处理(Image Processing)，指使用计算机对图像进行一系列加工，以达到所需的结果。常见的处理有图像数字化、图像编码、图像增强、图像复原、图像分割和图像分析等。",
             "description_en": ""
         },
         # {
@@ -1783,7 +1783,7 @@ def get_json():
             "fatherid": 188,
             "label": "行人重识别",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://ercim-news.ercim.eu/images/stories/EN95/bak1.jpg",
             "description": "行人重识别 (Person re-ID)  也称行人再识别，为跨监控摄像的行人检索问题。",
             "description_en": ""
         },
@@ -1894,7 +1894,7 @@ def get_json():
             "fatherid": 188,
             "label": "体感技术（RealSense）",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://tse3-mm.cn.bing.net/th?id=OIP.GFGhILLdH3iAbyGjIJEqvgHaDI&pid=15.1&P=0&w=459&h=195",
             "description": "",
             "description_en": ""
         },
@@ -1922,7 +1922,7 @@ def get_json():
             "label": "图像检索",
             "label_en": "Autonomous Driving",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "图像检索，又称图像检索 ，系统是一个电脑浏览的系统，从一个大型的数字图像数据库去检索和检索图像。大多传统和一般图像检索的方式是利用一些增加元数据(metadata)的方法，例如：字幕、关键词或是图像的说明，如此一来就可以通过注解词完成检索。人工的图像注解是费时、费力并且昂贵；为了解决这个问题，已经有大量的研究在做自动图像注解方面上。此外，越来越多的社会网络应用和语义网已经产生了数个以网络为基底发展的图像注解工具。",
+            "description": "图像检索，又称图像检索，系统是一个电脑浏览的系统，从一个大型的数字图像数据库去检索和检索图像。大多传统和一般图像检索的方式是利用一些增加元数据(metadata)的方法，例如：字幕、关键词或是图像的说明，如此一来就可以通过注解词完成检索。人工的图像注解是费时、费力并且昂贵；为了解决这个问题，已经有大量的研究在做自动图像注解方面上。此外，越来越多的社会网络应用和语义网已经产生了数个以网络为基底发展的图像注解工具。",
             "description_en": ""
         },
         {
@@ -1948,7 +1948,7 @@ def get_json():
             "fatherid": 188,
             "label": "行人检测",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "http://upload.wikimedia.org/wikipedia/commons/c/cc/D%C3%A9tection_de_personne_-_exemple_2.jpg",
             "description": "",
             "description_en": ""
         },
