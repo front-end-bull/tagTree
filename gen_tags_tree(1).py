@@ -856,11 +856,7 @@ def get_json():
             "fatherid": 89,
             "label": "因子分析（Factor Analysis）",
             "label_en": "Factor Analysis",
-<<<<<<< HEAD
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-=======
             "icon_url": "https://i.stack.imgur.com/JFtTa.png",
->>>>>>> 52b041d114d0dbee60128332542f1d3735b1ca03
             "description": "因子分析是一种统计学方法，用于描述观察到的相关变量之间的变异性，这些变量可能包含较少数量的未观察到的变量，称为因子。",
             "description_en": "Factor analysis is a statistical method used to describe variability among observed, correlated variables in terms of a potentially lower number of unobserved variables called factors."
         },
@@ -1139,8 +1135,6 @@ def get_json():
         #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
         #     "description": "",
         #     "description_en": ""
-<<<<<<< HEAD
-=======
         # },
         {
             "id": 122,
@@ -1150,7 +1144,6 @@ def get_json():
             "icon_url": "http://upload.wikimedia.org/wikipedia/commons/8/80/Go_board_part.jpg",
             "description": "通过人工智能算法下五子棋/连珠。国际上每年都会有Gomocup让各类AI进行PK一决胜负。",
             "description_en": ""
->>>>>>> 52b041d114d0dbee60128332542f1d3735b1ca03
         },
         # {
         #     "id": 122,
@@ -1278,7 +1271,6 @@ def get_json():
             "description": "电子警察是一种利用自动化检测与测量技术捕获交通违法或交通事故，利用网络将采集的信息传回公安部门进行分析处理，并以此为证据对肇事者进行处罚，以减少事故发生、辅助交警工作的方法。与交警监管相比，电子警察对事故的判断更准确，捕捉更迅速，在黑夜、恶劣情况下仍能正常工作，而同时减少了交警的人力支出，但对仪器仪表的投入要求相对较高。目前常用的电子警察技术包括：电子眼、传感器、测速仪。",
             "description_en": ""
         },
-<<<<<<< HEAD
         # {
         #     "id": 136,
         #     "fatherid": 133,
@@ -1288,17 +1280,6 @@ def get_json():
         #     "description": "",
         #     "description_en": ""
         # },
-=======
-        {
-            "id": 136,
-            "fatherid": 133,
-            "label": "智能医疗",
-            "label_en": "Autonomous Driving",
-            "icon_url": "http://awahid.net/wp-content/uploads/2015/05/healthcare.png",
-            "description": "",
-            "description_en": ""
-        },
->>>>>>> 52b041d114d0dbee60128332542f1d3735b1ca03
         {
             "id": 137,
             "fatherid": 1,
@@ -1422,11 +1403,11 @@ def get_json():
         {
             "id": 150,
             "fatherid": [137,163],
-            "label": "文本挖掘",
-            "label_en": "Autonomous Driving",
+            "label": "文本挖掘（Text mining）",
+            "label_en": "Text mining",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "文本挖掘有时也被称为文字探勘、文本数据挖掘等，大致相当于文字分析，一般指文本处理过程中产生高质量的信息。高质量的信息通常通过分类和预测来产生，如模式识别。文本挖掘通常涉及输入文本的处理过程（通常进行分析，同时加上一些衍生语言特征以及消除杂音，随后插入到数据库中） ，产生结构化数据，并最终评价和解释输出。",
-            "description_en": ""
+            "description_en": "Text mining, also referred to as text data mining, roughly equivalent to text analytics, is the process of deriving high-quality information from text."
         },
         {
             "id": 151,
@@ -1434,35 +1415,35 @@ def get_json():
             "label": "简繁转换",
             "label_en": "Autonomous Driving",
             "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Hanzi.svg/200px-Hanzi.svg.png",
-            "description": "繁简转换，指繁体字与简体字的互相转换，实际使用时通常包括台湾、香港、澳门、中国大陆、新加坡、马来西亚地区所使用的标准中文之中不同字、词的相互转换。由于中国大陆对汉字简化并非全部采用“一对一”方式，有部分用字采用“一对多”[1]方式，因此准确的汉字转换相当困难。目前已经有相当多的专业人士正利用各种方法解决这个难题。",
+            "description": "繁简转换，指繁体字与简体字的互相转换，实际使用时通常包括台湾、香港、澳门、中国大陆、新加坡、马来西亚地区所使用的标准中文之中不同字、词的相互转换。由于中国大陆对汉字简化并非全部采用“一对一”方式，有部分用字采用“一对多”方式，因此准确的汉字转换相当困难。目前已经有相当多的专业人士正利用各种方法解决这个难题。",
             "description_en": ""
         },
-        {
-            "id": 152,
-            "fatherid": 137,
-            "label": "word embedding",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
-            "description_en": ""
+        # {
+        #     "id": 152,
+        #     "fatherid": 137,
+        #     "label": "word embedding",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+        #     "description": "",
+        #     "description_en": ""
         },
         {
             "id": 153,
             "fatherid": 137,
-            "label": "语义搜索",
-            "label_en": "Autonomous Driving",
+            "label": "语义搜索（Semantic search）",
+            "label_en": "Semantic search",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "语义检索，是为了生成更相关的结果，使用语义网络中的数据来帮助区分(disambiguation)查询和网页的内容，所进行的在线检索过程。Hildebrand et al.[1] 有一个对语义检索系统的全面回顾报告，并且说明了语义在检索过程中的相关使用情况。",
-            "description_en": ""
+            "description": "语义检索，是为了生成更相关的结果，使用语义网络中的数据来帮助区分(disambiguation)查询和网页的内容，所进行的在线检索过程。Hildebrand et al. 有一个对语义检索系统的全面回顾报告，并且说明了语义在检索过程中的相关使用情况。",
+            "description_en": "Semantic search seeks to improve search accuracy by understanding the searcher's intent and the contextual meaning of terms as they appear in the searchable dataspace, whether on the Web or within a closed system, to generate more relevant results."
         },
         {
             "id": 154,
             "fatherid": 137,
-            "label": "机器翻译",
-            "label_en": "Autonomous Driving",
+            "label": "机器翻译（Machine translation）",
+            "label_en": "Machine translation",
             "icon_url": "http://www.somyatrans.com/articles/images/machine-human.jpg",
-            "description": "机器翻译（英语：Machine Translation，经常简写为MT，俗称机翻）属于计算语言学的范畴，其研究借由计算机程序将文字或演说从一种自然语言翻译成另一种自然语言。简单来说，机器翻译是通过将一个自然语言的字辞取代成另一个自然语言的字辞。借由使用语料库的技术，可达成更加复杂的自动翻译，包含可更佳的处理不同的文法结构、辞汇辨识、惯用语的对应等。",
-            "description_en": ""
+            "description": "机器翻译（Machine Translation，经常简写为MT，俗称机翻）属于计算语言学的范畴，其研究借由计算机程序将文字或演说从一种自然语言翻译成另一种自然语言。简单来说，机器翻译是通过将一个自然语言的字辞取代成另一个自然语言的字辞。借由使用语料库的技术，可达成更加复杂的自动翻译，包含可更佳的处理不同的文法结构、辞汇辨识、惯用语的对应等。",
+            "description_en": "Machine translation, sometimes referred to by the abbreviation MT (not to be confused with computer-aided translation, machine-aided human translation (MAHT) or interactive translation) is a sub-field of computational linguistics that investigates the use of software to translate text or speech from one language to another."
         },
         # {
         #     "id": 155,
@@ -1485,11 +1466,11 @@ def get_json():
         {
             "id": 157,
             "fatherid": 137,
-            "label": "问答系统",
-            "label_en": "Autonomous Driving",
+            "label": "问答系统（Question Answering）",
+            "label_en": "Question Answering",
             "icon_url": "http://thedivaspen.com/wordpress/wp-content/uploads/2015/03/question_and_answer.png",
-            "description": "问答系统（英语：Question answering），是未来自然语言处理的明日之星。问答系统外部的行为上来看，其与目前主流资讯检索技术有两点不同：首先是查询方式为完整而口语化的问句，再来则是其回传的为高精准度网页结果或明确的答案字串。以Ask Jeeves为例，使用者不需要思考该使用什么样的问法才能够得到理想的答案，只需要用口语化的方式直接提问如“请问谁是美国总统？”即可。而系统在了解使用者问句后，会非常清楚地回答“奥巴马是美国总统”。",
-            "description_en": ""
+            "description": "问答系统（Question answering），是未来自然语言处理的明日之星。问答系统外部的行为上来看，其与目前主流资讯检索技术有两点不同：首先是查询方式为完整而口语化的问句，再来则是其回传的为高精准度网页结果或明确的答案字串。",
+            "description_en": "Question answering (QA) is a computer science discipline within the fields of information retrieval and natural language processing (NLP), which is concerned with building systems that automatically answer questions posed by humans in a natural language."
         },
         # {
         #     "id": 158,
@@ -1504,46 +1485,46 @@ def get_json():
             "id": 159,
             "fatherid": 137,
             "label": "NLTK",
-            "label_en": "Autonomous Driving",
+            "label_en": "Natural Language Toolkit",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "<a href='http://nltk.org/' target=_blank></a>",
-            "description_en": ""
+            "description_en": "The Natural Language Toolkit, or more commonly NLTK, is a suite of libraries and programs for symbolic and statistical natural language processing (NLP) for English written in the Python programming language."
         },
         {
             "id": 160,
             "fatherid": 1,
-            "label": "语音合成",
-            "label_en": "Autonomous Driving",
+            "label": "语音合成（Speech synthesi）",
+            "label_en": "Speech synthesis",
             "icon_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Modeling-Consonant-Vowel-Coarticulation-for-Articulatory-Speech-Synthesis-pone.0060603.s008.ogv/440px--Modeling-Consonant-Vowel-Coarticulation-for-Articulatory-Speech-Synthesis-pone.0060603.s008.ogv.jpg",
             "description": "语音合成是将人类语音用人工的方式所产生。若是将电脑系统用在语音合成上，则称为语音合成器，而语音合成器可以用软/硬件所实现。文字转语音（text-to-speech，TTS）系统则是将一般语言的文字转换为语音，其他的系统可以描绘语言符号的表示方式，就像音标转换至语音一样。",
-            "description_en": ""
+            "description_en": "Speech synthesis is the artificial production of human speech. A computer system used for this purpose is called a speech computer or speech synthesizer, and can be implemented in software or hardware products."
         },
-        {
-            "id": 161,
-            "fatherid": 160,
-            "label": "TTS(text-to-speech)",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Google_Text_to_Speech_logo.svg/1024px-Google_Text_to_Speech_logo.svg.png",
-            "description": "语音合成，语音合成的一种方式，文字转语音(text-to-speech)。",
-            "description_en": ""
-        },
+        # {
+        #     "id": 161,
+        #     "fatherid": 160,
+        #     "label": "TTS(text-to-speech)",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Google_Text_to_Speech_logo.svg/1024px-Google_Text_to_Speech_logo.svg.png",
+        #     "description": "语音合成，语音合成的一种方式，文字转语音(text-to-speech)。",
+        #     "description_en": ""
+        # },
         {
             "id": 162,
             "fatherid": 1,
-            "label": "专家系统",
-            "label_en": "Autonomous Driving",
+            "label": "专家系统（Expert system）",
+            "label_en": "Expert system",
             "icon_url": "http://www.atariarchives.org/deli/expert_systems1.jpg",
             "description": "专家系统是早期人工智能的一个重要分支，它可以看作是一类具有专门知识和经验的计算机智能程序系统，一般采用人工智能中的知识表示和知识推理技术来模拟通常由领域专家才能解决的复杂问题。一般来说，专家系统=知识库+推理机，因此专家系统也被称为基于知识的系统。",
-            "description_en": ""
+            "description_en": "In artificial intelligence, an expert system is a computer system that emulates the decision-making ability of a human expert."
         },
         {
             "id": 163,
             "fatherid": 1,
-            "label": "数据挖掘",
-            "label_en": "Autonomous Driving",
+            "label": "数据挖掘（Data mining）",
+            "label_en": "Data mining",
             "icon_url": "http://blogs.lse.ac.uk/impactofsocialsciences/files/2014/03/data-mining.png",
-            "description": "数据挖掘（英语：data mining）是一个跨学科的计算机科学分支[1][2][3] 它是用人工智能、机器学习、统计学和数据库的交叉方法在相对较大型的数据集中发现模式的计算过程[1]。数据挖掘过程的总体目标是从一个数据集中提取信息，并将其转换成可理解的结构，以进一步使用[1]。除了原始分析步骤，它还涉及到数据库和数据管理方面、数据预处理、模型与推断方面考量、兴趣度度量、复杂度的考虑，以及发现结构、可视化及在线更新等后处理[1]。",
-            "description_en": ""
+            "description": "数据挖掘（data mining）是一个跨学科的计算机科学分支，它是用人工智能、机器学习、统计学和数据库的交叉方法在相对较大型的数据集中发现模式的计算过程。数据挖掘过程的总体目标是从一个数据集中提取信息，并将其转换成可理解的结构，以进一步使用。除了原始分析步骤，它还涉及到数据库和数据管理方面、数据预处理、模型与推断方面考量、兴趣度度量、复杂度的考虑，以及发现结构、可视化及在线更新等后处理。",
+            "description_en": "Data mining is the process of discovering patterns in large data sets involving methods at the intersection of machine learning, statistics, and database systems."
         },
         # {
         #     "id": 164,
@@ -1611,11 +1592,11 @@ def get_json():
         {
             "id": 171,
             "fatherid": 163,
-            "label": "数据挖掘 SPSS",
-            "label_en": "Autonomous Driving",
+            "label": "SPSS",
+            "label_en": "SPSS",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "SPSS是统计产品与服务解决方案（Statistical Product and Service Solutions）的简称，为IBM公司推出的一系列用于统计学分析运算、数据挖掘、预测分析和决策支持任务的软件产品及相关服务的总称，有Windows和macOS等版本。",
-            "description_en": ""
+            "description_en": "SPSS Statistics is a software package used for interactive, or batched, statistical analysis. "
         },
         # {
         #     "id": 172,
@@ -1629,11 +1610,11 @@ def get_json():
         {
             "id": 173,
             "fatherid": 163,
-            "label": "数据科学",
-            "label_en": "Autonomous Driving",
+            "label": "数据科学（Data Science）",
+            "label_en": "Data Science",
             "icon_url": "https://upload.wikimedia.org/wikipedia/commons/2/20/DataScienceLogo.png",
-            "description": "数据科学（英语：Data Science），又称资料科学，是一门利用数据学习知识的学科，其目标是通过从数据中提取出有价值的部分来生产数据产品[1]。它结合了诸多领域中的理论和技术，包括应用数学，统计，模式识别，机器学习，数据可视化，数据仓库，以及高性能计算。数据科学通过运用各种相关的数据来帮助非专业人士理解问题。 数据科学技术可以帮助我们如何正确的处理数据并协助我们在生物，社会科学，人类学等领域进行研究调研。此外，数据科学也对商业竞争有极大的帮助[2]。",
-            "description_en": ""
+            "description": "数据科学（英Data Science），又称资料科学，是一门利用数据学习知识的学科，其目标是通过从数据中提取出有价值的部分来生产数据产品。它结合了诸多领域中的理论和技术，包括应用数学，统计，模式识别，机器学习，数据可视化，数据仓库，以及高性能计算。数据科学通过运用各种相关的数据来帮助非专业人士理解问题。 数据科学技术可以帮助我们如何正确的处理数据并协助我们在生物，社会科学，人类学等领域进行研究调研。此外，数据科学也对商业竞争有极大的帮助[2]。",
+            "description_en": "Data science is an interdisciplinary field of scientific methods, processes, algorithms and systems to extract knowledge or insights from data in various forms, either structured or unstructured, similar to data mining."
         },
         {
             "id": 174,
@@ -1642,16 +1623,16 @@ def get_json():
             "label_en": "Robot",
             "icon_url": "http://gadgetynews.com/wp-content/uploads/2016/07/ubtech-alpha-1s-kick.jpg",
             "description": "机器人（Robot）包括一切模拟人类行为或思想与模拟其他生物的机械（如机器狗，机器猫等）。狭义上对机器人的定义还有很多分类法及争议，有些电脑程序甚至也被称为机器人。在当代工业中，机器人指能自动运行任务的人造机器设备，用以取代或协助人类工作，一般会是机电设备，由计算机程序或是电子电路控制。",
-            "description_en": ""
+            "description_en": "A robot is a machine—especially one programmable by a computer— capable of carrying out a complex series of actions automatically."
         },
         {
             "id": 175,
             "fatherid": 1,
-            "label": "推荐系统",
-            "label_en": "Autonomous Driving",
+            "label": "推荐系统（Recommender system）",
+            "label_en": "Recommender system",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "推荐系统是一种信息过滤系统，用于预测用户对物品的“评分”或“偏好”。",
-            "description_en": ""
+            "description_en": "A recommender system or a recommendation system (sometimes replacing "system" with a synonym such as platform or engine) is a subclass of information filtering system that seeks to predict the "rating" or "preference" a user would give to an item."
         },
         # {
         #     "id": 176,
@@ -1743,59 +1724,59 @@ def get_json():
         #     "description": "",
         #     "description_en": ""
         # },
-        {
-            "id": 186,
-            "fatherid": 1,
-            "label": "人工智能产品",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://cdn.80000hours.org/wp-content/uploads/2017/06/18-ai-researchers-reveal-the-most-impressive-thing-theyve-ever-seen-e1497407330475.png",
-            "description": "",
-            "description_en": ""
-        },
-        {
-            "id": 187,
-            "fatherid": 1,
-            "label": "人工智能公司",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://tse2-mm.cn.bing.net/th?id=OIP.ZDSXlAL5daSgmOpaZ2WE3AAAAA&pid=15.1&P=0&w=232&h=175",
-            "description": "",
-            "description_en": ""
-        },
+        # {
+        #     "id": 186,
+        #     "fatherid": 1,
+        #     "label": "人工智能产品",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://cdn.80000hours.org/wp-content/uploads/2017/06/18-ai-researchers-reveal-the-most-impressive-thing-theyve-ever-seen-e1497407330475.png",
+        #     "description": "",
+        #     "description_en": ""
+        # },
+        # {
+        #     "id": 187,
+        #     "fatherid": 1,
+        #     "label": "人工智能公司",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://tse2-mm.cn.bing.net/th?id=OIP.ZDSXlAL5daSgmOpaZ2WE3AAAAA&pid=15.1&P=0&w=232&h=175",
+        #     "description": "",
+        #     "description_en": ""
+        # },
         {
             "id": 188,
             "fatherid": 1,
-            "label": "计算机视觉",
-            "label_en": "Autonomous Driving",
+            "label": "计算机视觉（Computer vision）",
+            "label_en": "Computer vision",
             "icon_url": "http://silveiraneto.net/wp-content/uploads/2009/11/digital_eye.jpeg",
             "description": "计算机视觉是一门研究如何使机器“看”的科学，更进一步的说，就是指用摄影机和计算机代替人眼对目标进行识别、跟踪和测量等机器视觉，并进一步做图像处理，用计算机处理成为更适合人眼观察或传送给仪器检测的图像。",
-            "description_en": ""
+            "description_en": "Computer vision is an interdisciplinary field that deals with how computers can be made for gaining high-level understanding from digital images or videos. "
         },
-        {
-            "id": 189,
-            "fatherid": 188,
-            "label": "视觉显著性",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "灵长类动物在进行高级视觉处理前会选择出图像的子集来进行深度处理，以此减少场景的复杂度。这种选择部分区域来进行注意的机制就叫做视觉显著性。",
-            "description_en": ""
-        },
+        # {
+        #     "id": 189,
+        #     "fatherid": 188,
+        #     "label": "视觉显著性",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+        #     "description": "灵长类动物在进行高级视觉处理前会选择出图像的子集来进行深度处理，以此减少场景的复杂度。这种选择部分区域来进行注意的机制就叫做视觉显著性。",
+        #     "description_en": ""
+        # },
         {
             "id": 190,
             "fatherid": 188,
             "label": "OpenCV",
-            "label_en": "Autonomous Driving",
+            "label_en": "OpenCV",
             "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/OpenCV_Logo_with_text_svg_version.svg/1200px-OpenCV_Logo_with_text_svg_version.svg.png",
             "description": "OpenCV的全称是Open Source Computer Vision Library，是一个跨平台的计算机视觉库。OpenCV是由英特尔公司发起并参与开发，以BSD许可证授权发行，可以在商业和研究领域中免费使用。OpenCV可用于开发实时的图像处理、计算机视觉以及模式识别程序。该程序库也可以使用英特尔公司的IPP进行加速处理。",
-            "description_en": ""
+            "description_en": "OpenCV (Open Source Computer Vision) is a library of programming functions mainly aimed at real-time computer vision."
         },
         {
             "id": 191,
             "fatherid": 188,
-            "label": "图像处理",
-            "label_en": "Autonomous Driving",
+            "label": "图像处理（Image Processing）",
+            "label_en": "Image Processing",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "图像处理(Image Processing)，指使用计算机对图像进行一系列加工，以达到所需的结果。常见的处理有图像数字化、图像编码、图像增强、图像复原、图像分割和图像分析等。",
-            "description_en": ""
+            "description_en": "In computer science, Digital image processing is the use of computer algorithms to perform image processing on digital images."
         },
         # {
         #     "id": 192,
@@ -1806,23 +1787,23 @@ def get_json():
         #     "description": "",
         #     "description_en": ""
         # },
-        {
-            "id": 193,
-            "fatherid": 188,
-            "label": "行人重识别",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://ercim-news.ercim.eu/images/stories/EN95/bak1.jpg",
-            "description": "行人重识别 (Person re-ID)  也称行人再识别，为跨监控摄像的行人检索问题。",
-            "description_en": ""
-        },
+        # {
+        #     "id": 193,
+        #     "fatherid": 188,
+        #     "label": "行人重识别",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://ercim-news.ercim.eu/images/stories/EN95/bak1.jpg",
+        #     "description": "行人重识别 (Person re-ID)  也称行人再识别，为跨监控摄像的行人检索问题。",
+        #     "description_en": ""
+        # },
         {
             "id": 194,
             "fatherid": 188,
-            "label": "增强现实（AR）",
-            "label_en": "Autonomous Driving",
+            "label": "增强现实（Augmented Reality）",
+            "label_en": "AR (Augmented Reality)",
             "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Augmented-reality.jpg/800px-Augmented-reality.jpg",
             "description": "增强现实（Augmented Reality，简称 AR），是一种实时地计算摄影机影像的位置及角度并加上相应图像的技术，这种技术的目标是在屏幕上把虚拟世界套在现实世界并进行互动。",
-            "description_en": ""
+            "description_en": "Augmented reality (AR) is a direct or indirect live view of a physical, real-world environment whose elements are "augmented" by computer-generated perceptual information, ideally across multiple sensory modalities, including visual, auditory, haptic, somatosensory, and olfactory."
         },
         # {
         #     "id": 195,
@@ -1899,15 +1880,15 @@ def get_json():
         #     "description": "",
         #     "description_en": ""
         # },
-        {
-            "id": 203,
-            "fatherid": 188,
-            "label": "AR游戏",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://upload.wikimedia.org/wikipedia/en/2/22/Desjardins_AR_Augmented_Reality_Game%2C_March_2013.png",
-            "description": "",
-            "description_en": ""
-        },
+        # {
+        #     "id": 203,
+        #     "fatherid": 188,
+        #     "label": "AR游戏",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://upload.wikimedia.org/wikipedia/en/2/22/Desjardins_AR_Augmented_Reality_Game%2C_March_2013.png",
+        #     "description": "",
+        #     "description_en": ""
+        # },
         # {
         #     "id": 204,
         #     "fatherid": 188,
@@ -1917,15 +1898,15 @@ def get_json():
         #     "description": "",
         #     "description_en": ""
         # },
-        {
-            "id": 205,
-            "fatherid": 188,
-            "label": "体感技术（RealSense）",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://tse3-mm.cn.bing.net/th?id=OIP.GFGhILLdH3iAbyGjIJEqvgHaDI&pid=15.1&P=0&w=459&h=195",
-            "description": "",
-            "description_en": ""
-        },
+        # {
+        #     "id": 205,
+        #     "fatherid": 188,
+        #     "label": "体感技术（RealSense）",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://tse3-mm.cn.bing.net/th?id=OIP.GFGhILLdH3iAbyGjIJEqvgHaDI&pid=15.1&P=0&w=459&h=195",
+        #     "description": "",
+        #     "description_en": ""
+        # },
         # {
         #     "id": 206,
         #     "fatherid": 188,
@@ -1947,20 +1928,20 @@ def get_json():
         {
             "id": 208,
             "fatherid": 188,
-            "label": "图像检索",
-            "label_en": "Autonomous Driving",
+            "label": "图像检索（Image retrieval）",
+            "label_en": "Image retrieval",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "图像检索，又称图像检索，系统是一个电脑浏览的系统，从一个大型的数字图像数据库去检索和检索图像。大多传统和一般图像检索的方式是利用一些增加元数据(metadata)的方法，例如：字幕、关键词或是图像的说明，如此一来就可以通过注解词完成检索。人工的图像注解是费时、费力并且昂贵；为了解决这个问题，已经有大量的研究在做自动图像注解方面上。此外，越来越多的社会网络应用和语义网已经产生了数个以网络为基底发展的图像注解工具。",
-            "description_en": ""
+            "description_en": "An image retrieval system is a computer system for browsing, searching and retrieving images from a large database of digital images. "
         },
         {
             "id": 209,
             "fatherid": 208,
             "label": "基于内容的图像检索",
-            "label_en": "Autonomous Driving",
+            "label_en": "Content-based image retrieval",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "基于内容的图像检索（英语：Content-based image retrieval，CBIR；或content-based visual information retrieval），属于图像分析的一个研究领域。基于内容的图像检索目的是在给定查询图像的前提下，依据内容信息或指定查询标准，在图像数据库中搜索并查找出符合查询条件的相应图片。",
-            "description_en": ""
+            "description": "基于内容的图像检索（Content-based image retrieval，CBIR；或content-based visual information retrieval），属于图像分析的一个研究领域。基于内容的图像检索目的是在给定查询图像的前提下，依据内容信息或指定查询标准，在图像数据库中搜索并查找出符合查询条件的相应图片。",
+            "description_en": "Content-based image retrieval (CBIR), also known as query by image content (QBIC) and content-based visual information retrieval (CBVIR) is the application of computer vision techniques to the image retrieval problem."
         },
         # {
         #     "id": 210,
@@ -1971,31 +1952,31 @@ def get_json():
         #     "description": "",
         #     "description_en": ""
         # },
-        {
-            "id": 211,
-            "fatherid": 188,
-            "label": "行人检测",
-            "label_en": "Autonomous Driving",
-            "icon_url": "http://upload.wikimedia.org/wikipedia/commons/c/cc/D%C3%A9tection_de_personne_-_exemple_2.jpg",
-            "description": "",
-            "description_en": ""
-        },
-        {
-            "id": 212,
-            "fatherid": 188,
-            "label": "目标检测",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
-            "description_en": ""
+        # {
+        #     "id": 211,
+        #     "fatherid": 188,
+        #     "label": "行人检测",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "http://upload.wikimedia.org/wikipedia/commons/c/cc/D%C3%A9tection_de_personne_-_exemple_2.jpg",
+        #     "description": "",
+        #     "description_en": ""
+        # },
+        # {
+        #     "id": 212,
+        #     "fatherid": 188,
+        #     "label": "目标检测",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+        #     "description": "",
+        #     "description_en": ""
         },
         {
             "id": 213,
             "fatherid": 188,
-            "label": "运动推断结构（SfM）",
-            "label_en": "Autonomous Driving",
+            "label": "运动推断结构（Structure from motion）",
+            "label_en": "Structure from motion",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "运动推断结构（SfM）是一种摄影测量范围成像技术，用于估计二维图像序列中的三维结构，这些图像可能与局部运动信号相结合。它是在计算机视觉和视觉感知领域进行研究的。在生物视觉上，运动推断结指的是人类和其他生物能够从一个移动物体或场景中投射的二维（视网膜）运动场中恢复三维结构的现象。",
-            "description_en": ""
+            "description_en": "Structure from motion (SfM) is a photogrammetric range imaging technique for estimating three-dimensional structures from two-dimensional image sequences that may be coupled with local motion signals."
         }
     ]
