@@ -690,7 +690,7 @@ def get_json():
             "fatherid": [69,154],
             "label": "神经机器翻译(NMT)",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://tse4-mm.cn.bing.net/th?id=OIP.XPWN_HT6wAZ7I7plgluohAHaEL&pid=15.1&P=0&w=287&h=163",
             "description": "神经机器翻译，Neural Machine Tranlation, 简称 NMT, 2014年开始兴起的机器翻译方法，逐渐应用卷积神经网络(CNN)，递归神经网络(RNN)，注意力机制等技术，2016年已基本全面取代传统的统计机器翻译(SMT)。Google，百度，搜狗等已上线神经机器翻译系统。",
             "description_en": ""
         },
@@ -838,7 +838,7 @@ def get_json():
             "fatherid": 67,
             "label": "降维（Dimensionality Reduction）",
             "label_en": "Dimensionality Reduction",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Lle_hlle_swissroll.png",
             "description": "在机器学习和统计学领域，降维是指在某些限定条件下，降低随机变量个数，得到一组“不相关”主变量的过程。降维可进一步细分为特征选择和特征提取两大方法。",
             "description_en": "In statistics, machine learning, and information theory, dimensionality reduction or dimension reduction is the process of reducing the number of random variables under consideration by obtaining a set of principal variables"
         },
@@ -928,7 +928,7 @@ def get_json():
             "fatherid": 67,
             "label": "深度学习（Deep Learning)",
             "label_en": "Deep Learning",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://ask.hellobi.com/uploads/article/20170316/0b84b2fef8c370a51a016b7298b65d95.png",
             "description": "深度学习（deep learning）是机器学习的分支，是一种试图使用包含复杂结构或由多重非线性变换构成的多个处理层对数据进行高层抽象的算法。深度学习是机器学习中一种基于对数据进行表征学习的算法。观测值（例如一幅图像）可以使用多种方式来表示，如每个像素强度值的向量，或者更抽象地表示成一系列边、特定形状的区域等。而使用某些特定的表示方法更容易从实例中学习任务（例如，人脸识别或面部表情识别）。深度学习的好处是用非监督式或半监督式的特征学习和分层特征提取高效算法来替代手工获取特征。",
             "description_en": "Deep learning (also known as deep structured learning or hierarchical learning) is part of a broader family of machine learning methods based on learning data representations, as opposed to task-specific algorithms. "
         },
@@ -1267,7 +1267,7 @@ def get_json():
             "fatherid": 133,
             "label": "智能医疗",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "http://awahid.net/wp-content/uploads/2015/05/healthcare.png",
             "description": "",
             "description_en": ""
         },
@@ -1405,7 +1405,7 @@ def get_json():
             "fatherid": 137,
             "label": "简繁转换",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Hanzi.svg/200px-Hanzi.svg.png",
             "description": "繁简转换，指繁体字与简体字的互相转换，实际使用时通常包括台湾、香港、澳门、中国大陆、新加坡、马来西亚地区所使用的标准中文之中不同字、词的相互转换。由于中国大陆对汉字简化并非全部采用“一对一”方式，有部分用字采用“一对多”[1]方式，因此准确的汉字转换相当困难。目前已经有相当多的专业人士正利用各种方法解决这个难题。",
             "description_en": ""
         },
