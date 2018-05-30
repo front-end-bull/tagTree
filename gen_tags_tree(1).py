@@ -856,11 +856,7 @@ def get_json():
             "fatherid": 89,
             "label": "因子分析（Factor Analysis）",
             "label_en": "Factor Analysis",
-<<<<<<< HEAD
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-=======
             "icon_url": "https://i.stack.imgur.com/JFtTa.png",
->>>>>>> d53334e130c39a2646420a5378e346297f81ae6d
             "description": "因子分析是一种统计学方法，用于描述观察到的相关变量之间的变异性，这些变量可能包含较少数量的未观察到的变量，称为因子。",
             "description_en": "Factor analysis is a statistical method used to describe variability among observed, correlated variables in terms of a potentially lower number of unobserved variables called factors."
         },
@@ -1122,7 +1118,6 @@ def get_json():
             "description": "提升方法（Boosting），是一种可以用来减小监督式学习中偏差的机器学习元算法。面对的问题是迈可·肯斯（Michael Kearns）提出的：[1]一组“弱学习者”的集合能否生成一个“强学习者”？弱学习者一般是指一个分类器，它的结果只比随机分类好一点点；强学习者指分类器的结果非常接近真值。",
             "description_en": "Boosting is a machine learning ensemble meta-algorithm for primarily reducing bias, and also variance in supervised learning, and a family of machine learning algorithms that convert weak learners to strong ones."
         },
-<<<<<<< HEAD
         # {
         #     "id": 120,
         #     "fatherid": 1,
@@ -1140,26 +1135,7 @@ def get_json():
         #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
         #     "description": "",
         #     "description_en": ""
-=======
-        {
-            "id": 120,
-            "fatherid": 1,
-            "label": "人机对战",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://chessprogramming.wikispaces.com/file/view/personal-robot-04-by-franz-steiner.jpg/508408800/personal-robot-04-by-franz-steiner.jpg",
-            "description": "人类与人工智能产品或应用对抗、比赛的活动或研究。",
-            "description_en": ""
-        },
-        {
-            "id": 121,
-            "fatherid": 120,
-            "label": "对弈人工智能",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
-            "description_en": ""
->>>>>>> d53334e130c39a2646420a5378e346297f81ae6d
-        },
+        # },
         {
             "id": 122,
             "fatherid": 121,
