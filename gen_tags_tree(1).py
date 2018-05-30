@@ -856,11 +856,7 @@ def get_json():
             "fatherid": 89,
             "label": "因子分析（Factor Analysis）",
             "label_en": "Factor Analysis",
-<<<<<<< HEAD
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-=======
             "icon_url": "https://i.stack.imgur.com/JFtTa.png",
->>>>>>> 52b041d114d0dbee60128332542f1d3735b1ca03
             "description": "因子分析是一种统计学方法，用于描述观察到的相关变量之间的变异性，这些变量可能包含较少数量的未观察到的变量，称为因子。",
             "description_en": "Factor analysis is a statistical method used to describe variability among observed, correlated variables in terms of a potentially lower number of unobserved variables called factors."
         },
@@ -1139,8 +1135,6 @@ def get_json():
         #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
         #     "description": "",
         #     "description_en": ""
-<<<<<<< HEAD
-=======
         # },
         {
             "id": 122,
@@ -1150,7 +1144,6 @@ def get_json():
             "icon_url": "http://upload.wikimedia.org/wikipedia/commons/8/80/Go_board_part.jpg",
             "description": "通过人工智能算法下五子棋/连珠。国际上每年都会有Gomocup让各类AI进行PK一决胜负。",
             "description_en": ""
->>>>>>> 52b041d114d0dbee60128332542f1d3735b1ca03
         },
         # {
         #     "id": 122,
@@ -1278,7 +1271,6 @@ def get_json():
             "description": "电子警察是一种利用自动化检测与测量技术捕获交通违法或交通事故，利用网络将采集的信息传回公安部门进行分析处理，并以此为证据对肇事者进行处罚，以减少事故发生、辅助交警工作的方法。与交警监管相比，电子警察对事故的判断更准确，捕捉更迅速，在黑夜、恶劣情况下仍能正常工作，而同时减少了交警的人力支出，但对仪器仪表的投入要求相对较高。目前常用的电子警察技术包括：电子眼、传感器、测速仪。",
             "description_en": ""
         },
-<<<<<<< HEAD
         # {
         #     "id": 136,
         #     "fatherid": 133,
@@ -1288,17 +1280,6 @@ def get_json():
         #     "description": "",
         #     "description_en": ""
         # },
-=======
-        {
-            "id": 136,
-            "fatherid": 133,
-            "label": "智能医疗",
-            "label_en": "Autonomous Driving",
-            "icon_url": "http://awahid.net/wp-content/uploads/2015/05/healthcare.png",
-            "description": "",
-            "description_en": ""
-        },
->>>>>>> 52b041d114d0dbee60128332542f1d3735b1ca03
         {
             "id": 137,
             "fatherid": 1,
