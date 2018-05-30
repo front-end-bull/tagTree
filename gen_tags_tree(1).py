@@ -4,7 +4,7 @@ def get_json():
             "id": 1,
             "label": "人工智能（Artificial Intelligence）",
             "label_en":"Artificial Intelligence",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "http://www.techminded.co/wp-content/uploads/2014/02/artificial-intelligence.jpg",
             "description": "人工智能（英语：Artificial Intelligence, AI）亦称机器智能，是指由人制造出来的机器所表现出来的智能。通常人工智能是指通过普通计算机程序的手段实现的人类智能技术。该词也指出研究这样的智能系统是否能够实现，以及如何实现的科学领域。",
             "description_en": "Artificial intelligence (AI, also machine intelligence, MI) is intelligence demonstrated by machines, in contrast to the natural intelligence (NI) displayed by humans and other animals."
         },
@@ -1423,7 +1423,7 @@ def get_json():
             "fatherid": 137,
             "label": "语义搜索",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://tse1-mm.cn.bing.net/th?id=OIP.OgmOsnyaIXICvKHzUC21zwHaHa&pid=15.1&P=0&w=300&h=300",
             "description": "语义检索，是为了生成更相关的结果，使用语义网络中的数据来帮助区分(disambiguation)查询和网页的内容，所进行的在线检索过程。Hildebrand et al.[1] 有一个对语义检索系统的全面回顾报告，并且说明了语义在检索过程中的相关使用情况。",
             "description_en": ""
         },
