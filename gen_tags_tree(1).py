@@ -123,19 +123,19 @@ def get_json():
             "description": "声学指纹（Acoustic fingerprint）是通过特定算法从音频信号中提取的一段数字摘要，用于识别声音样本或者快速定位音频数据库中的相似音频。音频压缩技术的进步以及大容量存储器的出现使得互联网上出现了以音乐为主的海量音频信息，手工选取某首歌曲很多时候已经变得不可能，这直接促使产生了可以进行音乐自动识别的数字音频指纹技术。",
             "description_en": "An acoustic fingerprint is a condensed digital summary, a fingerprint, deterministically generated from an audio signal, that can be used to identify an audio sample or quickly locate similar items in an audio database."
         },
-        {
-            "id": 14,
-            "fatherid": [
-                8,
-                67,
-                188
-            ],
-            "label": "图像识别（Image Recognition）",
-            "label_en": "Image Recognition",
-            "icon_url": "https://singularityhub.com/wp-content/uploads/2017/11/facial-recognition-illustration-scan-blue.jpg",
-            "description": "",
-            "description_en": ""
-        },
+        # {
+        #     "id": 14,
+        #     "fatherid": [
+        #         8,
+        #         67,
+        #         188
+        #     ],
+        #     "label": "图像识别（Image Recognition）",
+        #     "label_en": "Image Recognition",
+        #     "icon_url": "https://singularityhub.com/wp-content/uploads/2017/11/facial-recognition-illustration-scan-blue.jpg",
+        #     "description": "",
+        #     "description_en": ""
+        # },
         # {
         #     "id": 15,
         #     "fatherid": 14,
@@ -168,15 +168,15 @@ def get_json():
             "description": "生物识别技术（Biometrics，也称生物测定学），是指用数理统计方法对生物进行分析，现在多指对生物体（一般特指人）本身的生物特征来区分生物体个体的计算机技术。研究领域主要包括语音、脸、指纹、手掌纹、虹膜、视网膜、体形、个人习惯（例如敲击键盘的力度和频率、签字）等，相应的识别技术就有说话人识别、人脸识别、指纹识别、掌纹识别、虹膜识别、视网膜识别、体形识别、键盘敲击识别、签字识别等。",
             "description_en": ""
         },
-        {
-            "id": 18,
-            "fatherid": 17,
-            "label": "虹膜识别",
-            "label_en": "Autonomous Driving",
-            "icon_url": "http://biometricsecurity.wikispaces.com/file/view/IrisScan.jpg/119837635/280x210/IrisScan.jpg",
-            "description": "虹膜又称黄仁，眼睛构造的一部分，虹膜中心有一圆形开口，称为瞳孔，犹如相机当中可调整大小的光圈，内含色素决定眼睛的颜色。因为每个人的虹膜都是不同的，所以也用于身份辨识。",
-            "description_en": ""
-        },
+        # {
+        #     "id": 18,
+        #     "fatherid": 17,
+        #     "label": "虹膜识别",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "http://biometricsecurity.wikispaces.com/file/view/IrisScan.jpg/119837635/280x210/IrisScan.jpg",
+        #     "description": "虹膜又称黄仁，眼睛构造的一部分，虹膜中心有一圆形开口，称为瞳孔，犹如相机当中可调整大小的光圈，内含色素决定眼睛的颜色。因为每个人的虹膜都是不同的，所以也用于身份辨识。",
+        #     "description_en": ""
+        # },
         {
             "id": 19,
             "fatherid": 17,
@@ -429,15 +429,15 @@ def get_json():
         #     "description": "",
         #     "description_en": ""
         # },
-        {
-            "id": 46,
-            "fatherid": 1,
-            "label": "人工智能算法",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://tse4-mm.cn.bing.net/th?id=OIP.LddZS5V0DKu9KtTIsPGsSgHaHa&pid=15.1&P=0&w=300&h=300",
-            "description": "",
-            "description_en": ""
-        },
+        # {
+        #     "id": 46,
+        #     "fatherid": 1,
+        #     "label": "人工智能算法",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://tse4-mm.cn.bing.net/th?id=OIP.LddZS5V0DKu9KtTIsPGsSgHaHa&pid=15.1&P=0&w=300&h=300",
+        #     "description": "",
+        #     "description_en": ""
+        # },
         {
             "id": 47,
             "fatherid": 46,
@@ -688,11 +688,11 @@ def get_json():
         {
             "id": 73,
             "fatherid": [69,154],
-            "label": "神经机器翻译(NMT)",
-            "label_en": "Autonomous Driving",
+            "label": "神经机器翻译(Neural machine translation)",
+            "label_en": "NMT（Neural machine translation）",
             "icon_url": "https://tse4-mm.cn.bing.net/th?id=OIP.XPWN_HT6wAZ7I7plgluohAHaEL&pid=15.1&P=0&w=287&h=163",
             "description": "神经机器翻译，Neural Machine Tranlation, 简称 NMT, 2014年开始兴起的机器翻译方法，逐渐应用卷积神经网络(CNN)，递归神经网络(RNN)，注意力机制等技术，2016年已基本全面取代传统的统计机器翻译(SMT)。Google，百度，搜狗等已上线神经机器翻译系统。",
-            "description_en": ""
+            "description_en": "Neural machine translation (NMT) is an approach to machine translation that uses a large artificial neural network to predict the likelihood of a sequence of words, typically modeling entire sentences in a single integrated model."
         },
         {
             "id": 74,
@@ -921,7 +921,7 @@ def get_json():
             "label_en": "Semi-supervised Learning",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "在有标签数据+无标签数据混合成的训练数据中使用的机器学习算法，一般假设，无标签数据比有标签数据多，甚至多得多。半监督深度学习，深度学习需要用到大量有标签数据，即使在大数据时代，干净能用的有标签数据也是不多的，由此引发深度学习与半监督学习的结合。",
-            "description_en": ""
+            "description_en": "Semi-supervised learning is a class of supervised learning tasks and techniques that also make use of unlabeled data for training – typically a small amount of labeled data with a large amount of unlabeled data. "
         },
         {
             "id": 99,
@@ -1430,19 +1430,11 @@ def get_json():
         {
             "id": 153,
             "fatherid": 137,
-<<<<<<< HEAD
             "label": "语义搜索（Semantic search）",
             "label_en": "Semantic search",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "语义检索，是为了生成更相关的结果，使用语义网络中的数据来帮助区分(disambiguation)查询和网页的内容，所进行的在线检索过程。Hildebrand et al. 有一个对语义检索系统的全面回顾报告，并且说明了语义在检索过程中的相关使用情况。",
             "description_en": "Semantic search seeks to improve search accuracy by understanding the searcher's intent and the contextual meaning of terms as they appear in the searchable dataspace, whether on the Web or within a closed system, to generate more relevant results."
-=======
-            "label": "语义搜索",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://tse1-mm.cn.bing.net/th?id=OIP.OgmOsnyaIXICvKHzUC21zwHaHa&pid=15.1&P=0&w=300&h=300",
-            "description": "语义检索，是为了生成更相关的结果，使用语义网络中的数据来帮助区分(disambiguation)查询和网页的内容，所进行的在线检索过程。Hildebrand et al.[1] 有一个对语义检索系统的全面回顾报告，并且说明了语义在检索过程中的相关使用情况。",
-            "description_en": ""
->>>>>>> bde8f83ce27609f0578a5c86ba1a140b5a7f427a
         },
         {
             "id": 154,
