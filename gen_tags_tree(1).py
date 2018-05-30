@@ -793,7 +793,7 @@ def get_json():
             ],
             "label": "异常检测（Anomaly Detection）",
             "label_en": "Anomaly Detection",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://i.stack.imgur.com/CqrBo.png",
             "description": "在数据挖掘中，异常检测（英语：Anomaly Detection）对不匹配预期模式或数据集中其他项目的项目、事件或观测值的识别。通常异常项目会转变成银行欺诈、结构缺陷、医疗问题、文本错误等类型的问题。异常也被称为离群值、新奇、噪声、偏差和例外。",
             "description_en": ""
         },
@@ -811,7 +811,7 @@ def get_json():
             "fatherid": 85,
             "label": "SHA-1",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/SHA-1.svg/1200px-SHA-1.svg.png",
             "description": "SHA-1（英语：Secure Hash Algorithm 1，中文名：安全散列算法1）是一种密码散列函数，美国国家安全局设计，并由美国国家标准技术研究所（NIST）发布为联邦数据处理标准（FIPS）[2]。SHA-1可以生成一个被称为消息摘要的160位（20字节）散列值，散列值通常的呈现形式为40个十六进制数。SHA-1已经不再视为可抵御有充足资金、充足计算资源的攻击者。",
             "description_en": ""
         },
@@ -847,7 +847,7 @@ def get_json():
             "fatherid": 89,
             "label": "主成分分析（Principal Components Analysis，PCA）",
             "label_en": "Principal Components Analysis",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "http://phdthesis-bioinformatics-maxplanckinstitute-molecularplantphys.matthias-scholz.de/fig_pca_illu3d.png",
             "description": "在多元统计分析中，主成分分析（英语：Principal components analysis，PCA）是一种分析、简化数据集的技术。主成分分析经常用于减少数据集的维数，同时保持数据集中的对方差贡献最大的特征。这是通过保留低阶主成分，忽略高阶主成分做到的。这样低阶成分往往能够保留住数据的最重要方面。但是，这也不是一定的，要视具体应用而定。由于主成分分析依赖所给数据，所以数据的准确性对分析结果影响很大。",
             "description_en": ""
         },
@@ -856,7 +856,7 @@ def get_json():
             "fatherid": 89,
             "label": "因子分析（Factor Analysis）",
             "label_en": "Factor Analysis",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://i.stack.imgur.com/JFtTa.png",
             "description": "",
             "description_en": ""
         },
@@ -997,7 +997,7 @@ def get_json():
             ],
             "label": "SVM（支持向量机）",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://i.stack.imgur.com/zeRTm.png",
             "description": "在机器学习中，支持向量机（英语：support vector machine，常简称为SVM，又名支持向量网络[1]）是在分类与回归分析中分析数据的监督式学习模型与相关的学习算法。给定一组训练实例，每个训练实例被标记为属于两个类别中的一个或另一个，SVM训练算法创建一个将新的实例分配给两个类别之一的模型，使其成为非概率二元线性分类器。SVM模型是将实例表示为空间中的点，这样映射就使得单独类别的实例被尽可能宽的明显的间隔分开。然后，将新的实例映射到同一空间，并基于它们落在间隔的哪一侧来预测所属类别。",
             "description_en": ""
         },
@@ -1015,7 +1015,7 @@ def get_json():
             "fatherid": 105,
             "label": "回归分析（英语：Regression Analysis）",
             "label_en": "Regression Analysis",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "http://upload.wikimedia.org/wikipedia/en/1/13/Linear_regression.png",
             "description": "回归分析（英语：Regression Analysis）是一种统计学上分析数据的方法，目的在于了解两个或多个变量间是否相关、相关方向与强度，并建立数学模型以便观察特定变量来预测研究者感兴趣的变量。更具体的来说，回归分析可以帮助人们了解在只有一个自变量变化时因变量的变化量。一般来说，通过回归分析我们可以由给出的自变量估计因变量的条件期望。",
             "description_en": ""
         },
@@ -1051,7 +1051,7 @@ def get_json():
             "fatherid": 111,
             "label": "逻辑回归（Logistic regression）",
             "label_en": "Logistic regression",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Logistic-sigmoid-vs-scaled-probit.svg/1024px-Logistic-sigmoid-vs-scaled-probit.svg.png",
             "description": "逻辑回归（英语：Logistic regression 或logit regression），即逻辑模型（英语：Logit model，也译作“评定模型”、“分类评定模型”）是离散选择法模型之一，属于多重变量分析范畴，是社会学、生物统计学、临床、数量心理学、计量经济学、市场营销等统计实证分析的常用方法。",
             "description_en": ""
         },
@@ -1078,7 +1078,7 @@ def get_json():
             "fatherid": 108,
             "label": "线性回归（Linear regression）",
             "label_en": "Linear regression",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Linear-regression.svg/600px-Linear-regression.svg.png",
             "description": "在统计学中，线性回归（Linear regression）是利用称为线性回归方程的最小二乘函数对一个或多个自变量和因变量之间关系进行建模的一种回归分析。这种函数是一个或多个称为回归系数的模型参数的线性组合。只有一个自变量的情况称为简单回归，大于一个自变量情况的叫做多元回归。（这反过来又应当由多个相关的因变量预测的多元线性回归区别[来源请求]，而不是一个单一的标量变量。）",
             "description_en": ""
         },
@@ -1096,7 +1096,7 @@ def get_json():
             "fatherid": 116,
             "label": "聚类分析（Cluster analysis）",
             "label_en": "Cluster analysis",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "http://i.stack.imgur.com/e2UeU.png",
             "description": "聚类分析（英语：Cluster analysis，亦称为群集分析）是对于统计数据分析的一门技术，在许多领域受到广泛应用，包括机器学习，数据挖掘，模式识别，图像分析以及生物信息。聚类是把相似的对象通过静态分类的方法分成不同的组别或者更多的子集（subset），这样让在同一个子集中的成员对象都有相似的一些属性，常见的包括在坐标系中更加短的空间距离等。",
             "description_en": ""
         },
