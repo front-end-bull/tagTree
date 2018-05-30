@@ -568,8 +568,13 @@ def get_json():
             "id": 61,
             "fatherid": 47,
             "label": "PaddlePaddle",
+<<<<<<< HEAD
             "label_en": "PaddlePaddle",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+=======
+            "label_en": "Autonomous Driving",
+            "icon_url": "screenshot logo",
+>>>>>>> f50050b42e97b18c23ef9f43b74557ef9e01aa06
             "description": "百度开源的并行分布式全功能深度学习平台 <a href='http://www.paddlepaddle.org/' target=_blank></a>",
             "description_en": "Baidu's deep learning open source platform <a href='http://www.paddlepaddle.org/' target=_blank></a>"
         },
@@ -589,9 +594,15 @@ def get_json():
         {
             "id": 63,
             "fatherid": [62,123]
+<<<<<<< HEAD
             "label": "Leela Zero",
             "label_en": "Leela Zero",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+=======
+            "label": "Leela Zero（围棋AI）",
+            "label_en": "Autonomous Driving",
+            "icon_url": "http://n.sinaimg.cn/sinacn/20170305/4706-fycapec1624581.jpg",
+>>>>>>> f50050b42e97b18c23ef9f43b74557ef9e01aa06
             "description": "Leela 是一款免费围棋软件，稳定正式版为 0.11.0，最新开源版本为 Leela Zero。2017年11月作者 gcp 启动 Leela Zero 项目，以 AlphaGo Zero 和 AlphaZero 论文为基础编程，尝试复现 AlphaGo，并开源，采用分布式训练，受到全世界网友的协助。权重迭代与等级分增长曲线参见官网 Leela Zero。目前，Leela 已经是水平最高的家用围棋软件。",
             "description_en": "Leela Zero is a free and open-source computer Go software released on 25 October 2017."
         },
@@ -634,9 +645,15 @@ def get_json():
                 1,
                 46
             ],
+<<<<<<< HEAD
             "label": "机器学习（Machine Learning）",
             "label_en": "ML (Machine Learning)",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+=======
+            "label": "机器学习",
+            "label_en": "Autonomous Driving",
+            "icon_url": "https://whatsnext.nuance.com/wp-content/uploads/deep-machine-learning-metaphors-624x468.jpg",
+>>>>>>> f50050b42e97b18c23ef9f43b74557ef9e01aa06
             "description": "机器学习是人工智能的一个分支。人工智能的研究历史有着一条从以“推理”为重点，到以“知识”为重点，再到以“学习”为重点的自然、清晰的脉络。显然，机器学习是实现人工智能的一个途径，即以机器学习为手段解决人工智能中的问题。机器学习在近30多年已发展为一门多领域交叉学科，涉及概率论、统计学、逼近论、凸分析、计算复杂性理论等多门学科。机器学习理论主要是设计和分析一些让计算机可以自动“学习”的算法。机器学习算法是一类从数据中自动分析获得规律，并利用规律对未知数据进行预测的算法。因为学习算法中涉及了大量的统计学理论，机器学习与推断统计学联系尤为密切，也被称为统计学习理论。",
             "description_en": "Machine learning is a field of computer science that often uses statistical techniques to give computers the ability to "learn" (i.e., progressively improve performance on a specific task) with data, without being explicitly programmed."
         },
@@ -698,8 +715,13 @@ def get_json():
             "id": 74,
             "fatherid": [73,155],
             "label": "OpenNMT",
+<<<<<<< HEAD
             "label_en": "OpenNMT",
             "icon_url": "screenshot",
+=======
+            "label_en": "Autonomous Driving",
+            "icon_url": "screenshot logo",
+>>>>>>> f50050b42e97b18c23ef9f43b74557ef9e01aa06
             "description": "Open Source Neural Machine Translation in Torch. <a href='http://opennmt.net/' target=_blank></a>",
             "description_en": "Open Source Neural Machine Translation in Torch. <a href='http://opennmt.net/' target=_blank></a>"
         },
@@ -734,10 +756,17 @@ def get_json():
             "id": 78,
             "fatherid": 67,
             "label": "社会网络分析",
+<<<<<<< HEAD
             "label_en": "Social Network Analysis",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "社会网络分析方法是由社会学家根据数学方法、图论等发展起来的定量分析方法，该方法在职业流动、城市化对个体幸福的影响、世界政治和经济体系、国际贸易等领域广泛应用，并发挥了重要作用。",
             "description_en": "Social network analysis (SNA) is the process of investigating social structures through the use of networks and graph theory."
+=======
+            "label_en": "Autonomous Driving",
+            "icon_url": "http://upload.wikimedia.org/wikipedia/commons/d/dc/Social_Network.png",
+            "description": "社会网络（英语：Social network），是由许多节点以及节点间关系构成的一个网络结构。节点通常是指个人或组织（又称社团）。社会网络代表各种社会关系，经由这些社会关系，把从偶然相识的泛泛之交到紧密结合的家人关系的各种人们或组织串连起来。社会网络依赖于一种到多种关系而形成，如价值观、理想、观念、兴趣爱好、友谊、血缘关系、共同厌恶的事物、冲突或贸易。由此产生的网络结构往往是非常复杂的。社会网络分析是用来查看节点、链接之间的社会关系的分析方式。",
+            "description_en": ""
+>>>>>>> f50050b42e97b18c23ef9f43b74557ef9e01aa06
         },
         # {
         #     "id": 79,
@@ -753,7 +782,7 @@ def get_json():
             "fatherid": [67,163],
             "label": "决策树（Decision Tree）",
             "label_en": "Decision Tree",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://i.stack.imgur.com/daDkw.gif",
             "description": "决策论中 （如风险管理），决策树（Decision tree）由一个决策图和可能的结果（包括资源成本和风险）组成， 用来创建到达目标的规划。决策树建立并用来辅助决策，是一种特殊的树结构。决策树是一个利用像树一样的图形或决策模型的决策支持工具，包括随机事件结果，资源代价和实用性。它是一个算法显示的方法。决策树经常在运筹学中使用，特别是在决策分析中，它帮助确定一个能最可能达到目标的策略。如果在实际中，决策不得不在没有完备知识的情况下被在线采用，一个决策树应该平行概率模型作为最佳的选择模型或在线选择模型算法。决策树的另一个使用是作为计算条件概率的描述性手段。",
             "description_en": "A decision tree is a decision support tool that uses a tree-like graph or model of decisions and their possible consequences, including chance event outcomes, resource costs, and utility."
         },
@@ -793,27 +822,47 @@ def get_json():
             ],
             "label": "异常检测（Anomaly Detection）",
             "label_en": "Anomaly Detection",
+<<<<<<< HEAD
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "在数据挖掘中，异常检测（Anomaly Detection）对不匹配预期模式或数据集中其他项目的项目、事件或观测值的识别。通常异常项目会转变成银行欺诈、结构缺陷、医疗问题、文本错误等类型的问题。异常也被称为离群值、新奇、噪声、偏差和例外。",
             "description_en": "In data mining, anomaly detection (also outlier detection) is the identification of items, events or observations which do not conform to an expected pattern or other items in a dataset."
+=======
+            "icon_url": "https://i.stack.imgur.com/CqrBo.png",
+            "description": "在数据挖掘中，异常检测（英语：Anomaly Detection）对不匹配预期模式或数据集中其他项目的项目、事件或观测值的识别。通常异常项目会转变成银行欺诈、结构缺陷、医疗问题、文本错误等类型的问题。异常也被称为离群值、新奇、噪声、偏差和例外。",
+            "description_en": ""
+>>>>>>> f50050b42e97b18c23ef9f43b74557ef9e01aa06
         },
         {
             "id": 85,
             "fatherid": 84,
             "label": "哈希函数",
             "label_en": "Autonomous Driving",
+<<<<<<< HEAD
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "哈希函数（Hash function）又称散列算法、散列函数，是一种从任何一种数据中创建小的数字“指纹”的方法。散列函数把消息或数据压缩成摘要，使得数据量变小，将数据的格式固定下来。该函数将数据打乱混合，重新创建一个叫做散列值（hash values，hash codes，hash sums，或hashes）的指纹。散列值通常用一个短的随机字母和数字组成的字符串来代表。好的散列函数在输入域中很少出现散列冲突。在散列表和数据处理中，不抑制冲突来区别数据，会使得数据库记录更难找到。",
             "description_en": "A hash function is any function that can be used to map data of arbitrary size to data of fixed size. The values returned by a hash function are called hash values, hash codes, digests, or simply hashes."
+=======
+            "icon_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Hash_function.svg/520px-Hash_function.svg.png",
+            "description": "散列函数（英语：Hash function）又称散列算法、哈希函数，是一种从任何一种数据中创建小的数字“指纹”的方法。散列函数把消息或数据压缩成摘要，使得数据量变小，将数据的格式固定下来。该函数将数据打乱混合，重新创建一个叫做散列值（hash values，hash codes，hash sums，或hashes）的指纹。散列值通常用一个短的随机字母和数字组成的字符串来代表。好的散列函数在输入域中很少出现散列冲突。在散列表和数据处理中，不抑制冲突来区别数据，会使得数据库记录更难找到。",
+            "description_en": ""
+>>>>>>> f50050b42e97b18c23ef9f43b74557ef9e01aa06
         },
         {
             "id": 86,
             "fatherid": 85,
+<<<<<<< HEAD
             "label": "安全散列算法1（Secure Hash Algorithm 1）",
             "label_en": "Secure Hash Algorithm 1",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "SHA-1（Secure Hash Algorithm 1）是一种密码散列函数，美国国家安全局设计，并由美国国家标准技术研究所（NIST）发布为联邦数据处理标准（FIPS）[2]。SHA-1可以生成一个被称为消息摘要的160位（20字节）散列值，散列值通常的呈现形式为40个十六进制数。SHA-1已经不再视为可抵御有充足资金、充足计算资源的攻击者。",
             "description_en": "In cryptography, SHA-1 (Secure Hash Algorithm 1) is a cryptographic hash function which takes an input and produces a 160-bit (20-byte) hash value known as a message digest - typically rendered as a hexadecimal number, 40 digits long."
+=======
+            "label": "SHA-1",
+            "label_en": "Autonomous Driving",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/SHA-1.svg/1200px-SHA-1.svg.png",
+            "description": "SHA-1（英语：Secure Hash Algorithm 1，中文名：安全散列算法1）是一种密码散列函数，美国国家安全局设计，并由美国国家标准技术研究所（NIST）发布为联邦数据处理标准（FIPS）[2]。SHA-1可以生成一个被称为消息摘要的160位（20字节）散列值，散列值通常的呈现形式为40个十六进制数。SHA-1已经不再视为可抵御有充足资金、充足计算资源的攻击者。",
+            "description_en": ""
+>>>>>>> f50050b42e97b18c23ef9f43b74557ef9e01aa06
         },
         {
             "id": 87,
@@ -845,20 +894,34 @@ def get_json():
         {
             "id": 90,
             "fatherid": 89,
+<<<<<<< HEAD
             "label": "主成分分析（Principal Components Analysis）",
             "label_en": "PCA（Principal Components Analysis）",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "在多元统计分析中，主成分分析（Principal components analysis）是一种分析、简化数据集的技术。主成分分析经常用于减少数据集的维数，同时保持数据集中的对方差贡献最大的特征。这是通过保留低阶主成分，忽略高阶主成分做到的。这样低阶成分往往能够保留住数据的最重要方面。但是，这也不是一定的，要视具体应用而定。由于主成分分析依赖所给数据，所以数据的准确性对分析结果影响很大。",
             "description_en": "Principal component analysis (PCA) is a statistical procedure that uses an orthogonal transformation to convert a set of observations of possibly correlated variables into a set of values of linearly uncorrelated variables called principal components."
+=======
+            "label": "主成分分析（Principal Components Analysis，PCA）",
+            "label_en": "Principal Components Analysis",
+            "icon_url": "http://phdthesis-bioinformatics-maxplanckinstitute-molecularplantphys.matthias-scholz.de/fig_pca_illu3d.png",
+            "description": "在多元统计分析中，主成分分析（英语：Principal components analysis，PCA）是一种分析、简化数据集的技术。主成分分析经常用于减少数据集的维数，同时保持数据集中的对方差贡献最大的特征。这是通过保留低阶主成分，忽略高阶主成分做到的。这样低阶成分往往能够保留住数据的最重要方面。但是，这也不是一定的，要视具体应用而定。由于主成分分析依赖所给数据，所以数据的准确性对分析结果影响很大。",
+            "description_en": ""
+>>>>>>> f50050b42e97b18c23ef9f43b74557ef9e01aa06
         },
         {
             "id": 91,
             "fatherid": 89,
             "label": "因子分析（Factor Analysis）",
             "label_en": "Factor Analysis",
+<<<<<<< HEAD
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "因子分析是一种统计学方法，用于描述观察到的相关变量之间的变异性，这些变量可能包含较少数量的未观察到的变量，称为因子。",
             "description_en": "Factor analysis is a statistical method used to describe variability among observed, correlated variables in terms of a potentially lower number of unobserved variables called factors."
+=======
+            "icon_url": "https://i.stack.imgur.com/JFtTa.png",
+            "description": "",
+            "description_en": ""
+>>>>>>> f50050b42e97b18c23ef9f43b74557ef9e01aa06
         },
         {
             "id": 92,
@@ -997,7 +1060,7 @@ def get_json():
             ],
             "label": "SVM（支持向量机）",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://i.stack.imgur.com/zeRTm.png",
             "description": "在机器学习中，支持向量机（英语：support vector machine，常简称为SVM，又名支持向量网络[1]）是在分类与回归分析中分析数据的监督式学习模型与相关的学习算法。给定一组训练实例，每个训练实例被标记为属于两个类别中的一个或另一个，SVM训练算法创建一个将新的实例分配给两个类别之一的模型，使其成为非概率二元线性分类器。SVM模型是将实例表示为空间中的点，这样映射就使得单独类别的实例被尽可能宽的明显的间隔分开。然后，将新的实例映射到同一空间，并基于它们落在间隔的哪一侧来预测所属类别。",
             "description_en": ""
         },
@@ -1015,7 +1078,7 @@ def get_json():
             "fatherid": 105,
             "label": "回归分析（英语：Regression Analysis）",
             "label_en": "Regression Analysis",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "http://upload.wikimedia.org/wikipedia/en/1/13/Linear_regression.png",
             "description": "回归分析（英语：Regression Analysis）是一种统计学上分析数据的方法，目的在于了解两个或多个变量间是否相关、相关方向与强度，并建立数学模型以便观察特定变量来预测研究者感兴趣的变量。更具体的来说，回归分析可以帮助人们了解在只有一个自变量变化时因变量的变化量。一般来说，通过回归分析我们可以由给出的自变量估计因变量的条件期望。",
             "description_en": ""
         },
@@ -1051,7 +1114,7 @@ def get_json():
             "fatherid": 111,
             "label": "逻辑回归（Logistic regression）",
             "label_en": "Logistic regression",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Logistic-sigmoid-vs-scaled-probit.svg/1024px-Logistic-sigmoid-vs-scaled-probit.svg.png",
             "description": "逻辑回归（英语：Logistic regression 或logit regression），即逻辑模型（英语：Logit model，也译作“评定模型”、“分类评定模型”）是离散选择法模型之一，属于多重变量分析范畴，是社会学、生物统计学、临床、数量心理学、计量经济学、市场营销等统计实证分析的常用方法。",
             "description_en": ""
         },
@@ -1078,7 +1141,7 @@ def get_json():
             "fatherid": 108,
             "label": "线性回归（Linear regression）",
             "label_en": "Linear regression",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Linear-regression.svg/600px-Linear-regression.svg.png",
             "description": "在统计学中，线性回归（Linear regression）是利用称为线性回归方程的最小二乘函数对一个或多个自变量和因变量之间关系进行建模的一种回归分析。这种函数是一个或多个称为回归系数的模型参数的线性组合。只有一个自变量的情况称为简单回归，大于一个自变量情况的叫做多元回归。（这反过来又应当由多个相关的因变量预测的多元线性回归区别[来源请求]，而不是一个单一的标量变量。）",
             "description_en": ""
         },
@@ -1096,7 +1159,7 @@ def get_json():
             "fatherid": 116,
             "label": "聚类分析（Cluster analysis）",
             "label_en": "Cluster analysis",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "http://i.stack.imgur.com/e2UeU.png",
             "description": "聚类分析（英语：Cluster analysis，亦称为群集分析）是对于统计数据分析的一门技术，在许多领域受到广泛应用，包括机器学习，数据挖掘，模式识别，图像分析以及生物信息。聚类是把相似的对象通过静态分类的方法分成不同的组别或者更多的子集（subset），这样让在同一个子集中的成员对象都有相似的一些属性，常见的包括在坐标系中更加短的空间距离等。",
             "description_en": ""
         },
@@ -1141,7 +1204,7 @@ def get_json():
             "fatherid": 121,
             "label": "五子棋AI",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "http://upload.wikimedia.org/wikipedia/commons/8/80/Go_board_part.jpg",
             "description": "通过人工智能算法下五子棋/连珠。国际上每年都会有Gomocup让各类AI进行PK一决胜负。",
             "description_en": ""
         },
@@ -1177,7 +1240,7 @@ def get_json():
             "fatherid": 120,
             "label": "图灵测试（Turing test）",
             "label_en": "Turing test",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://62e528761d0685343e1c-f3d1b99a743ffa4142d9d7f1978d9686.ssl.cf2.rackcdn.com/files/50549/width668/r6zbqvs2-1402296443.jpg",
             "description": "图灵测试（英语：Turing test，又译图灵试验）是图灵于1950年提出的一个关于判断机器是否能够思考的著名试验，测试某机器是否能表现出与人等价或无法区分的智能。测试的谈话仅限于使用唯一的文本管道，例如计算机键盘和屏幕，这样的结果是不依赖于计算机把单词转换为音频的能力。",
             "description_en": ""
         },
@@ -1195,7 +1258,7 @@ def get_json():
             "fatherid": 126,
             "label": "验证码",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://www.urlteam.org/wp-content/uploads/2017/03/QQ20170315-101521@2x.png",
             "description": "全自动区分计算机和人类的公开图灵测试（英语：Completely Automated Public Turing test to tell Computers and Humans Apart，简称CAPTCHA），俗称验证码，是一种区分用户是计算机或人的公共全自动程序。在CAPTCHA测试中，作为服务器的计算机会自动生成一个问题由用户来解答。这个问题可以由计算机生成并评判，但是必须只有人类才能解答。由于计算机无法解答CAPTCHA的问题，所以回答出问题的用户就可以被认为是人类。",
             "description_en": ""
         },
@@ -1213,7 +1276,7 @@ def get_json():
             "fatherid": 129,
             "label": "reCAPTCHA",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/RecaptchaLogo.svg/1200px-RecaptchaLogo.svg.png",
             "description": "reCAPTCHA项目是由卡内基梅隆大学所发展的系统，主要目的是利用CAPTCHA技术来帮助典籍数字化的进行，这个项目将由书本扫描下来无法准确的被光学文字辨识技术（OCR, Optical Character Recognition）识别的文字显示在CAPTCHA问题中，让人类在回答CAPTCHA问题时用人脑加以识别[1]。reCAPTCHA正数字化《纽约时报》（New York Times）的扫描存档[2]，目前已经完成20年份的数据，并希望在2010年完成110年份的数据。2009年9月17日，Google宣布收购reCAPTCHA",
             "description_en": ""
         },
@@ -1240,7 +1303,7 @@ def get_json():
             "fatherid": 1,
             "label": "智慧城市",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Smart_City.jpg/1200px-Smart_City.jpg",
             "description": "智慧城市（英语：Smart City）是指利用各种信息技术或创新意念，集成城市的组成系统和服务，以提升资源运用的效率，优化城市管理和服务，以及改善市民生活质素。智慧城市把新一代信息技术充分运用在城市的各行各业之中的基于知识社会下一代创新（创新2.0）的城市信息化高级形态，实现信息化、工业化与城镇化深度融合，有助于缓解“大城市病”，提高城镇化质量，实现精细化和动态管理，并提升城市管理成效和改善市民生活质素。",
             "description_en": ""
         },
@@ -1249,7 +1312,7 @@ def get_json():
             "fatherid": 133,
             "label": "智能交通",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/ERPBugis.JPG",
             "description": "智能运输系统（英文：Intelligent Transport System、Intelligent Transportation System，缩写：ITS，又名：智能交通系统）是将先进的信息技术、通讯技术、传感技术、控制技术及计算机技术等有效率地集成运用于整个交通运输管理体系，而建立起的一种在大范围内及全方位发挥作用的，实时、准确及高效率的综合的运输和管理系统。美国、日本、欧洲率先展开相应的研究并成为ITS发展的三强，此外加拿大、中国、韩国、新加坡、澳大利亚、香港等国家的研究也具有相当规模。",
             "description_en": ""
         },
@@ -1258,7 +1321,7 @@ def get_json():
             "fatherid": 134,
             "label": "电子警察",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "http://fallschurchtimes.com/wp-content/uploads/2009/01/red-light-camera.gif",
             "description": "电子警察是一种利用自动化检测与测量技术捕获交通违法或交通事故，利用网络将采集的信息传回公安部门进行分析处理，并以此为证据对肇事者进行处罚，以减少事故发生、辅助交警工作的方法。与交警监管相比，电子警察对事故的判断更准确，捕捉更迅速，在黑夜、恶劣情况下仍能正常工作，而同时减少了交警的人力支出，但对仪器仪表的投入要求相对较高。目前常用的电子警察技术包括：电子眼、传感器、测速仪。",
             "description_en": ""
         },
@@ -1276,7 +1339,7 @@ def get_json():
             "fatherid": 1,
             "label": "自然语言处理(NLP)",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://mchromiak.github.io/articles/2017/Nov/30/img/nlp-cover.pngq",
             "description": "自然语言处理（英语：natural language processing，缩写作 NLP）是人工智能和语言学领域的分支学科。此领域探讨如何处理及运用自然语言；自然语言认知则是指让电脑“懂”人类的语言。自然语言生成系统把计算机数据转化为自然语言。自然语言理解系统把自然语言转化为计算机程序更易于处理的形式。",
             "description_en": ""
         },
@@ -1339,7 +1402,7 @@ def get_json():
             "fatherid": 143,
             "label": "Sphinx(检索引擎）",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "http://en.wikipedia.org/wiki/Special:FilePath/Sphinx_search_logo.jpg",
             "description": "<a href='http://sphinxsearch.com' target=_blank></a>",
             "description_en": ""
         },
@@ -1432,7 +1495,7 @@ def get_json():
             "fatherid": 137,
             "label": "机器翻译",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Translation_Latin_Alphabet.svg/1280px-Translation_Latin_Alphabet.svg.png",
             "description": "机器翻译（英语：Machine Translation，经常简写为MT，俗称机翻）属于计算语言学的范畴，其研究借由计算机程序将文字或演说从一种自然语言翻译成另一种自然语言。简单来说，机器翻译是通过将一个自然语言的字辞取代成另一个自然语言的字辞。借由使用语料库的技术，可达成更加复杂的自动翻译，包含可更佳的处理不同的文法结构、辞汇辨识、惯用语的对应等。",
             "description_en": ""
         },
@@ -1603,7 +1666,7 @@ def get_json():
             "fatherid": 163,
             "label": "数据科学",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/2/20/DataScienceLogo.png",
             "description": "数据科学（英语：Data Science），又称资料科学，是一门利用数据学习知识的学科，其目标是通过从数据中提取出有价值的部分来生产数据产品[1]。它结合了诸多领域中的理论和技术，包括应用数学，统计，模式识别，机器学习，数据可视化，数据仓库，以及高性能计算。数据科学通过运用各种相关的数据来帮助非专业人士理解问题。 数据科学技术可以帮助我们如何正确的处理数据并协助我们在生物，社会科学，人类学等领域进行研究调研。此外，数据科学也对商业竞争有极大的帮助[2]。",
             "description_en": ""
         },
@@ -1612,7 +1675,7 @@ def get_json():
             "fatherid": 1,
             "label": "机器人（Robot）",
             "label_en": "Robot",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "http://gadgetynews.com/wp-content/uploads/2016/07/ubtech-alpha-1s-kick.jpg",
             "description": "机器人（Robot）包括一切模拟人类行为或思想与模拟其他生物的机械（如机器狗，机器猫等）。狭义上对机器人的定义还有很多分类法及争议，有些电脑程序甚至也被称为机器人。在当代工业中，机器人指能自动运行任务的人造机器设备，用以取代或协助人类工作，一般会是机电设备，由计算机程序或是电子电路控制。",
             "description_en": ""
         },
@@ -1720,7 +1783,7 @@ def get_json():
             "fatherid": 1,
             "label": "人工智能产品",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://cdn.80000hours.org/wp-content/uploads/2017/06/18-ai-researchers-reveal-the-most-impressive-thing-theyve-ever-seen-e1497407330475.png",
             "description": "",
             "description_en": ""
         },
@@ -1729,7 +1792,7 @@ def get_json():
             "fatherid": 1,
             "label": "人工智能公司",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://tse2-mm.cn.bing.net/th?id=OIP.ZDSXlAL5daSgmOpaZ2WE3AAAAA&pid=15.1&P=0&w=232&h=175",
             "description": "",
             "description_en": ""
         },
@@ -1756,7 +1819,7 @@ def get_json():
             "fatherid": 188,
             "label": "OpenCV",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/OpenCV_Logo_with_text_svg_version.svg/1200px-OpenCV_Logo_with_text_svg_version.svg.png",
             "description": "OpenCV的全称是Open Source Computer Vision Library，是一个跨平台的计算机视觉库。OpenCV是由英特尔公司发起并参与开发，以BSD许可证授权发行，可以在商业和研究领域中免费使用。OpenCV可用于开发实时的图像处理、计算机视觉以及模式识别程序。该程序库也可以使用英特尔公司的IPP进行加速处理。",
             "description_en": ""
         },
@@ -1792,7 +1855,7 @@ def get_json():
             "fatherid": 188,
             "label": "增强现实（AR）",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Augmented-reality.jpg/800px-Augmented-reality.jpg",
             "description": "增强现实（Augmented Reality，简称 AR），是一种实时地计算摄影机影像的位置及角度并加上相应图像的技术，这种技术的目标是在屏幕上把虚拟世界套在现实世界并进行互动。",
             "description_en": ""
         },
@@ -1876,7 +1939,7 @@ def get_json():
             "fatherid": 188,
             "label": "AR游戏",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/en/2/22/Desjardins_AR_Augmented_Reality_Game%2C_March_2013.png",
             "description": "",
             "description_en": ""
         },
