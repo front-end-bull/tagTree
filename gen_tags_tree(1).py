@@ -559,19 +559,19 @@ def get_json():
             "id": 60,
             "fatherid": 58,
             "label": "TPU（Tensor Processing Unit）",
-            "label_en": "Autonomous Driving",
+            "label_en": "Tensor Processing Unit",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "PU 是 Google 为了 TensorFlow 机器学习框架专门设计的 ASIC 芯片，其第二代为 Cloud TPU",
-            "description_en": ""
+            "description": "TPU 是 Google 为了 TensorFlow 机器学习框架专门设计的 ASIC 芯片，其第二代为 Cloud TPU",
+            "description_en": "A tensor processing unit (TPU) is an AI accelerator application-specific integrated circuit (ASIC) developed by Google specifically for neural network machine learning."
         },
         {
             "id": 61,
             "fatherid": 47,
             "label": "PaddlePaddle",
-            "label_en": "Autonomous Driving",
+            "label_en": "PaddlePaddle",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "百度开源的并行分布式全功能深度学习平台 <a href='http://www.paddlepaddle.org/' target=_blank></a>",
-            "description_en": ""
+            "description_en": "Baidu's deep learning open source platform <a href='http://www.paddlepaddle.org/' target=_blank></a>"
         },
         {
             "id": 62,
@@ -581,19 +581,19 @@ def get_json():
                 121
             ],
             "label": "AlphaZero",
-            "label_en": "Autonomous Driving",
+            "label_en": "AlphaZero",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "AlphaZero 从零开始自学任何棋类游戏，算法适用于所有图版游戏（Board Game）<br> AlphaGo Zero 从零开始自学围棋",
-            "description_en": ""
+            "description_en": "AlphaZero is a computer program developed by the Alphabet-owned AI research company DeepMind."
         },
         {
             "id": 63,
             "fatherid": [62,123]
-            "label": "Leela Zero（围棋AI）",
-            "label_en": "Autonomous Driving",
+            "label": "Leela Zero",
+            "label_en": "Leela Zero",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "Leela 是一款免费围棋软件，稳定正式版为 0.11.0，最新开源版本为 Leela Zero。2017年11月作者 gcp 启动 Leela Zero 项目，以 AlphaGo Zero 和 AlphaZero 论文为基础编程，尝试复现 AlphaGo，并开源，采用分布式训练，受到全世界网友的协助。权重迭代与等级分增长曲线参见官网 Leela Zero。目前，Leela 已经是水平最高的家用围棋软件。",
-            "description_en": ""
+            "description_en": "Leela Zero is a free and open-source computer Go software released on 25 October 2017."
         },
         # {
         #     "id": 64,
@@ -611,43 +611,43 @@ def get_json():
                 67
             ],
             "label": "强化学习（Reinforcement Learning）",
-            "label_en": "Autonomous Driving",
+            "label_en": "Reinforcement Learning",
             "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Rl_agent.png/369px-Rl_agent.png",
             "description": "强化学习（英语：Reinforcement learning，简称RL）是机器学习中的一个领域，强调如何基于环境而行动，以取得最大化的预期利益。其灵感来源于心理学中的行为主义理论，即有机体如何在环境给予的奖励或惩罚的刺激下，逐步形成对刺激的预期，产生能获得最大利益的习惯性行为。",
-            "description_en": ""
+            "description_en": "Reinforcement learning (RL) is an area of machine learning inspired by behaviourist psychology, concerned with how software agents ought to take actions in an environment so as to maximize some notion of cumulative reward."
         },
-        {
-            "id": 66,
-            "fatherid": [
-                46,
-                67
-            ],
-            "label": "迁移学习（Transfer Learning）",
-            "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
-            "description_en": ""
-        },
+        # {
+        #     "id": 66,
+        #     "fatherid": [
+        #         46,
+        #         67
+        #     ],
+        #     "label": "迁移学习（Transfer Learning）",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+        #     "description": "",
+        #     "description_en": ""
+        # },
         {
             "id": 67,
             "fatherid": [
                 1,
                 46
             ],
-            "label": "机器学习",
-            "label_en": "Autonomous Driving",
+            "label": "机器学习（Machine Learning）",
+            "label_en": "ML (Machine Learning)",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "机器学习是人工智能的一个分支。人工智能的研究历史有着一条从以“推理”为重点，到以“知识”为重点，再到以“学习”为重点的自然、清晰的脉络。显然，机器学习是实现人工智能的一个途径，即以机器学习为手段解决人工智能中的问题。机器学习在近30多年已发展为一门多领域交叉学科，涉及概率论、统计学、逼近论、凸分析、计算复杂性理论等多门学科。机器学习理论主要是设计和分析一些让计算机可以自动“学习”的算法。机器学习算法是一类从数据中自动分析获得规律，并利用规律对未知数据进行预测的算法。因为学习算法中涉及了大量的统计学理论，机器学习与推断统计学联系尤为密切，也被称为统计学习理论。",
-            "description_en": ""
+            "description_en": "Machine learning is a field of computer science that often uses statistical techniques to give computers the ability to "learn" (i.e., progressively improve performance on a specific task) with data, without being explicitly programmed."
         },
         {
             "id": 68,
             "fatherid": 67,
             "label": "人工神经网络（Artificial Neural Network）",
-            "label_en": "Autonomous Driving",
+            "label_en": "ANN (Artificial Neural Network)",
             "icon_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Single-layer_feedforward_artificial_neural_network.png",
             "description": "人工神经网络（英语：Artificial Neural Network，ANN），简称神经网络（Neural Network，NN）或类神经网络，在机器学习和认知科学领域，是一种模仿生物神经网络（动物的中枢神经系统，特别是大脑）的结构和功能的数学模型或计算模型，用于对函数进行估计或近似。神经网络由大量的人工神经元联结进行计算。大多数情况下人工神经网络能在外界信息的基础上改变内部结构，是一种自适应系统。",
-            "description_en": ""
+            "description_en": "Artificial neural networks (ANNs) or connectionist systems are computing systems vaguely inspired by the biological neural networks that constitute animal brains."
         },
         # {
         #     "id": 69,
@@ -665,16 +665,16 @@ def get_json():
             "label_en": "Keras",
             "icon_url": "https://keras.io/img/keras-logo-small-2018.jpg",
             "description": "The Python Deep Learning library. <a href='http://keras.io/' target=_blank></a>",
-            "description_en": ""
+            "description_en": "The Python Deep Learning library. <a href='http://keras.io/' target=_blank></a>"
         },
         {
             "id": 71,
             "fatherid": 69,
             "label": "生成对抗网络（GAN）",
-            "label_en": "Autonomous Driving",
+            "label_en": "GAN (Generative Adversarial Network)",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "生成对抗网络（英语：Generative Adversarial Network，简称GAN）是非监督式学习的一种方法，通过让两个神经网络相互博弈的方式进行学习。该方法由伊恩·古德费洛等人于2014年提出。生成对抗网络由一个生成网络与一个判别网络组成。生成网络从潜在空间（latent space）中随机采样作为输入，其输出结果需要尽量模仿训练集中的真实样本。判别网络的输入则为真实样本或生成网络的输出，其目的是将生成网络的输出从真实样本中尽可能分辨出来。而生成网络则要尽可能地欺骗判别网络。两个网络相互对抗、不断调整参数，最终目的是使判别网络无法判断生成网络的输出结果是否真实。生成对抗网络常用于生成以假乱真的图片。此外，该方法还被用于生成视频、三维物体模型等。",
-            "description_en": ""
+            "description": "生成对抗网络（Generative Adversarial Network，GAN）是非监督式学习的一种方法，通过让两个神经网络相互博弈的方式进行学习。该方法由伊恩·古德费洛等人于2014年提出。生成对抗网络由一个生成网络与一个判别网络组成。生成网络从潜在空间（latent space）中随机采样作为输入，其输出结果需要尽量模仿训练集中的真实样本。判别网络的输入则为真实样本或生成网络的输出，其目的是将生成网络的输出从真实样本中尽可能分辨出来。而生成网络则要尽可能地欺骗判别网络。两个网络相互对抗、不断调整参数，最终目的是使判别网络无法判断生成网络的输出结果是否真实。生成对抗网络常用于生成以假乱真的图片。此外，该方法还被用于生成视频、三维物体模型等。",
+            "description_en": "Generative adversarial networks (GANs) are a class of artificial intelligence algorithms used in unsupervised machine learning, implemented by a system of two neural networks contesting with each other in a zero-sum game framework."
         },
         # {
         #     "id": 72,
@@ -698,10 +698,10 @@ def get_json():
             "id": 74,
             "fatherid": [73,155],
             "label": "OpenNMT",
-            "label_en": "Autonomous Driving",
+            "label_en": "OpenNMT",
             "icon_url": "screenshot",
             "description": "Open Source Neural Machine Translation in Torch. <a href='http://opennmt.net/' target=_blank></a>",
-            "description_en": ""
+            "description_en": "Open Source Neural Machine Translation in Torch. <a href='http://opennmt.net/' target=_blank></a>"
         },
         {
             "id": 75,
@@ -710,7 +710,7 @@ def get_json():
             "label_en": "Ensemble Learning",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "集成学习是使用一系列学习器进行学习，并使用某种规则把各个学习结果进行整合从而获得比单个学习器更好的学习效果的一种机器学习方法。比较常见的集成学习方法有随机森林等。",
-            "description_en": ""
+            "description_en": "In statistics and machine learning, ensemble methods use multiple learning algorithms to obtain better predictive performance that could be obtained from any of the constituent learning algorithms alone."
         },
         # {
         #     "id": 76,
@@ -728,16 +728,16 @@ def get_json():
             "label_en": "Expectation Maximization Algorithm",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "在统计计算中，最大期望（EM）算法是在概率模型中寻找参数最大似然估计或者最大后验估计的算法，其中概率模型依赖于无法观测的隐性变量。最大期望算法经常用在机器学习和计算机视觉的数据聚类（Data Clustering）领域。最大期望算法经过两个步骤交替进行计算，第一步是计算期望（E），利用对隐藏变量的现有估计值，计算其最大似然估计值；第二步是最大化（M），最大化在E步上求得的最大似然值来计算参数的值。M步上找到的参数估计值被用于下一个E步计算中，这个过程不断交替进行。",
-            "description_en": ""
+            "description_en": "In statistics, an expectation–maximization (EM) algorithm is an iterative method to find maximum likelihood or maximum a posteriori (MAP) estimates of parameters in statistical models, where the model depends on unobserved latent variables. "
         },
         {
             "id": 78,
             "fatherid": 67,
             "label": "社会网络分析",
-            "label_en": "Autonomous Driving",
+            "label_en": "Social Network Analysis",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "社会网络（英语：Social network），是由许多节点以及节点间关系构成的一个网络结构。节点通常是指个人或组织（又称社团）。社会网络代表各种社会关系，经由这些社会关系，把从偶然相识的泛泛之交到紧密结合的家人关系的各种人们或组织串连起来。社会网络依赖于一种到多种关系而形成，如价值观、理想、观念、兴趣爱好、友谊、血缘关系、共同厌恶的事物、冲突或贸易。由此产生的网络结构往往是非常复杂的。社会网络分析是用来查看节点、链接之间的社会关系的分析方式。",
-            "description_en": ""
+            "description": "社会网络分析方法是由社会学家根据数学方法、图论等发展起来的定量分析方法，该方法在职业流动、城市化对个体幸福的影响、世界政治和经济体系、国际贸易等领域广泛应用，并发挥了重要作用。",
+            "description_en": "Social network analysis (SNA) is the process of investigating social structures through the use of networks and graph theory."
         },
         # {
         #     "id": 79,
@@ -755,7 +755,7 @@ def get_json():
             "label_en": "Decision Tree",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "决策论中 （如风险管理），决策树（Decision tree）由一个决策图和可能的结果（包括资源成本和风险）组成， 用来创建到达目标的规划。决策树建立并用来辅助决策，是一种特殊的树结构。决策树是一个利用像树一样的图形或决策模型的决策支持工具，包括随机事件结果，资源代价和实用性。它是一个算法显示的方法。决策树经常在运筹学中使用，特别是在决策分析中，它帮助确定一个能最可能达到目标的策略。如果在实际中，决策不得不在没有完备知识的情况下被在线采用，一个决策树应该平行概率模型作为最佳的选择模型或在线选择模型算法。决策树的另一个使用是作为计算条件概率的描述性手段。",
-            "description_en": ""
+            "description_en": "A decision tree is a decision support tool that uses a tree-like graph or model of decisions and their possible consequences, including chance event outcomes, resource costs, and utility."
         },
         # {
         #     "id": 81,
@@ -769,20 +769,20 @@ def get_json():
         {
             "id": 82,
             "fatherid": 67,
-            "label": "贝叶斯统计",
-            "label_en": "Autonomous Driving",
+            "label": "贝叶斯定理（Bayes' theorem）",
+            "label_en": "Bayes' theorem",
             "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Bayes_theorem_drugs_example_tree.svg/1280px-Bayes_theorem_drugs_example_tree.svg.png",
-            "description": "贝叶斯定理（英语：Bayes' theorem）是概率论中的一个定理，它跟随机变量的条件概率以及边缘概率分布有关。在有些关于概率的解释中，贝叶斯定理（贝叶斯公式）能够告知我们如何利用新证据修改已有的看法。这个名称来自于托马斯·贝叶斯。",
-            "description_en": ""
+            "description": "贝叶斯定理（Bayes' theorem）是概率论中的一个定理，它跟随机变量的条件概率以及边缘概率分布有关。在有些关于概率的解释中，贝叶斯定理（贝叶斯公式）能够告知我们如何利用新证据修改已有的看法。这个名称来自于托马斯·贝叶斯。",
+            "description_en": "In probability theory and statistics, Bayes’ theorem (alternatively Bayes’ law or Bayes' rule, also written as Bayes’s theorem) describes the probability of an event, based on prior knowledge of conditions that might be related to the event."
         },
         {
             "id": 83,
             "fatherid": [67,82,108]
-            "label": "高斯过程机器学习",
-            "label_en": "Autonomous Driving",
+            "label": "高斯过程（Gaussian process）",
+            "label_en": "Gaussian process",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "高斯过程是基于统计学习理论和贝叶斯理论发展起来的一种机器学习方法，适于处理高维度、小样本和非线性等复杂回归问题，且泛化能力强，与神经网络、支持向量机相比，GP具有容易实现、超参数自适应获取、非参数推断灵活以及输出具有概率意义等优点。",
-            "description_en": ""
+            "description_en": "In probability theory and statistics, a Gaussian process is a stochastic process (a collection of random variables indexed by time or space), such that every finite collection of those random variables has a multivariate normal distribution, i.e. every finite linear combination of them is normally distributed."
         },
         {
             "id": 84,
@@ -794,8 +794,8 @@ def get_json():
             "label": "异常检测（Anomaly Detection）",
             "label_en": "Anomaly Detection",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "在数据挖掘中，异常检测（英语：Anomaly Detection）对不匹配预期模式或数据集中其他项目的项目、事件或观测值的识别。通常异常项目会转变成银行欺诈、结构缺陷、医疗问题、文本错误等类型的问题。异常也被称为离群值、新奇、噪声、偏差和例外。",
-            "description_en": ""
+            "description": "在数据挖掘中，异常检测（Anomaly Detection）对不匹配预期模式或数据集中其他项目的项目、事件或观测值的识别。通常异常项目会转变成银行欺诈、结构缺陷、医疗问题、文本错误等类型的问题。异常也被称为离群值、新奇、噪声、偏差和例外。",
+            "description_en": "In data mining, anomaly detection (also outlier detection) is the identification of items, events or observations which do not conform to an expected pattern or other items in a dataset."
         },
         {
             "id": 85,
@@ -803,53 +803,53 @@ def get_json():
             "label": "哈希函数",
             "label_en": "Autonomous Driving",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "散列函数（英语：Hash function）又称散列算法、哈希函数，是一种从任何一种数据中创建小的数字“指纹”的方法。散列函数把消息或数据压缩成摘要，使得数据量变小，将数据的格式固定下来。该函数将数据打乱混合，重新创建一个叫做散列值（hash values，hash codes，hash sums，或hashes）的指纹。散列值通常用一个短的随机字母和数字组成的字符串来代表。好的散列函数在输入域中很少出现散列冲突。在散列表和数据处理中，不抑制冲突来区别数据，会使得数据库记录更难找到。",
-            "description_en": ""
+            "description": "哈希函数（Hash function）又称散列算法、散列函数，是一种从任何一种数据中创建小的数字“指纹”的方法。散列函数把消息或数据压缩成摘要，使得数据量变小，将数据的格式固定下来。该函数将数据打乱混合，重新创建一个叫做散列值（hash values，hash codes，hash sums，或hashes）的指纹。散列值通常用一个短的随机字母和数字组成的字符串来代表。好的散列函数在输入域中很少出现散列冲突。在散列表和数据处理中，不抑制冲突来区别数据，会使得数据库记录更难找到。",
+            "description_en": "A hash function is any function that can be used to map data of arbitrary size to data of fixed size. The values returned by a hash function are called hash values, hash codes, digests, or simply hashes."
         },
         {
             "id": 86,
             "fatherid": 85,
-            "label": "SHA-1",
-            "label_en": "Autonomous Driving",
+            "label": "安全散列算法1（Secure Hash Algorithm 1）",
+            "label_en": "Secure Hash Algorithm 1",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "SHA-1（英语：Secure Hash Algorithm 1，中文名：安全散列算法1）是一种密码散列函数，美国国家安全局设计，并由美国国家标准技术研究所（NIST）发布为联邦数据处理标准（FIPS）[2]。SHA-1可以生成一个被称为消息摘要的160位（20字节）散列值，散列值通常的呈现形式为40个十六进制数。SHA-1已经不再视为可抵御有充足资金、充足计算资源的攻击者。",
-            "description_en": ""
+            "description": "SHA-1（Secure Hash Algorithm 1）是一种密码散列函数，美国国家安全局设计，并由美国国家标准技术研究所（NIST）发布为联邦数据处理标准（FIPS）[2]。SHA-1可以生成一个被称为消息摘要的160位（20字节）散列值，散列值通常的呈现形式为40个十六进制数。SHA-1已经不再视为可抵御有充足资金、充足计算资源的攻击者。",
+            "description_en": "In cryptography, SHA-1 (Secure Hash Algorithm 1) is a cryptographic hash function which takes an input and produces a 160-bit (20-byte) hash value known as a message digest - typically rendered as a hexadecimal number, 40 digits long."
         },
         {
             "id": 87,
             "fatherid": 85,
-            "label": "MD5",
-            "label_en": "Autonomous Driving",
+            "label": "MD5消息摘要算法（MD5 Message-Digest Algorithm）",
+            "label_en": "MD5 Message-Digest Algorithm",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "MD5消息摘要算法（英语：MD5 Message-Digest Algorithm），一种被广泛使用的密码散列函数，可以产生出一个128位（16字节）的散列值（hash value），用于确保信息传输完整一致。MD5由美国密码学家罗纳德·李维斯特（Ronald Linn Rivest）设计，于1992年公开，用以取代MD4算法。这套算法的程序在 RFC 1321 中被加以规范。将数据（如一段文字）运算变为另一固定长度值，是散列算法的基础原理。",
-            "description_en": ""
+            "description": "MD5消息摘要算法（MD5 Message-Digest Algorithm），一种被广泛使用的密码散列函数，可以产生出一个128位（16字节）的散列值（hash value），用于确保信息传输完整一致。MD5由美国密码学家罗纳德·李维斯特（Ronald Linn Rivest）设计，于1992年公开，用以取代MD4算法。这套算法的程序在 RFC 1321 中被加以规范。将数据（如一段文字）运算变为另一固定长度值，是散列算法的基础原理。",
+            "description_en": "The MD5 algorithm is a widely used hash function producing a 128-bit hash value. Although MD5 was initially designed to be used as a cryptographic hash function, it has been found to suffer from extensive vulnerabilities."
         },
         {
             "id": 88,
             "fatherid": 67,
-            "label": "学习理论",
-            "label_en": "Autonomous Driving",
+            "label": "学习理论（Learning theories）",
+            "label_en": "Learning theories",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "学习理论是教育学和教育心理学的一门分支学科，描述或说明人类和动物学习的类型、过程，以及有效学习的条件。",
-            "description_en": ""
+            "description_en": "Learning theories are conceptual frameworks that describe how students absorb, process, and retain knowledge during learning."
         },
         {
             "id": 89,
             "fatherid": 67,
-            "label": "数据降维",
-            "label_en": "Autonomous Driving",
+            "label": "降维（Dimensionality Reduction）",
+            "label_en": "Dimensionality Reduction",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "在机器学习和统计学领域，降维是指在某些限定条件下，降低随机变量个数，得到一组“不相关”主变量的过程[1]。 降维可进一步细分为特征选择和特征提取两大方法。",
-            "description_en": ""
+            "description": "在机器学习和统计学领域，降维是指在某些限定条件下，降低随机变量个数，得到一组“不相关”主变量的过程。降维可进一步细分为特征选择和特征提取两大方法。",
+            "description_en": "In statistics, machine learning, and information theory, dimensionality reduction or dimension reduction is the process of reducing the number of random variables under consideration by obtaining a set of principal variables"
         },
         {
             "id": 90,
             "fatherid": 89,
-            "label": "主成分分析（Principal Components Analysis，PCA）",
-            "label_en": "Principal Components Analysis",
+            "label": "主成分分析（Principal Components Analysis）",
+            "label_en": "PCA（Principal Components Analysis）",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "在多元统计分析中，主成分分析（英语：Principal components analysis，PCA）是一种分析、简化数据集的技术。主成分分析经常用于减少数据集的维数，同时保持数据集中的对方差贡献最大的特征。这是通过保留低阶主成分，忽略高阶主成分做到的。这样低阶成分往往能够保留住数据的最重要方面。但是，这也不是一定的，要视具体应用而定。由于主成分分析依赖所给数据，所以数据的准确性对分析结果影响很大。",
-            "description_en": ""
+            "description": "在多元统计分析中，主成分分析（Principal components analysis）是一种分析、简化数据集的技术。主成分分析经常用于减少数据集的维数，同时保持数据集中的对方差贡献最大的特征。这是通过保留低阶主成分，忽略高阶主成分做到的。这样低阶成分往往能够保留住数据的最重要方面。但是，这也不是一定的，要视具体应用而定。由于主成分分析依赖所给数据，所以数据的准确性对分析结果影响很大。",
+            "description_en": "Principal component analysis (PCA) is a statistical procedure that uses an orthogonal transformation to convert a set of observations of possibly correlated variables into a set of values of linearly uncorrelated variables called principal components."
         },
         {
             "id": 91,
@@ -857,17 +857,17 @@ def get_json():
             "label": "因子分析（Factor Analysis）",
             "label_en": "Factor Analysis",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "",
-            "description_en": ""
+            "description": "因子分析是一种统计学方法，用于描述观察到的相关变量之间的变异性，这些变量可能包含较少数量的未观察到的变量，称为因子。",
+            "description_en": "Factor analysis is a statistical method used to describe variability among observed, correlated variables in terms of a potentially lower number of unobserved variables called factors."
         },
         {
             "id": 92,
             "fatherid": 67,
             "label": "PRML",
-            "label_en": "Autonomous Driving",
+            "label_en": "Pattern Recognition and Machine Learning",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "PRML一般指代Pattern Recognition and Machine Learning一书。该书出版于2006年，是贝叶斯机器学习领域的经典之作。作者为Christopher M. Bishop，现为剑桥微软研究院实验室主任。",
-            "description_en": ""
+            "description_en": "PRML generally refers to the book Pattern Recognition and Machine Learning. The book was published in 2006 and is a classical work in the field of Bayesian machine learning."
         },
         # {
         #     "id": 93,
