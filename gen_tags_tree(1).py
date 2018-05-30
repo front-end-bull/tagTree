@@ -1424,7 +1424,7 @@ def get_json():
             "label": "语义搜索",
             "label_en": "Autonomous Driving",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "语义检索 ，是为了生成更相关的结果，使用语义网络中的数据来帮助区分(disambiguation)查询和网页的内容，所进行的在线检索过程。Hildebrand et al.[1] 有一个对语义检索系统的全面回顾报告，并且说明了语义在检索过程中的相关使用情况。",
+            "description": "语义检索，是为了生成更相关的结果，使用语义网络中的数据来帮助区分(disambiguation)查询和网页的内容，所进行的在线检索过程。Hildebrand et al.[1] 有一个对语义检索系统的全面回顾报告，并且说明了语义在检索过程中的相关使用情况。",
             "description_en": ""
         },
         {
@@ -1432,7 +1432,7 @@ def get_json():
             "fatherid": 137,
             "label": "机器翻译",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Translation_Latin_Alphabet.svg/1280px-Translation_Latin_Alphabet.svg.png",
+            "icon_url": "http://www.somyatrans.com/articles/images/machine-human.jpg",
             "description": "机器翻译（英语：Machine Translation，经常简写为MT，俗称机翻）属于计算语言学的范畴，其研究借由计算机程序将文字或演说从一种自然语言翻译成另一种自然语言。简单来说，机器翻译是通过将一个自然语言的字辞取代成另一个自然语言的字辞。借由使用语料库的技术，可达成更加复杂的自动翻译，包含可更佳的处理不同的文法结构、辞汇辨识、惯用语的对应等。",
             "description_en": ""
         },
@@ -1459,7 +1459,7 @@ def get_json():
             "fatherid": 137,
             "label": "问答系统",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "http://thedivaspen.com/wordpress/wp-content/uploads/2015/03/question_and_answer.png",
             "description": "问答系统（英语：Question answering），是未来自然语言处理的明日之星。问答系统外部的行为上来看，其与目前主流资讯检索技术有两点不同：首先是查询方式为完整而口语化的问句，再来则是其回传的为高精准度网页结果或明确的答案字串。以Ask Jeeves为例，使用者不需要思考该使用什么样的问法才能够得到理想的答案，只需要用口语化的方式直接提问如“请问谁是美国总统？”即可。而系统在了解使用者问句后，会非常清楚地回答“奥巴马是美国总统”。",
             "description_en": ""
         },
@@ -1486,7 +1486,7 @@ def get_json():
             "fatherid": 1,
             "label": "语音合成",
             "label_en": "Autonomous Driving",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Modeling-Consonant-Vowel-Coarticulation-for-Articulatory-Speech-Synthesis-pone.0060603.s008.ogv/440px--Modeling-Consonant-Vowel-Coarticulation-for-Articulatory-Speech-Synthesis-pone.0060603.s008.ogv.jpg",
             "description": "语音合成是将人类语音用人工的方式所产生。若是将电脑系统用在语音合成上，则称为语音合成器，而语音合成器可以用软/硬件所实现。文字转语音（text-to-speech，TTS）系统则是将一般语言的文字转换为语音，其他的系统可以描绘语言符号的表示方式，就像音标转换至语音一样。",
             "description_en": ""
         },
