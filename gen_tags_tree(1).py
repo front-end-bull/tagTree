@@ -1969,7 +1969,7 @@ def get_json():
         #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
         #     "description": "",
         #     "description_en": ""
-        },
+        # },
         {
             "id": 213,
             "fatherid": 188,
