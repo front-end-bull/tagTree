@@ -1426,13 +1426,13 @@ def get_json():
         #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
         #     "description": "",
         #     "description_en": ""
-        },
+        # },
         {
             "id": 153,
             "fatherid": 137,
             "label": "语义搜索（Semantic search）",
             "label_en": "Semantic search",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://tse1-mm.cn.bing.net/th?id=OIP.OgmOsnyaIXICvKHzUC21zwHaHa&pid=15.1&P=0&w=300&h=300",
             "description": "语义检索，是为了生成更相关的结果，使用语义网络中的数据来帮助区分(disambiguation)查询和网页的内容，所进行的在线检索过程。Hildebrand et al. 有一个对语义检索系统的全面回顾报告，并且说明了语义在检索过程中的相关使用情况。",
             "description_en": "Semantic search seeks to improve search accuracy by understanding the searcher's intent and the contextual meaning of terms as they appear in the searchable dataspace, whether on the Web or within a closed system, to generate more relevant results."
         },
@@ -1969,7 +1969,7 @@ def get_json():
         #     "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
         #     "description": "",
         #     "description_en": ""
-        },
+        # },
         {
             "id": 213,
             "fatherid": 188,
