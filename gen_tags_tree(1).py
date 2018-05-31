@@ -1262,15 +1262,15 @@ def get_json():
             "description": "智能运输系统（Intelligent Transport System、Intelligent Transportation System，缩写：ITS，又名：智能交通系统）是将先进的信息技术、通讯技术、传感技术、控制技术及计算机技术等有效率地集成运用于整个交通运输管理体系，而建立起的一种在大范围内及全方位发挥作用的，实时、准确及高效率的综合的运输和管理系统。美国、日本、欧洲率先展开相应的研究并成为ITS发展的三强，此外加拿大、中国、韩国、新加坡、澳大利亚、香港等国家的研究也具有相当规模。",
             "description_en": "An intelligent transportation system (ITS) is an advanced application which, without embodying intelligence as such, aims to provide innovative services relating to different modes of transport and traffic management and enable users to be better informed and make safer, more coordinated, and 'smarter' use of transport networks."
         },
-        {
-            "id": 135,
-            "fatherid": 134,
-            "label": "电子警察",
-            "label_en": "Autonomous Driving",
-            "icon_url": "http://fallschurchtimes.com/wp-content/uploads/2009/01/red-light-camera.gif",
-            "description": "电子警察是一种利用自动化检测与测量技术捕获交通违法或交通事故，利用网络将采集的信息传回公安部门进行分析处理，并以此为证据对肇事者进行处罚，以减少事故发生、辅助交警工作的方法。与交警监管相比，电子警察对事故的判断更准确，捕捉更迅速，在黑夜、恶劣情况下仍能正常工作，而同时减少了交警的人力支出，但对仪器仪表的投入要求相对较高。目前常用的电子警察技术包括：电子眼、传感器、测速仪。",
-            "description_en": ""
-        },
+        # {
+        #     "id": 135,
+        #     "fatherid": 134,
+        #     "label": "电子警察",
+        #     "label_en": "Autonomous Driving",
+        #     "icon_url": "http://fallschurchtimes.com/wp-content/uploads/2009/01/red-light-camera.gif",
+        #     "description": "电子警察是一种利用自动化检测与测量技术捕获交通违法或交通事故，利用网络将采集的信息传回公安部门进行分析处理，并以此为证据对肇事者进行处罚，以减少事故发生、辅助交警工作的方法。与交警监管相比，电子警察对事故的判断更准确，捕捉更迅速，在黑夜、恶劣情况下仍能正常工作，而同时减少了交警的人力支出，但对仪器仪表的投入要求相对较高。目前常用的电子警察技术包括：电子眼、传感器、测速仪。",
+        #     "description_en": ""
+        # },
         # {
         #     "id": 136,
         #     "fatherid": 133,
@@ -1413,10 +1413,10 @@ def get_json():
             "id": 151,
             "fatherid": 137,
             "label": "简繁转换",
-            "label_en": "Autonomous Driving",
+            "label_en": "Conversion of Traditional and Simplified Chinese Characters",
             "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Hanzi.svg/200px-Hanzi.svg.png",
             "description": "繁简转换，指繁体字与简体字的互相转换，实际使用时通常包括台湾、香港、澳门、中国大陆、新加坡、马来西亚地区所使用的标准中文之中不同字、词的相互转换。由于中国大陆对汉字简化并非全部采用“一对一”方式，有部分用字采用“一对多”方式，因此准确的汉字转换相当困难。目前已经有相当多的专业人士正利用各种方法解决这个难题。",
-            "description_en": ""
+            "description_en": "Conversion of Traditional and Simplified Chinese Characters"
         },
         # {
         #     "id": 152,
@@ -1978,5 +1978,100 @@ def get_json():
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "运动推断结构（SfM）是一种摄影测量范围成像技术，用于估计二维图像序列中的三维结构，这些图像可能与局部运动信号相结合。它是在计算机视觉和视觉感知领域进行研究的。在生物视觉上，运动推断结指的是人类和其他生物能够从一个移动物体或场景中投射的二维（视网膜）运动场中恢复三维结构的现象。",
             "description_en": "Structure from motion (SfM) is a photogrammetric range imaging technique for estimating three-dimensional structures from two-dimensional image sequences that may be coupled with local motion signals."
+        },
+        {
+            "id": 214,
+            "label": "AI Challenger 全球AI挑战赛",
+            "label_en": "AI Challenger",
+            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "description": "“AI Challenger 全球AI挑战赛”是面向全球人工智能（AI）人才的开放数据集和编程竞赛平台，致力于打造大型、全面的科研数据集与世界级竞赛平台",
+            "description_en": "“AI Challenger” is a platform for open datasets and programming competitions to artificial intelligence (AI) talents around the world."
+        },
+        {
+            "id": 215,
+            "fatherid": 214,
+            "label": "零样本学习·2018（Zero-shot Learning）",
+            "label_en": "Zero-shot Learning",
+            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "description": "本次零样本学习（zero-shot learning）竞赛的任务是在已知类别上训练物体识别模型，要求模型能够用于识别来自未知类别的样本。",
+            "description_en": "In this zero-shot learning (recognition) competition, the task is to recognize objects from unseen classes by training the model on seen classes."
+        },
+        {
+            "id": 216,
+            "fatherid": 214,
+            "label": "英中机器同声传译·2017（English-Chinese Simultaneous Interpretation·2017）",
+            "label_en": "English-Chinese Simultaneous Interpretation·2017",
+            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "description": "本次英中机器同传竞赛主要任务为集中优化语音识别后处理和机器翻译模块，解决机器同声传译中的技术问题。语言翻译方向为英文到中文。",
+            "description_en": "The English-Chinese Simultaneous Interpretation competition track aims to challenge the state-of-the-art translation algorithms."
+        },
+        {
+            "id": 217,
+            "fatherid": 214,
+            "label": "英中机器文本翻译·2017（English-Chinese Machine Translation·2017）",
+            "label_en": "English-Chinese Machine Translation·2017",
+            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "description": "英中文本机器翻译竞赛的目标是评测英中文本机器翻译的能力。本次文本机器翻译语言方向为英文到中文。",
+            "description_en": "The English-Chinese Machine Translation track aims to challenge the state-of-the-art translation algorithms. Specifically, this competition track will focus on translating English transcripts to Chinese transcripts."
+        },
+        {
+            "id": 218,
+            "fatherid": 214,
+            "label": "场景分类·2017（Scene Classification·2017）",
+            "label_en": "Scene Classification·2017",
+            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "description": "本次比赛要求参赛选手根据图片场景数据集建立算法，预测每张图片所属的场景类别。",
+            "description_en": "The task requires assigning labels to images indicating different scenes and places."
+        },
+        {
+            "id": 219,
+            "fatherid": 214,
+            "label": "人体骨骼关键点检测·2017（Human Skeletal System Keypoints Detection·2017）",
+            "label_en": "Human Skeletal System Keypoints Detection·2017",
+            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "description": "本次人体骨骼关键点检测比赛邀请参赛者设计算法与模型，对自然图像中可见的人体骨骼关节点进行检测。",
+            "description_en": "This competition involves simultaneous detection of people's movements and localizing their skeletal keypoints."
+        },
+        {
+            "id": 220,
+            "fatherid": 214,
+            "label": "图像中文描述·2017（Image Captioning (Chinese)·2017）",
+            "label_en": "Image Captioning (Chinese)·2017",
+            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "description": "参赛者需要对给定的每一张测试图片输出一句话的描述。描述句子要求符合自然语言习惯，点明图像中的重要信息，涵盖主要人物、场景、动作等内容。",
+            "description_en": "For machines to better understand the images that human sees, AI Challenger designed the automatic generation of image captions competition track to tackle this long-standing issue in artificial intelligence."
+        },
+        {
+            "id": 221,
+            "fatherid": 214,
+            "label": "虚拟股票趋势预测·2017（Virtual Stock Trend Forecast·2017）",
+            "label_en": "Virtual Stock Trend Forecast·2017",
+            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "description": "本次虚拟股票趋势预测竞赛主要任务为通过挖掘虚拟股票大规模历史数据的内在规律，实现对虚拟股票未来趋势的预测。",
+            "description_en": "The main task of this competition is to predict the future trend of virtual stocks by mining the inherent laws of large-scale historical data of virtual stocks."
+        },
+        {
+            "id": 222,
+            "label": "高校教师AI培训班（The AI Training Program For Teachers）",
+            "label_en": "The AI Training Program For Teachers",
+            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "description": "由教育部、创新工场、北京大学联合主办，帮助教师获得在高校开设AI课程，帮助教师获得接触一线产业实践项目的机会，获得国际大师包括图灵奖得主，获得国际大师，包括图灵奖得主、中科院外籍院士John Hopcroft博士，深度学习发起人之一Geoffrey Hinton博士，创新工场创始人、创新工场人工智能工程院院长李开复博士的亲自授课。",
+            "description_en": "由教育部、创新工场、北京大学联合主办，帮助教师获得在高校开设AI课程，帮助教师获得接触一线产业实践项目的机会，获得国际大师包括图灵奖得主，获得国际大师，包括图灵奖得主、中科院外籍院士John Hopcroft博士，深度学习发起人之一Geoffrey Hinton博士，创新工场创始人、创新工场人工智能工程院院长李开复博士的亲自授课。"
+        },
+        {
+            "id": 223,
+            "label": "学生DeeCamp人工智能训练营（DeeCamp AI Training Program For Students）",
+            "label_en": "DeeCamp AI Training Program For Students",
+            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "description": "由教育部、创新工场、北京大学联合主办的人工智能训练营，授课老师既包括图灵奖得主、中科院外籍院士John Hopcroft以及来自北大、卡内基梅隆大学、加州伯克利大学等全球顶尖高校的教授，也有李开复老师和来自Google、科大讯飞、Face++、地平线机器人等产业界顶尖公司的专家。",
+            "description_en": "由教育部、创新工场、北京大学联合主办的人工智能训练营，授课老师既包括图灵奖得主、中科院外籍院士John Hopcroft以及来自北大、卡内基梅隆大学、加州伯克利大学等全球顶尖高校的教授，也有李开复老师和来自Google、科大讯飞、Face++、地平线机器人等产业界顶尖公司的专家。"
+        },
+        {
+            "id": 224,
+            "label": "数据集（Datasets）",
+            "label_en": "Datasets",
+            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "description": "AI Challenger发布了千万量级的机器翻译数据集、百万量级的计算机视觉数据集。",
+            "description_en": "AI Challenger 2017 released over 1 million data entries based on 300,000 images, as well as over 10 millions language-based data."
         }
     ]
