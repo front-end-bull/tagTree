@@ -27,7 +27,7 @@ def get_json():
         {
             "id": 3,
             "fatherid": 2,
-            "label": "无人驾驶车（Driverless Car）",,
+            "label": "无人驾驶车（Driverless Car）",
             "label_en": "Driverless Car",
             "icon_url": "https://images.pexels.com/photos/1098662/pexels-photo-1098662.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
             "description": "自动驾驶汽车，又称为无人驾驶汽车、电脑驾驶汽车或轮式移动机器人，是无人地面载具的一种，具有传统汽车的运输能力。作为自动化载具，自动驾驶汽车不需要人为操作即能感测其环境及导航。",
@@ -55,7 +55,7 @@ def get_json():
         {
             "id": 6,
             "fatherid": [3,174],
-            "label": "运动规划（Motion planning）",,
+            "label": "运动规划（Motion planning）",
             "label_en": "Motion Planning",
             "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Motion_planning_configuration_space_road_map_path.svg/768px-Motion_planning_configuration_space_road_map_path.svg.png",
             "description": "运动规划（英语：Motion Planning）是一个过程，用来寻找从起始状态到目标状态的移动步骤。运动规划常常需要在运动受到约束的条件下找到最优解。运动规划多用于机器人学。",
@@ -76,7 +76,7 @@ def get_json():
         {
             "id": 8,
             "fatherid": 1,
-            "label": "模式识别（Pattern Recognition）",,
+            "label": "模式识别（Pattern Recognition）",
             "label_en": "Autonomous Driving",
             "icon_url": "https://i.stack.imgur.com/TV2AA.jpg",
             "description": "模式识别（英语：Pattern recognition），就是通过计算机用数学技术方法来研究模式的自动处理和判读。我们把环境与客体统称为“模式”。随着计算机技术的发展，人类有可能研究复杂的信息处理过程。信息处理过程的一个重要形式是生命体对环境及客体的识别。",
@@ -97,7 +97,7 @@ def get_json():
         {
             "id": 10,
             "fatherid": 9,
-            "label": "OCR（光学字符识别）",,
+            "label": "OCR（光学字符识别）",
             "label_en": "Autonomous Driving",
             "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Portable_scanner_and_OCR_%28video%29.webm/1200px--Portable_scanner_and_OCR_%28video%29.webm.jpg",
             "description": "光学字符识别（英语：Optical Character Recognition, OCR）是指对文本资料的图像文件进行分析识别处理，获取文字及版面信息的过程。",
@@ -124,7 +124,7 @@ def get_json():
         {
             "id": 13,
             "fatherid": 8,
-            "label": "声学指纹（Acoustic fingerprint）",,
+            "label": "声学指纹（Acoustic fingerprint）",
             "label_en": "Acoustic fingerprint Recognition）",
             "icon_url": "http://i.stack.imgur.com/aW36s.png",
             "description": "声学指纹（Acoustic fingerprint）是通过特定算法从音频信号中提取的一段数字摘要，用于识别声音样本或者快速定位音频数据库中的相似音频。音频压缩技术的进步以及大容量存储器的出现使得互联网上出现了以音乐为主的海量音频信息，手工选取某首歌曲很多时候已经变得不可能，这直接促使产生了可以进行音乐自动识别的数字音频指纹技术。",
@@ -465,7 +465,7 @@ def get_json():
         },
         {
             "id": 49,
-            "fatherid": [47,58,67]
+            "fatherid": [47,58,67],
             "label": "TensorLayer（深度学习库）",
             "label_en": "TensorLayer",
             "icon_url": "screenshot logo",
@@ -595,7 +595,7 @@ def get_json():
         },
         {
             "id": 63,
-            "fatherid": [62,123]
+            "fatherid": [62,123],
             "label": "Leela Zero",
             "label_en": "Leela Zero",
             "icon_url": "http://n.sinaimg.cn/sinacn/20170305/4706-fycapec1624581.jpg",
@@ -645,7 +645,7 @@ def get_json():
             "label_en": "ML (Machine Learning)",
             "icon_url": "https://whatsnext.nuance.com/wp-content/uploads/deep-machine-learning-metaphors-624x468.jpg",
             "description": "机器学习是人工智能的一个分支。人工智能的研究历史有着一条从以“推理”为重点，到以“知识”为重点，再到以“学习”为重点的自然、清晰的脉络。显然，机器学习是实现人工智能的一个途径，即以机器学习为手段解决人工智能中的问题。机器学习在近30多年已发展为一门多领域交叉学科，涉及概率论、统计学、逼近论、凸分析、计算复杂性理论等多门学科。机器学习理论主要是设计和分析一些让计算机可以自动“学习”的算法。机器学习算法是一类从数据中自动分析获得规律，并利用规律对未知数据进行预测的算法。因为学习算法中涉及了大量的统计学理论，机器学习与推断统计学联系尤为密切，也被称为统计学习理论。",
-            "description_en": "Machine learning is a field of computer science that often uses statistical techniques to give computers the ability to "learn" (i.e., progressively improve performance on a specific task) with data, without being explicitly programmed."
+            "description_en": 'Machine learning is a field of computer science that often uses statistical techniques to give computers the ability to "learn" (i.e., progressively improve performance on a specific task) with data, without being explicitly programmed.'
         },
         {
             "id": 68,
@@ -784,7 +784,7 @@ def get_json():
         },
         {
             "id": 83,
-            "fatherid": [67,82,108]
+            "fatherid": [67,82,108],
             "label": "高斯过程（Gaussian process）",
             "label_en": "Gaussian process",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
@@ -958,7 +958,7 @@ def get_json():
             "label_en": "Vector Representations of Words",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "将字词转换成多维向量的技术，由 Google 发布。<a href='https://www.tensorflow.org/tutorials/word2vec' target=_blank></a>",
-            "description_en": "This model is used for learning vector representations of words, called "word embeddings".<a href='https://www.tensorflow.org/tutorials/word2vec' target=_blank></a>"
+            "description_en": 'This model is used for learning vector representations of words, called "word embeddings".<a href="https://www.tensorflow.org/tutorials/word2vec" target=_blank></a>'
         },
         {
             "id": 102,
@@ -976,7 +976,7 @@ def get_json():
             "label_en": "xgboost",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "Scalable, Portable and Distributed Gradient Boosting (GBDT, GBRT or GBM) Library, for Python, R, Java, Scala, C++ and more. Runs on single machine, Hadoop, Spark, Flink and DataFlow. <a href='https://github.com/dmlc/xgboost' target=_blank></a>",
-            "description_en": "Scalable, Portable and Distributed Gradient Boosting (GBDT, GBRT or GBM) Library, for Python, R, Java, Scala, C++ and more. Runs on single machine, Hadoop, Spark, Flink and DataFlow. <a href='https://github.com/dmlc/xgboost' target=_blank></a>""
+            "description_en": "Scalable, Portable and Distributed Gradient Boosting (GBDT, GBRT or GBM) Library, for Python, R, Java, Scala, C++ and more. Runs on single machine, Hadoop, Spark, Flink and DataFlow. <a href='https://github.com/dmlc/xgboost' target=_blank></a>"
         },
         # {
         #     "id": 104,
@@ -1096,7 +1096,7 @@ def get_json():
             "label_en": "Unsupervised learning",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "非监督式学习是一种机器学习的方式，并不需要人力来输入标签。它是监督式学习和强化学习等策略之外的一种选择。在监督式学习中，典型的任务是分类和回归分析，且需要使用到人工预先准备好的范例(base)。一个常见的非监督式学习是数据聚类。在人工神经网络中，生成对抗网络（GAN）、自组织映射（SOM）和适应性共振理论（ART）则是最常用的非监督式学习。",
-            "description_en": "Unsupervised machine learning is the machine learning task of inferring a function to describe hidden structure from "unlabeled" data (a classification or categorization is not included in the observations). "
+            "description_en": 'Unsupervised machine learning is the machine learning task of inferring a function to describe hidden structure from "unlabeled"data (a classification or categorization is not included in the observations). '
         },
         {
             "id": 117,
@@ -1375,7 +1375,7 @@ def get_json():
             "label_en": "Topic Model",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "主题模型（Topic Model）在机器学习和自然语言处理等领域是用来在一系列文档中发现抽象主题的一种统计模型。直观来讲，如果一篇文章有一个中心思想，那么一些特定词语会更频繁的出现。比方说，如果一篇文章是在讲狗的，那“狗”和“骨头”等词出现的频率会高些。",
-            "description_en": "In machine learning and natural language processing, a topic model is a type of statistical model for discovering the abstract "topics" that occur in a collection of documents."
+            "description_en": 'In machine learning and natural language processing, a topic model is a type of statistical model for discovering the abstract "topics" that occur in a collection of documents.'
         },
         {
             "id": 147,
@@ -1639,7 +1639,7 @@ def get_json():
             "label_en": "Recommender system",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "推荐系统是一种信息过滤系统，用于预测用户对物品的“评分”或“偏好”。",
-            "description_en": "A recommender system or a recommendation system (sometimes replacing "system" with a synonym such as platform or engine) is a subclass of information filtering system that seeks to predict the "rating" or "preference" a user would give to an item."
+            "description_en": 'A recommender system or a recommendation system (sometimes replacing "system" with a synonym such as platform or engine) is a subclass of information filtering system that seeks to predict the "rating" or "preference" a user would give to an item.'
         },
         # {
         #     "id": 176,
@@ -1810,7 +1810,7 @@ def get_json():
             "label_en": "AR (Augmented Reality)",
             "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Augmented-reality.jpg/800px-Augmented-reality.jpg",
             "description": "增强现实（Augmented Reality，简称 AR），是一种实时地计算摄影机影像的位置及角度并加上相应图像的技术，这种技术的目标是在屏幕上把虚拟世界套在现实世界并进行互动。",
-            "description_en": "Augmented reality (AR) is a direct or indirect live view of a physical, real-world environment whose elements are "augmented" by computer-generated perceptual information, ideally across multiple sensory modalities, including visual, auditory, haptic, somatosensory, and olfactory."
+            "description_en": 'Augmented reality (AR) is a direct or indirect live view of a physical, real-world environment whose elements are "augmented" by computer-generated perceptual information, ideally across multiple sensory modalities, including visual, auditory, haptic, somatosensory, and olfactory.'
         },
         # {
         #     "id": 195,
@@ -1997,7 +1997,7 @@ def get_json():
         {
             "id": 215,
             "fatherid": 214,
-            "label": "零样本学习·2018（Zero-shot Learning）",
+            "label": "零样本学习·2018",
             "label_en": "Zero-shot Learning",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "本次零样本学习（zero-shot learning）竞赛的任务是在已知类别上训练物体识别模型，要求模型能够用于识别来自未知类别的样本。",
@@ -2006,7 +2006,7 @@ def get_json():
         {
             "id": 216,
             "fatherid": 214,
-            "label": "英中机器同声传译·2017（English-Chinese Simultaneous Interpretation·2017）",
+            "label": "英中机器同声传译·2017",
             "label_en": "English-Chinese Simultaneous Interpretation·2017",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "本次英中机器同传竞赛主要任务为集中优化语音识别后处理和机器翻译模块，解决机器同声传译中的技术问题。语言翻译方向为英文到中文。",
@@ -2015,7 +2015,7 @@ def get_json():
         {
             "id": 217,
             "fatherid": 214,
-            "label": "英中机器文本翻译·2017（English-Chinese Machine Translation·2017）",
+            "label": "英中机器文本翻译·2017",
             "label_en": "English-Chinese Machine Translation·2017",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "英中文本机器翻译竞赛的目标是评测英中文本机器翻译的能力。本次文本机器翻译语言方向为英文到中文。",
@@ -2024,7 +2024,7 @@ def get_json():
         {
             "id": 218,
             "fatherid": 214,
-            "label": "场景分类·2017（Scene Classification·2017）",
+            "label": "场景分类·2017",
             "label_en": "Scene Classification·2017",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "本次比赛要求参赛选手根据图片场景数据集建立算法，预测每张图片所属的场景类别。",
@@ -2033,7 +2033,7 @@ def get_json():
         {
             "id": 219,
             "fatherid": 214,
-            "label": "人体骨骼关键点检测·2017（Human Skeletal System Keypoints Detection·2017）",
+            "label": "人体骨骼关键点检测·2017",
             "label_en": "Human Skeletal System Keypoints Detection·2017",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "本次人体骨骼关键点检测比赛邀请参赛者设计算法与模型，对自然图像中可见的人体骨骼关节点进行检测。",
@@ -2042,7 +2042,7 @@ def get_json():
         {
             "id": 220,
             "fatherid": 214,
-            "label": "图像中文描述·2017（Image Captioning (Chinese)·2017）",
+            "label": "图像中文描述·2017",
             "label_en": "Image Captioning (Chinese)·2017",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "参赛者需要对给定的每一张测试图片输出一句话的描述。描述句子要求符合自然语言习惯，点明图像中的重要信息，涵盖主要人物、场景、动作等内容。",
@@ -2051,7 +2051,7 @@ def get_json():
         {
             "id": 221,
             "fatherid": 214,
-            "label": "虚拟股票趋势预测·2017（Virtual Stock Trend Forecast·2017）",
+            "label": "虚拟股票趋势预测·2017",
             "label_en": "Virtual Stock Trend Forecast·2017",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "本次虚拟股票趋势预测竞赛主要任务为通过挖掘虚拟股票大规模历史数据的内在规律，实现对虚拟股票未来趋势的预测。",
@@ -2059,7 +2059,7 @@ def get_json():
         },
         {
             "id": 222,
-            "label": "高校教师AI培训班（The AI Training Program For Teachers）",
+            "label": "高校教师AI培训班",
             "label_en": "The AI Training Program For Teachers",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "由教育部、创新工场、北京大学联合主办，帮助教师获得在高校开设AI课程，帮助教师获得接触一线产业实践项目的机会，获得国际大师包括图灵奖得主，获得国际大师，包括图灵奖得主、中科院外籍院士John Hopcroft博士，深度学习发起人之一Geoffrey Hinton博士，创新工场创始人、创新工场人工智能工程院院长李开复博士的亲自授课。",
@@ -2067,7 +2067,7 @@ def get_json():
         },
         {
             "id": 223,
-            "label": "学生DeeCamp人工智能训练营（DeeCamp AI Training Program For Students）",
+            "label": "学生DeeCamp人工智能训练营",
             "label_en": "DeeCamp AI Training Program For Students",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "由教育部、创新工场、北京大学联合主办的人工智能训练营，授课老师既包括图灵奖得主、中科院外籍院士John Hopcroft以及来自北大、卡内基梅隆大学、加州伯克利大学等全球顶尖高校的教授，也有李开复老师和来自Google、科大讯飞、Face++、地平线机器人等产业界顶尖公司的专家。",
@@ -2075,13 +2075,13 @@ def get_json():
         },
         {
             "id": 224,
-            "label": "数据集（Datasets）",
+            "label": "数据集",
             "label_en": "Datasets",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "AI Challenger发布了千万量级的机器翻译数据集、百万量级的计算机视觉数据集。",
             "description_en": "AI Challenger 2017 released over 1 million data entries based on 300,000 images, as well as over 10 millions language-based data."
         }
-    ]
+    ]  
 
 
 def get_conn():
@@ -2123,32 +2123,32 @@ def update_relation_tag(start, end, correlation):
 
 
 def main():
-    max_correlation = 10000
-    min_correlation = -10000
-    default_correlation = 0
-    tag_json = get_json()
-    all_tags_id_list = [_['id'] for _ in tag_json]
-    print(len(all_tags_id_list))
-    for start_tag_id in all_tags_id_list:
-        print(start_tag_id)
-        for end_tag_id in all_tags_id_list:
-            if start_tag_id != end_tag_id:
-                insert_relation_tag(start_tag_id, end_tag_id, default_correlation)
-    for each_tag in tag_json:
-        tag_id = each_tag.get('id')
-        father_id = each_tag.get('fatherid')
-        name = each_tag.get('label')
-        insert_tag(tag_id, name)
-        print(tag_id)
-        if isinstance(father_id, list):
-            for each_father_id in father_id:
-                update_relation_tag(each_father_id, tag_id, min_correlation)
-                update_relation_tag(tag_id, each_father_id, max_correlation)
-        elif father_id is None:
-            insert_relation_tag(tag_id, 0, max_correlation)
-        else:
-            update_relation_tag(father_id, tag_id, min_correlation)
-            update_relation_tag(tag_id, father_id, max_correlation)
+    # max_correlation = 10000
+    # min_correlation = -10000
+    # default_correlation = 0
+    # tag_json = get_json()
+    # all_tags_id_list = [_['id'] for _ in tag_json]
+    # print(len(all_tags_id_list))
+    # for start_tag_id in all_tags_id_list:
+    #     print(start_tag_id)
+    #     for end_tag_id in all_tags_id_list:
+    #         if start_tag_id != end_tag_id:
+    #             insert_relation_tag(start_tag_id, end_tag_id, default_correlation)
+    # for each_tag in tag_json:
+    #     tag_id = each_tag.get('id')
+    #     father_id = each_tag.get('fatherid')
+    #     name = each_tag.get('label')
+    #     insert_tag(tag_id, name)
+    #     print(tag_id)
+    #     if isinstance(father_id, list):
+    #         for each_father_id in father_id:
+    #             update_relation_tag(each_father_id, tag_id, min_correlation)
+    #             update_relation_tag(tag_id, each_father_id, max_correlation)
+    #     elif father_id is None:
+    #         insert_relation_tag(tag_id, 0, max_correlation)
+    #     else:
+    #         update_relation_tag(father_id, tag_id, min_correlation)
+    #         update_relation_tag(tag_id, father_id, max_correlation)
 
 
 if __name__ == '__main__':
