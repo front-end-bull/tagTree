@@ -2080,8 +2080,80 @@ def get_json():
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "AI Challenger发布了千万量级的机器翻译数据集、百万量级的计算机视觉数据集。",
             "description_en": "AI Challenger 2017 released over 1 million data entries based on 300,000 images, as well as over 10 millions language-based data."
+        },
+        {
+            "id": 225,
+            "fatherid": 224,
+            "label": "图像属性数据集（Large-scale Attribute Dataset）",
+            "label_en": "Large-scale Attribute Dataset",
+            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "description": "属性种类最丰富、图片量最大的图像属性数据集，包含230个分类，359种属性。",
+            "description_en": "The Large-scale Attribute Dataset (LAD) contains 78,017 images, 230 classes and 359 attributes."
+        },
+        {
+            "id": 226,
+            "fatherid": 224,
+            "label": "英中翻译（English-Chinese Translation）",
+            "label_en": "English-Chinese Translation",
+            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "description": "规模最大的口语领域英中双语对照数据集。",
+            "description_en": "Conversational language translation 10 million English-Chinese language pairs."
+        },
+        {
+            "id": 227,
+            "fatherid": 224,
+            "label": "场景分类（Scene Classification）",
+            "label_en": "Scene Classification",
+            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "description": "80个不同角度、尺度、和光照的日常场景。",
+            "description_en": "80 unique scene categories."
+        },
+        {
+            "id": 228,
+            "fatherid": 224,
+            "label": "人体骨骼关键点（Human Skeletal System Keypoints）",
+            "label_en": "Human Skeletal System Keypoints",
+            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "description": "人物动作最复杂、规模最大的人体骨骼关键点图像数据集。",
+            "description_en": "More than 300,000 images Keypoints on 700,000 people."
+        },
+        {
+            "id": 229,
+            "fatherid": 224,
+            "label": "图像中文描述（Image Captioning (Chinese)）",
+            "label_en": "Image Captioning (Chinese)",
+            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "description": "场景最丰富、语言描述最丰富、规模最大的图像中文描述图像数据集。",
+            "description_en": "More than 300,000 images 1.5 million Chinese captions."
+        },
+        {
+            "id": 230,
+            "fatherid": 224,
+            "label": "零样本学习（Zero-shot Learning）",
+            "label_en": "Zero-shot Learning",
+            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "description": "属性种类最丰富、图片量最大的图像属性数据集，包含230个分类，359种属性。",
+            "description_en": "The Large-scale Attribute Dataset (LAD) contains 78,017 images, 230 classes and 359 attributes."
+        },
+        {
+            "id": 231,
+            "fatherid": 224,
+            "label": "零样本学习（Zero-shot Learning）",
+            "label_en": "Zero-shot Learning",
+            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "description": "属性种类最丰富、图片量最大的图像属性数据集，包含230个分类，359种属性。",
+            "description_en": "The Large-scale Attribute Dataset (LAD) contains 78,017 images, 230 classes and 359 attributes."
+        },
+        {
+            "id": 232,
+            "fatherid": 224,
+            "label": "虚拟股票趋势预测（Virtual Stock Trend Forecast）",
+            "label_en": "Virtual Stock Trend Forecast",
+            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "description": "通过对大规模历史数据建模，预测虚拟股票未来趋势。",
+            "description_en": "Predict the future trend of virtual stocks by modeling large-scale historical data."
         }
-    ]  
+    ]
 
 
 def get_conn():
@@ -2153,4 +2225,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
