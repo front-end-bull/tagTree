@@ -1601,7 +1601,7 @@ def get_json():
             "fatherid": 163,
             "label": "SPSS",
             "label_en": "SPSS",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/SPSS_logo.svg/2000px-SPSS_logo.svg.png",
             "description": "SPSS是统计产品与服务解决方案（Statistical Product and Service Solutions）的简称，为IBM公司推出的一系列用于统计学分析运算、数据挖掘、预测分析和决策支持任务的软件产品及相关服务的总称，有Windows和macOS等版本。",
             "description_en": "SPSS Statistics is a software package used for interactive, or batched, statistical analysis. "
         },
@@ -1781,7 +1781,7 @@ def get_json():
             "fatherid": 188,
             "label": "图像处理（Image Processing）",
             "label_en": "Image Processing",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "http://www.creative-commons-images.com/highway-signs/images/processing.jpg",
             "description": "图像处理(Image Processing)，指使用计算机对图像进行一系列加工，以达到所需的结果。常见的处理有图像数字化、图像编码、图像增强、图像复原、图像分割和图像分析等。",
             "description_en": "In computer science, Digital image processing is the use of computer algorithms to perform image processing on digital images."
         },
@@ -1982,7 +1982,7 @@ def get_json():
             "fatherid": 188,
             "label": "运动推断结构（Structure from motion）",
             "label_en": "Structure from motion",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Sfm1.jpg",
             "description": "运动推断结构（SfM）是一种摄影测量范围成像技术，用于估计二维图像序列中的三维结构，这些图像可能与局部运动信号相结合。它是在计算机视觉和视觉感知领域进行研究的。在生物视觉上，运动推断结指的是人类和其他生物能够从一个移动物体或场景中投射的二维（视网膜）运动场中恢复三维结构的现象。",
             "description_en": "Structure from motion (SfM) is a photogrammetric range imaging technique for estimating three-dimensional structures from two-dimensional image sequences that may be coupled with local motion signals."
         },
@@ -1990,7 +1990,7 @@ def get_json():
             "id": 214,
             "label": "AI Challenger 全球AI挑战赛",
             "label_en": "AI Challenger",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://www.datainnovation.org/wp-content/uploads/2017/09/ai-challenger.png",
             "description": "“AI Challenger 全球AI挑战赛”是面向全球人工智能（AI）人才的开放数据集和编程竞赛平台，致力于打造大型、全面的科研数据集与世界级竞赛平台",
             "description_en": "“AI Challenger” is a platform for open datasets and programming competitions to artificial intelligence (AI) talents around the world."
         },
@@ -2077,7 +2077,7 @@ def get_json():
             "id": 224,
             "label": "数据集",
             "label_en": "Datasets",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "http://www.creative-commons-images.com/highway-signs/images/data.jpg",
             "description": "AI Challenger发布了千万量级的机器翻译数据集、百万量级的计算机视觉数据集。",
             "description_en": "AI Challenger 2017 released over 1 million data entries based on 300,000 images, as well as over 10 millions language-based data."
         },
@@ -2095,7 +2095,7 @@ def get_json():
             "fatherid": 224,
             "label": "英中翻译（English-Chinese Translation）",
             "label_en": "English-Chinese Translation",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Translation_arrow_zh.svg/1280px-Translation_arrow_zh.svg.png",
             "description": "规模最大的口语领域英中双语对照数据集。",
             "description_en": "Conversational language translation 10 million English-Chinese language pairs."
         },
@@ -2104,7 +2104,7 @@ def get_json():
             "fatherid": 224,
             "label": "场景分类（Scene Classification）",
             "label_en": "Scene Classification",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Nova_scotia_countryside_a.JPG",
             "description": "80个不同角度、尺度、和光照的日常场景。",
             "description_en": "80 unique scene categories."
         },
@@ -2113,7 +2113,7 @@ def get_json():
             "fatherid": 224,
             "label": "人体骨骼关键点（Human Skeletal System Keypoints）",
             "label_en": "Human Skeletal System Keypoints",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Human_skeleton_front_en.svg",
             "description": "人物动作最复杂、规模最大的人体骨骼关键点图像数据集。",
             "description_en": "More than 300,000 images Keypoints on 700,000 people."
         },
