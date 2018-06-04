@@ -2171,9 +2171,9 @@ def get_conn():
 conn = get_conn()
 
 
-def insert_tag(tag_id, name):
+def insert_tag(tag_id, label, label_en, description, description_en, icon_url):
     cur = conn.cursor()
-    cur.execute('INSERT INTO tag(`id`, `name`) VALUES (%s, %s)', (tag_id, name))
+    cur.execute('INSERT INTO tag(`id`, `label`, `label_en`, `description`, `description_en`, `icon_url`) VALUES (%s, %s, %s, %s, %s, %s)', (tag_id, label, label_en, description, description_en, icon_url))
     conn.commit()
     cur.close()
 
@@ -2195,32 +2195,36 @@ def update_relation_tag(start, end, correlation):
 
 
 def main():
-    # max_correlation = 10000
-    # min_correlation = -10000
-    # default_correlation = 0
-    # tag_json = get_json()
-    # all_tags_id_list = [_['id'] for _ in tag_json]
-    # print(len(all_tags_id_list))
-    # for start_tag_id in all_tags_id_list:
-    #     print(start_tag_id)
-    #     for end_tag_id in all_tags_id_list:
-    #         if start_tag_id != end_tag_id:
-    #             insert_relation_tag(start_tag_id, end_tag_id, default_correlation)
-    # for each_tag in tag_json:
-    #     tag_id = each_tag.get('id')
-    #     father_id = each_tag.get('fatherid')
-    #     name = each_tag.get('label')
-    #     insert_tag(tag_id, name)
-    #     print(tag_id)
-    #     if isinstance(father_id, list):
-    #         for each_father_id in father_id:
-    #             update_relation_tag(each_father_id, tag_id, min_correlation)
-    #             update_relation_tag(tag_id, each_father_id, max_correlation)
-    #     elif father_id is None:
-    #         insert_relation_tag(tag_id, 0, max_correlation)
-    #     else:
-    #         update_relation_tag(father_id, tag_id, min_correlation)
-    #         update_relation_tag(tag_id, father_id, max_correlation)
+    max_correlation = 10000
+    min_correlation = -10000
+    default_correlation = 0
+    tag_json = get_json()
+    all_tags_id_list = [_['id'] for _ in tag_json]
+    print(len(all_tags_id_list))
+    for start_tag_id in all_tags_id_list:
+        print(start_tag_id)
+        for end_tag_id in all_tags_id_list:
+            if start_tag_id != end_tag_id:
+                insert_relation_tag(start_tag_id, end_tag_id, default_correlation)
+    for each_tag in tag_json:
+        tag_id = each_tag.get('id')
+        father_id = each_tag.get('fatherid')
+        label = each_tag.get('label')
+        label_en = each_tag.get('label_en')
+        description = each_tag.get('description')
+        description_en = each_tag.get('description_en')
+        icon_url = each_tag.get('icon_url')
+        insert_tag(tag_id, label, label_en, description, description_en, icon_url)
+        print(tag_id)
+        if isinstance(father_id, list):
+            for each_father_id in father_id:
+                update_relation_tag(each_father_id, tag_id, min_correlation)
+                update_relation_tag(tag_id, each_father_id, max_correlation)
+        elif father_id is None:
+            insert_relation_tag(tag_id, 0, max_correlation)
+        else:
+            update_relation_tag(father_id, tag_id, min_correlation)
+            update_relation_tag(tag_id, father_id, max_correlation)
 
 
 if __name__ == '__main__':
