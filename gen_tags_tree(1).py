@@ -2138,15 +2138,6 @@ def get_json():
         {
             "id": 231,
             "fatherid": 224,
-            "label": "零样本学习（Zero-shot Learning）",
-            "label_en": "Zero-shot Learning",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "属性种类最丰富、图片量最大的图像属性数据集，包含230个分类，359种属性。",
-            "description_en": "The Large-scale Attribute Dataset (LAD) contains 78,017 images, 230 classes and 359 attributes."
-        },
-        {
-            "id": 232,
-            "fatherid": 224,
             "label": "虚拟股票趋势预测（Virtual Stock Trend Forecast）",
             "label_en": "Virtual Stock Trend Forecast",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
