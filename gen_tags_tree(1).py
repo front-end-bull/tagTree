@@ -787,7 +787,7 @@ def get_json():
             "fatherid": [67,82,108],
             "label": "高斯过程（Gaussian process）",
             "label_en": "Gaussian process",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Gaussianprocess_gap.svg/2000px-Gaussianprocess_gap.svg.png",
             "description": "高斯过程是基于统计学习理论和贝叶斯理论发展起来的一种机器学习方法，适于处理高维度、小样本和非线性等复杂回归问题，且泛化能力强，与神经网络、支持向量机相比，GP具有容易实现、超参数自适应获取、非参数推断灵活以及输出具有概率意义等优点。",
             "description_en": "In probability theory and statistics, a Gaussian process is a stochastic process (a collection of random variables indexed by time or space), such that every finite collection of those random variables has a multivariate normal distribution, i.e. every finite linear combination of them is normally distributed."
         },
@@ -827,7 +827,7 @@ def get_json():
             "fatherid": 85,
             "label": "MD5消息摘要算法（MD5 Message-Digest Algorithm）",
             "label_en": "MD5 Message-Digest Algorithm",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/MD5_algorithm.svg/2000px-MD5_algorithm.svg.png",
             "description": "MD5消息摘要算法（MD5 Message-Digest Algorithm），一种被广泛使用的密码散列函数，可以产生出一个128位（16字节）的散列值（hash value），用于确保信息传输完整一致。MD5由美国密码学家罗纳德·李维斯特（Ronald Linn Rivest）设计，于1992年公开，用以取代MD4算法。这套算法的程序在 RFC 1321 中被加以规范。将数据（如一段文字）运算变为另一固定长度值，是散列算法的基础原理。",
             "description_en": "The MD5 algorithm is a widely used hash function producing a 128-bit hash value. Although MD5 was initially designed to be used as a cryptographic hash function, it has been found to suffer from extensive vulnerabilities."
         },
@@ -836,7 +836,7 @@ def get_json():
             "fatherid": 67,
             "label": "学习理论（Learning theories）",
             "label_en": "Learning theories",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://c1.staticflickr.com/5/4111/5067090661_1c03122123_b.jpg",
             "description": "学习理论是教育学和教育心理学的一门分支学科，描述或说明人类和动物学习的类型、过程，以及有效学习的条件。",
             "description_en": "Learning theories are conceptual frameworks that describe how students absorb, process, and retain knowledge during learning."
         },
@@ -1049,7 +1049,7 @@ def get_json():
             "fatherid": 108,
             "label": "一般线性模型（The General Linear Model）",
             "label_en": "GLM (The General Linear Model)",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Linear_regression.svg/1000px-Linear_regression.svg.png",
             "description": "一般线性模型（the General Linear Model, GLM）是一个统计学上常见的线性模型。这个模型在计量经济学的应用中十分重要。",
             "description_en": "The general linear model or multivariate regression model is a statistical linear model. "
         },
