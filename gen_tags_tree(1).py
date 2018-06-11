@@ -785,9 +785,15 @@ def get_json():
         {
             "id": 83,
             "fatherid": [67,82,108],
+<<<<<<< HEAD
             "label": "高斯过程（Gaussian Process）",
             "label_en": "Gaussian Process",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+=======
+            "label": "高斯过程（Gaussian process）",
+            "label_en": "Gaussian process",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Gaussianprocess_gap.svg/2000px-Gaussianprocess_gap.svg.png",
+>>>>>>> 464fa483f9581041fd41973d7c0814cb39569fba
             "description": "高斯过程是基于统计学习理论和贝叶斯理论发展起来的一种机器学习方法，适于处理高维度、小样本和非线性等复杂回归问题，且泛化能力强，与神经网络、支持向量机相比，GP具有容易实现、超参数自适应获取、非参数推断灵活以及输出具有概率意义等优点。",
             "description_en": "In probability theory and statistics, a Gaussian process is a stochastic process (a collection of random variables indexed by time or space), such that every finite collection of those random variables has a multivariate normal distribution, i.e. every finite linear combination of them is normally distributed."
         },
@@ -827,16 +833,22 @@ def get_json():
             "fatherid": 85,
             "label": "MD5消息摘要算法（MD5 Message-Digest Algorithm）",
             "label_en": "MD5 Message-Digest Algorithm",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/MD5_algorithm.svg/2000px-MD5_algorithm.svg.png",
             "description": "MD5消息摘要算法（MD5 Message-Digest Algorithm），一种被广泛使用的密码散列函数，可以产生出一个128位（16字节）的散列值（hash value），用于确保信息传输完整一致。MD5由美国密码学家罗纳德·李维斯特（Ronald Linn Rivest）设计，于1992年公开，用以取代MD4算法。这套算法的程序在 RFC 1321 中被加以规范。将数据（如一段文字）运算变为另一固定长度值，是散列算法的基础原理。",
             "description_en": "The MD5 algorithm is a widely used hash function producing a 128-bit hash value. Although MD5 was initially designed to be used as a cryptographic hash function, it has been found to suffer from extensive vulnerabilities."
         },
         {
             "id": 88,
             "fatherid": 67,
+<<<<<<< HEAD
             "label": "学习理论（Learning Theories）",
             "label_en": "Learning Theories",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+=======
+            "label": "学习理论（Learning theories）",
+            "label_en": "Learning theories",
+            "icon_url": "https://c1.staticflickr.com/5/4111/5067090661_1c03122123_b.jpg",
+>>>>>>> 464fa483f9581041fd41973d7c0814cb39569fba
             "description": "学习理论是教育学和教育心理学的一门分支学科，描述或说明人类和动物学习的类型、过程，以及有效学习的条件。",
             "description_en": "Learning theories are conceptual frameworks that describe how students absorb, process, and retain knowledge during learning."
         },
@@ -1049,7 +1061,7 @@ def get_json():
             "fatherid": 108,
             "label": "一般线性模型（The General Linear Model）",
             "label_en": "GLM (The General Linear Model)",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Linear_regression.svg/1000px-Linear_regression.svg.png",
             "description": "一般线性模型（the General Linear Model, GLM）是一个统计学上常见的线性模型。这个模型在计量经济学的应用中十分重要。",
             "description_en": "The general linear model or multivariate regression model is a statistical linear model. "
         },
@@ -1601,7 +1613,7 @@ def get_json():
             "fatherid": 163,
             "label": "SPSS",
             "label_en": "SPSS",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/SPSS_logo.svg/2000px-SPSS_logo.svg.png",
             "description": "SPSS是统计产品与服务解决方案（Statistical Product and Service Solutions）的简称，为IBM公司推出的一系列用于统计学分析运算、数据挖掘、预测分析和决策支持任务的软件产品及相关服务的总称，有Windows和macOS等版本。",
             "description_en": "SPSS Statistics is a software package used for interactive, or batched, statistical analysis. "
         },
@@ -1781,7 +1793,7 @@ def get_json():
             "fatherid": 188,
             "label": "图像处理（Image Processing）",
             "label_en": "Image Processing",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "http://www.creative-commons-images.com/highway-signs/images/processing.jpg",
             "description": "图像处理(Image Processing)，指使用计算机对图像进行一系列加工，以达到所需的结果。常见的处理有图像数字化、图像编码、图像增强、图像复原、图像分割和图像分析等。",
             "description_en": "In computer science, Digital image processing is the use of computer algorithms to perform image processing on digital images."
         },
@@ -1980,9 +1992,15 @@ def get_json():
         {
             "id": 213,
             "fatherid": 188,
+<<<<<<< HEAD
             "label": "运动推断结构（Structure from Motion）",
             "label_en": "Structure from Motion",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+=======
+            "label": "运动推断结构（Structure from motion）",
+            "label_en": "Structure from motion",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Sfm1.jpg",
+>>>>>>> 464fa483f9581041fd41973d7c0814cb39569fba
             "description": "运动推断结构（SfM）是一种摄影测量范围成像技术，用于估计二维图像序列中的三维结构，这些图像可能与局部运动信号相结合。它是在计算机视觉和视觉感知领域进行研究的。在生物视觉上，运动推断结指的是人类和其他生物能够从一个移动物体或场景中投射的二维（视网膜）运动场中恢复三维结构的现象。",
             "description_en": "Structure from motion (SfM) is a photogrammetric range imaging technique for estimating three-dimensional structures from two-dimensional image sequences that may be coupled with local motion signals."
         },
@@ -1990,7 +2008,7 @@ def get_json():
             "id": 214,
             "label": "AI Challenger 全球AI挑战赛",
             "label_en": "AI Challenger",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://www.datainnovation.org/wp-content/uploads/2017/09/ai-challenger.png",
             "description": "“AI Challenger 全球AI挑战赛”是面向全球人工智能（AI）人才的开放数据集和编程竞赛平台，致力于打造大型、全面的科研数据集与世界级竞赛平台",
             "description_en": "“AI Challenger” is a platform for open datasets and programming competitions to artificial intelligence (AI) talents around the world."
         },
@@ -2077,7 +2095,7 @@ def get_json():
             "id": 224,
             "label": "数据集",
             "label_en": "Datasets",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "http://www.creative-commons-images.com/highway-signs/images/data.jpg",
             "description": "AI Challenger发布了千万量级的机器翻译数据集、百万量级的计算机视觉数据集。",
             "description_en": "AI Challenger 2017 released over 1 million data entries based on 300,000 images, as well as over 10 millions language-based data."
         },
@@ -2095,7 +2113,7 @@ def get_json():
             "fatherid": 224,
             "label": "英中翻译（English-Chinese Translation）",
             "label_en": "English-Chinese Translation",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Translation_arrow_zh.svg/1280px-Translation_arrow_zh.svg.png",
             "description": "规模最大的口语领域英中双语对照数据集。",
             "description_en": "Conversational language translation 10 million English-Chinese language pairs."
         },
@@ -2104,7 +2122,7 @@ def get_json():
             "fatherid": 224,
             "label": "场景分类（Scene Classification）",
             "label_en": "Scene Classification",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Nova_scotia_countryside_a.JPG",
             "description": "80个不同角度、尺度、和光照的日常场景。",
             "description_en": "80 unique scene categories."
         },
@@ -2113,7 +2131,7 @@ def get_json():
             "fatherid": 224,
             "label": "人体骨骼关键点（Human Skeletal System Keypoints）",
             "label_en": "Human Skeletal System Keypoints",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Human_skeleton_front_en.svg",
             "description": "人物动作最复杂、规模最大的人体骨骼关键点图像数据集。",
             "description_en": "More than 300,000 images Keypoints on 700,000 people."
         },
@@ -2137,15 +2155,6 @@ def get_json():
         },
         {
             "id": 231,
-            "fatherid": 224,
-            "label": "零样本学习（Zero-shot Learning）",
-            "label_en": "Zero-shot Learning",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "属性种类最丰富、图片量最大的图像属性数据集，包含230个分类，359种属性。",
-            "description_en": "The Large-scale Attribute Dataset (LAD) contains 78,017 images, 230 classes and 359 attributes."
-        },
-        {
-            "id": 232,
             "fatherid": 224,
             "label": "虚拟股票趋势预测（Virtual Stock Trend Forecast）",
             "label_en": "Virtual Stock Trend Forecast",
@@ -2171,9 +2180,9 @@ def get_conn():
 conn = get_conn()
 
 
-def insert_tag(tag_id, name):
+def insert_tag(tag_id, label, label_en, description, description_en, icon_url):
     cur = conn.cursor()
-    cur.execute('INSERT INTO tag(`id`, `name`) VALUES (%s, %s)', (tag_id, name))
+    cur.execute('INSERT INTO tag(`id`, `label`, `label_en`, `description`, `description_en`, `icon_url`) VALUES (%s, %s, %s, %s, %s, %s)', (tag_id, label, label_en, description, description_en, icon_url))
     conn.commit()
     cur.close()
 
@@ -2195,32 +2204,36 @@ def update_relation_tag(start, end, correlation):
 
 
 def main():
-    # max_correlation = 10000
-    # min_correlation = -10000
-    # default_correlation = 0
-    # tag_json = get_json()
-    # all_tags_id_list = [_['id'] for _ in tag_json]
-    # print(len(all_tags_id_list))
-    # for start_tag_id in all_tags_id_list:
-    #     print(start_tag_id)
-    #     for end_tag_id in all_tags_id_list:
-    #         if start_tag_id != end_tag_id:
-    #             insert_relation_tag(start_tag_id, end_tag_id, default_correlation)
-    # for each_tag in tag_json:
-    #     tag_id = each_tag.get('id')
-    #     father_id = each_tag.get('fatherid')
-    #     name = each_tag.get('label')
-    #     insert_tag(tag_id, name)
-    #     print(tag_id)
-    #     if isinstance(father_id, list):
-    #         for each_father_id in father_id:
-    #             update_relation_tag(each_father_id, tag_id, min_correlation)
-    #             update_relation_tag(tag_id, each_father_id, max_correlation)
-    #     elif father_id is None:
-    #         insert_relation_tag(tag_id, 0, max_correlation)
-    #     else:
-    #         update_relation_tag(father_id, tag_id, min_correlation)
-    #         update_relation_tag(tag_id, father_id, max_correlation)
+    max_correlation = 10000
+    min_correlation = -10000
+    default_correlation = 0
+    tag_json = get_json()
+    all_tags_id_list = [_['id'] for _ in tag_json]
+    print(len(all_tags_id_list))
+    for start_tag_id in all_tags_id_list:
+        print(start_tag_id)
+        for end_tag_id in all_tags_id_list:
+            if start_tag_id != end_tag_id:
+                insert_relation_tag(start_tag_id, end_tag_id, default_correlation)
+    for each_tag in tag_json:
+        tag_id = each_tag.get('id')
+        father_id = each_tag.get('fatherid')
+        label = each_tag.get('label')
+        label_en = each_tag.get('label_en')
+        description = each_tag.get('description')
+        description_en = each_tag.get('description_en')
+        icon_url = each_tag.get('icon_url')
+        insert_tag(tag_id, label, label_en, description, description_en, icon_url)
+        print(tag_id)
+        if isinstance(father_id, list):
+            for each_father_id in father_id:
+                update_relation_tag(each_father_id, tag_id, min_correlation)
+                update_relation_tag(tag_id, each_father_id, max_correlation)
+        elif father_id is None:
+            insert_relation_tag(tag_id, 0, max_correlation)
+        else:
+            update_relation_tag(father_id, tag_id, min_correlation)
+            update_relation_tag(tag_id, father_id, max_correlation)
 
 
 if __name__ == '__main__':
