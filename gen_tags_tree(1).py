@@ -12,7 +12,7 @@ def get_json():
             "label": "人工智能（Artificial Intelligence）",
             "label_en":"Artificial Intelligence",
             "icon_url": "http://www.techminded.co/wp-content/uploads/2014/02/artificial-intelligence.jpg",
-            "description": "人工智能（英语：Artificial Intelligence, AI）亦称机器智能，是指由人制造出来的机器所表现出来的智能。通常人工智能是指通过普通计算机程序的手段实现的人类智能技术。该词也指出研究这样的智能系统是否能够实现，以及如何实现的科学领域。",
+            "description": "人工智能（Artificial Intelligence, AI）亦称机器智能，是指由人制造出来的机器所表现出来的智能。通常人工智能是指通过普通计算机程序的手段实现的人类智能技术。该词也指出研究这样的智能系统是否能够实现，以及如何实现的科学领域。",
             "description_en": "Artificial intelligence (AI, also machine intelligence, MI) is intelligence demonstrated by machines, in contrast to the natural intelligence (NI) displayed by humans and other animals."
         },
         {
@@ -21,7 +21,7 @@ def get_json():
             "label": "自动驾驶（Autonomous Driving）",
             "label_en": "Autonomous Driving",
             "icon_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Google_self_driving_car_at_the_Googleplex.jpg",
-            "description": "自动驾驶（英语：Autopilot）是一种经由机械、电子仪器、液压系统、陀螺仪等，做出无人操控的自动化驾驶。常用在飞行器、船舰及部分的铁路列车。公路交通工具的自动驾驶仍在研究开发中，尚未大规模商用。",
+            "description": "自动驾驶（Autopilot）是一种经由机械、电子仪器、液压系统、陀螺仪等，做出无人操控的自动化驾驶。常用在飞行器、船舰及部分的铁路列车。公路交通工具的自动驾驶仍在研究开发中，尚未大规模商用。",
             "description_en": "An autopilot is a system used to control the trajectory of an aircraft without constant 'hands-on' control by a human operator being required."
         },
         {
@@ -58,7 +58,7 @@ def get_json():
             "label": "运动规划（Motion planning）",
             "label_en": "Motion Planning",
             "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Motion_planning_configuration_space_road_map_path.svg/768px-Motion_planning_configuration_space_road_map_path.svg.png",
-            "description": "运动规划（英语：Motion Planning）是一个过程，用来寻找从起始状态到目标状态的移动步骤。运动规划常常需要在运动受到约束的条件下找到最优解。运动规划多用于机器人学。",
+            "description": "运动规划（Motion Planning）是一个过程，用来寻找从起始状态到目标状态的移动步骤。运动规划常常需要在运动受到约束的条件下找到最优解。运动规划多用于机器人学。",
             "description_en": "Motion planning (also known as the navigation problem or the piano mover's problem) is a term used in robotics for the process of breaking down a desired movement task into discrete motions that satisfy movement constraints and possibly optimize some aspect of the movement."
         },
         # {
@@ -77,9 +77,9 @@ def get_json():
             "id": 8,
             "fatherid": 1,
             "label": "模式识别（Pattern Recognition）",
-            "label_en": "Autonomous Driving",
+            "label_en": "Pattern Recognition",
             "icon_url": "https://i.stack.imgur.com/TV2AA.jpg",
-            "description": "模式识别（英语：Pattern recognition），就是通过计算机用数学技术方法来研究模式的自动处理和判读。我们把环境与客体统称为“模式”。随着计算机技术的发展，人类有可能研究复杂的信息处理过程。信息处理过程的一个重要形式是生命体对环境及客体的识别。",
+            "description": "模式识别（Pattern recognition），就是通过计算机用数学技术方法来研究模式的自动处理和判读。我们把环境与客体统称为“模式”。随着计算机技术的发展，人类有可能研究复杂的信息处理过程。信息处理过程的一个重要形式是生命体对环境及客体的识别。",
             "description_en": "Pattern recognition is a branch of machine learning that focuses on the recognition of patterns and regularities in data, although it is in some cases considered to be nearly synonymous with machine learning."
         },
         # {
@@ -98,9 +98,9 @@ def get_json():
             "id": 10,
             "fatherid": 9,
             "label": "OCR（光学字符识别）",
-            "label_en": "Autonomous Driving",
+            "label_en": "Optical Character Recognition",
             "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Portable_scanner_and_OCR_%28video%29.webm/1200px--Portable_scanner_and_OCR_%28video%29.webm.jpg",
-            "description": "光学字符识别（英语：Optical Character Recognition, OCR）是指对文本资料的图像文件进行分析识别处理，获取文字及版面信息的过程。",
+            "description": "光学字符识别（Optical Character Recognition, OCR）是指对文本资料的图像文件进行分析识别处理，获取文字及版面信息的过程。",
             "description_en": "Optical character recognition (also optical character reader, OCR) is the mechanical or electronic conversion of images of typed, handwritten or printed text into machine-encoded text."
         },
         # {
@@ -695,8 +695,8 @@ def get_json():
         {
             "id": 73,
             "fatherid": [69,154],
-            "label": "神经机器翻译(Neural machine translation)",
-            "label_en": "NMT（Neural machine translation）",
+            "label": "神经机器翻译(Neural Machine Translation)",
+            "label_en": "NMT（Neural Machine Translation）",
             "icon_url": "https://tse4-mm.cn.bing.net/th?id=OIP.XPWN_HT6wAZ7I7plgluohAHaEL&pid=15.1&P=0&w=287&h=163",
             "description": "神经机器翻译，Neural Machine Tranlation, 简称 NMT, 2014年开始兴起的机器翻译方法，逐渐应用卷积神经网络(CNN)，递归神经网络(RNN)，注意力机制等技术，2016年已基本全面取代传统的统计机器翻译(SMT)。Google，百度，搜狗等已上线神经机器翻译系统。",
             "description_en": "Neural machine translation (NMT) is an approach to machine translation that uses a large artificial neural network to predict the likelihood of a sequence of words, typically modeling entire sentences in a single integrated model."
@@ -776,8 +776,8 @@ def get_json():
         {
             "id": 82,
             "fatherid": 67,
-            "label": "贝叶斯定理（Bayes' theorem）",
-            "label_en": "Bayes' theorem",
+            "label": "贝叶斯定理（Bayes' Theorem）",
+            "label_en": "Bayes' Theorem",
             "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Bayes_theorem_drugs_example_tree.svg/1280px-Bayes_theorem_drugs_example_tree.svg.png",
             "description": "贝叶斯定理（Bayes' theorem）是概率论中的一个定理，它跟随机变量的条件概率以及边缘概率分布有关。在有些关于概率的解释中，贝叶斯定理（贝叶斯公式）能够告知我们如何利用新证据修改已有的看法。这个名称来自于托马斯·贝叶斯。",
             "description_en": "In probability theory and statistics, Bayes’ theorem (alternatively Bayes’ law or Bayes' rule, also written as Bayes’s theorem) describes the probability of an event, based on prior knowledge of conditions that might be related to the event."
@@ -785,8 +785,8 @@ def get_json():
         {
             "id": 83,
             "fatherid": [67,82,108],
-            "label": "高斯过程（Gaussian process）",
-            "label_en": "Gaussian process",
+            "label": "高斯过程（Gaussian Process）",
+            "label_en": "Gaussian Process",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "高斯过程是基于统计学习理论和贝叶斯理论发展起来的一种机器学习方法，适于处理高维度、小样本和非线性等复杂回归问题，且泛化能力强，与神经网络、支持向量机相比，GP具有容易实现、超参数自适应获取、非参数推断灵活以及输出具有概率意义等优点。",
             "description_en": "In probability theory and statistics, a Gaussian process is a stochastic process (a collection of random variables indexed by time or space), such that every finite collection of those random variables has a multivariate normal distribution, i.e. every finite linear combination of them is normally distributed."
@@ -808,7 +808,7 @@ def get_json():
             "id": 85,
             "fatherid": 84,
             "label": "哈希函数",
-            "label_en": "Autonomous Driving",
+            "label_en": "Hash function",
             "icon_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Hash_function.svg/520px-Hash_function.svg.png",
             "description": "哈希函数（Hash function）又称散列算法、散列函数，是一种从任何一种数据中创建小的数字“指纹”的方法。散列函数把消息或数据压缩成摘要，使得数据量变小，将数据的格式固定下来。该函数将数据打乱混合，重新创建一个叫做散列值（hash values，hash codes，hash sums，或hashes）的指纹。散列值通常用一个短的随机字母和数字组成的字符串来代表。好的散列函数在输入域中很少出现散列冲突。在散列表和数据处理中，不抑制冲突来区别数据，会使得数据库记录更难找到。",
             "description_en": "A hash function is any function that can be used to map data of arbitrary size to data of fixed size. The values returned by a hash function are called hash values, hash codes, digests, or simply hashes."
@@ -834,8 +834,8 @@ def get_json():
         {
             "id": 88,
             "fatherid": 67,
-            "label": "学习理论（Learning theories）",
-            "label_en": "Learning theories",
+            "label": "学习理论（Learning Theories）",
+            "label_en": "Learning Theories",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "学习理论是教育学和教育心理学的一门分支学科，描述或说明人类和动物学习的类型、过程，以及有效学习的条件。",
             "description_en": "Learning theories are conceptual frameworks that describe how students absorb, process, and retain knowledge during learning."
@@ -954,7 +954,7 @@ def get_json():
                 67,
                 137
             ],
-            "label": "word2vec",
+            "label": "Word2vec",
             "label_en": "Vector Representations of Words",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "将字词转换成多维向量的技术，由 Google 发布。<a href='https://www.tensorflow.org/tutorials/word2vec' target=_blank></a>",
@@ -990,8 +990,8 @@ def get_json():
         {
             "id": 105,
             "fatherid": 67,
-            "label": "监督式学习（Supervised learning）",
-            "label_en": "Supervised learning",
+            "label": "监督式学习（Supervised Learning）",
+            "label_en": "Supervised Learning",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "监督式学习（Supervised learning），是一个机器学习中的方法，可以由训练资料中学到或建立一个模式（函数 / learning model），并依此模式推测新的实例。训练资料是由输入物件（通常是向量）和预期输出所组成。函数的输出可以是一个连续的值（称为回归分析），或是预测一个分类标签（称作分类）。",
             "description_en": "Supervised learning is the machine learning task of learning a function that maps an input to an output based on example input-output pairs."
@@ -1056,8 +1056,8 @@ def get_json():
         {
             "id": 112,
             "fatherid": 111,
-            "label": "逻辑回归（Logistic regression）",
-            "label_en": "Logistic regression",
+            "label": "逻辑回归（Logistic Regression）",
+            "label_en": "Logistic Regression",
             "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Logistic-sigmoid-vs-scaled-probit.svg/1024px-Logistic-sigmoid-vs-scaled-probit.svg.png",
             "description": "逻辑回归（Logistic regression 或logit regression），即逻辑模型（Logit model，也译作“评定模型”、“分类评定模型”）是离散选择法模型之一，属于多重变量分析范畴，是社会学、生物统计学、临床、数量心理学、计量经济学、市场营销等统计实证分析的常用方法。",
             "description_en": "In statistics, the logistic model (or logit model) is a statistical model that is usually taken to apply to a binary dependent variable. In regression analysis, logistic regression or logit regression is estimating the parameters of a logistic model."
@@ -1083,8 +1083,8 @@ def get_json():
         {
             "id": 115,
             "fatherid": 108,
-            "label": "线性回归（Linear regression）",
-            "label_en": "Linear regression",
+            "label": "线性回归（Linear Regression）",
+            "label_en": "Linear Regression",
             "icon_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Linear-regression.svg/600px-Linear-regression.svg.png",
             "description": "在统计学中，线性回归（Linear regression）是利用称为线性回归方程的最小二乘函数对一个或多个自变量和因变量之间关系进行建模的一种回归分析。这种函数是一个或多个称为回归系数的模型参数的线性组合。只有一个自变量的情况称为简单回归，大于一个自变量情况的叫做多元回归。（这反过来又应当由多个相关的因变量预测的多元线性回归区别[来源请求]，而不是一个单一的标量变量。）",
             "description_en": "In statistics, linear regression is a linear approach to modelling the relationship between a scalar response (or dependent variable) and one or more explanatory variables (or independent variables). "
@@ -1092,8 +1092,8 @@ def get_json():
         {
             "id": 116,
             "fatherid": 67,
-            "label": "非监督式学习（Unsupervised learning）",
-            "label_en": "Unsupervised learning",
+            "label": "非监督式学习（Unsupervised Learning）",
+            "label_en": "Unsupervised Learning",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "非监督式学习是一种机器学习的方式，并不需要人力来输入标签。它是监督式学习和强化学习等策略之外的一种选择。在监督式学习中，典型的任务是分类和回归分析，且需要使用到人工预先准备好的范例(base)。一个常见的非监督式学习是数据聚类。在人工神经网络中，生成对抗网络（GAN）、自组织映射（SOM）和适应性共振理论（ART）则是最常用的非监督式学习。",
             "description_en": 'Unsupervised machine learning is the machine learning task of inferring a function to describe hidden structure from "unlabeled"data (a classification or categorization is not included in the observations). '
@@ -1101,8 +1101,8 @@ def get_json():
         {
             "id": 117,
             "fatherid": 116,
-            "label": "聚类分析（Cluster analysis）",
-            "label_en": "Cluster analysis",
+            "label": "聚类分析（Cluster Analysis）",
+            "label_en": "Cluster Analysis",
             "icon_url": "http://i.stack.imgur.com/e2UeU.png",
             "description": "聚类分析（Cluster analysis，亦称为群集分析）是对于统计数据分析的一门技术，在许多领域受到广泛应用，包括机器学习，数据挖掘，模式识别，图像分析以及生物信息。聚类是把相似的对象通过静态分类的方法分成不同的组别或者更多的子集（subset），这样让在同一个子集中的成员对象都有相似的一些属性，常见的包括在坐标系中更加短的空间距离等。",
             "description_en": "Cluster analysis or clustering is the task of grouping a set of objects in such a way that objects in the same group (called a cluster) are more similar (in some sense) to each other than to those in other groups (clusters)."
@@ -1147,7 +1147,7 @@ def get_json():
             "id": 122,
             "fatherid": 121,
             "label": "五子棋AI",
-            "label_en": "Autonomous Driving",
+            "label_en": "Gobang",
             "icon_url": "http://upload.wikimedia.org/wikipedia/commons/8/80/Go_board_part.jpg",
             "description": "通过人工智能算法下五子棋/连珠。国际上每年都会有Gomocup让各类AI进行PK一决胜负。",
             "description_en": ""
@@ -1191,10 +1191,10 @@ def get_json():
         {
             "id": 126,
             "fatherid": 120,
-            "label": "图灵测试（Turing test）",
-            "label_en": "Turing test",
+            "label": "图灵测试（Turing Test）",
+            "label_en": "Turing Test",
             "icon_url": "https://62e528761d0685343e1c-f3d1b99a743ffa4142d9d7f1978d9686.ssl.cf2.rackcdn.com/files/50549/width668/r6zbqvs2-1402296443.jpg",
-            "description": "图灵测试（Turing test，又译图灵试验）是图灵于1950年提出的一个关于判断机器是否能够思考的著名试验，测试某机器是否能表现出与人等价或无法区分的智能。测试的谈话仅限于使用唯一的文本管道，例如计算机键盘和屏幕，这样的结果是不依赖于计算机把单词转换为音频的能力。",
+            "description": "图灵测试（Turing Test，又译图灵试验）是图灵于1950年提出的一个关于判断机器是否能够思考的著名试验，测试某机器是否能表现出与人等价或无法区分的智能。测试的谈话仅限于使用唯一的文本管道，例如计算机键盘和屏幕，这样的结果是不依赖于计算机把单词转换为音频的能力。",
             "description_en": "The Turing test, developed by Alan Turing in 1950, is a test of a machine's ability to exhibit intelligent behavior equivalent to, or indistinguishable from, that of a human. "
         },
         # {
@@ -1335,8 +1335,8 @@ def get_json():
         {
             "id": 142,
             "fatherid": 137,
-            "label": "语料库",
-            "label_en": "Autonomous Driving",
+            "label": "语料库（Text Corpus）",
+            "label_en": "Text Corpus",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "语料库一词在语言学上意指大量的文本，通常经过整理，具有既定格式与标记；事实上，语料库英文 'text corpus' 的涵意即为 'body of text'。",
             "description_en": "In linguistics, a corpus (plural corpora) or text corpus is a large and structured set of texts (nowadays usually electronically stored and processed)."
@@ -1392,8 +1392,8 @@ def get_json():
         {
             "id": 148,
             "fatherid": 146,
-            "label": "概率潜在语义分析（Probabilistic latent semantic analysis）",
-            "label_en": "Probabilistic latent semantic analysis",
+            "label": "概率潜在语义分析（Probabilistic Latent Semantic Analysis）",
+            "label_en": "Probabilistic Latent Semantic Analysis",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "概率潜在语义分析（PLSA），也称为 概率潜在语义索引（PLSI），尤其是在信息检索领域)是一个一种用于分析双模式和共现数据的统计技术。 实际上，就像从PLSA进化而来的潜在语义分析一样，可以根据它们对某些隐藏变量的亲和性来导出观察变量的低维表示。",
             "description_en": "Probabilistic latent semantic analysis (PLSA), also known as probabilistic latent semantic indexing (PLSI, especially in information retrieval circles) is a statistical technique for the analysis of two-mode and co-occurrence data."
@@ -1410,8 +1410,8 @@ def get_json():
         {
             "id": 150,
             "fatherid": [137,163],
-            "label": "文本挖掘（Text mining）",
-            "label_en": "Text mining",
+            "label": "文本挖掘（Text Mining）",
+            "label_en": "Text Mining",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "文本挖掘有时也被称为文字探勘、文本数据挖掘等，大致相当于文字分析，一般指文本处理过程中产生高质量的信息。高质量的信息通常通过分类和预测来产生，如模式识别。文本挖掘通常涉及输入文本的处理过程（通常进行分析，同时加上一些衍生语言特征以及消除杂音，随后插入到数据库中） ，产生结构化数据，并最终评价和解释输出。",
             "description_en": "Text mining, also referred to as text data mining, roughly equivalent to text analytics, is the process of deriving high-quality information from text."
@@ -1437,8 +1437,8 @@ def get_json():
         {
             "id": 153,
             "fatherid": 137,
-            "label": "语义搜索（Semantic search）",
-            "label_en": "Semantic search",
+            "label": "语义搜索（Semantic Search）",
+            "label_en": "Semantic Search",
             "icon_url": "https://tse1-mm.cn.bing.net/th?id=OIP.OgmOsnyaIXICvKHzUC21zwHaHa&pid=15.1&P=0&w=300&h=300",
             "description": "语义检索，是为了生成更相关的结果，使用语义网络中的数据来帮助区分(disambiguation)查询和网页的内容，所进行的在线检索过程。Hildebrand et al. 有一个对语义检索系统的全面回顾报告，并且说明了语义在检索过程中的相关使用情况。",
             "description_en": "Semantic search seeks to improve search accuracy by understanding the searcher's intent and the contextual meaning of terms as they appear in the searchable dataspace, whether on the Web or within a closed system, to generate more relevant results."
@@ -1446,8 +1446,8 @@ def get_json():
         {
             "id": 154,
             "fatherid": 137,
-            "label": "机器翻译（Machine translation）",
-            "label_en": "Machine translation",
+            "label": "机器翻译（Machine Translation）",
+            "label_en": "Machine Translation",
             "icon_url": "http://www.somyatrans.com/articles/images/machine-human.jpg",
             "description": "机器翻译（Machine Translation，经常简写为MT，俗称机翻）属于计算语言学的范畴，其研究借由计算机程序将文字或演说从一种自然语言翻译成另一种自然语言。简单来说，机器翻译是通过将一个自然语言的字辞取代成另一个自然语言的字辞。借由使用语料库的技术，可达成更加复杂的自动翻译，包含可更佳的处理不同的文法结构、辞汇辨识、惯用语的对应等。",
             "description_en": "Machine translation, sometimes referred to by the abbreviation MT (not to be confused with computer-aided translation, machine-aided human translation (MAHT) or interactive translation) is a sub-field of computational linguistics that investigates the use of software to translate text or speech from one language to another."
@@ -1500,8 +1500,8 @@ def get_json():
         {
             "id": 160,
             "fatherid": 1,
-            "label": "语音合成（Speech synthesi）",
-            "label_en": "Speech synthesis",
+            "label": "语音合成（Speech Synthesi）",
+            "label_en": "Speech Synthesis",
             "icon_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Modeling-Consonant-Vowel-Coarticulation-for-Articulatory-Speech-Synthesis-pone.0060603.s008.ogv/440px--Modeling-Consonant-Vowel-Coarticulation-for-Articulatory-Speech-Synthesis-pone.0060603.s008.ogv.jpg",
             "description": "语音合成是将人类语音用人工的方式所产生。若是将电脑系统用在语音合成上，则称为语音合成器，而语音合成器可以用软/硬件所实现。文字转语音（text-to-speech，TTS）系统则是将一般语言的文字转换为语音，其他的系统可以描绘语言符号的表示方式，就像音标转换至语音一样。",
             "description_en": "Speech synthesis is the artificial production of human speech. A computer system used for this purpose is called a speech computer or speech synthesizer, and can be implemented in software or hardware products."
@@ -1518,8 +1518,8 @@ def get_json():
         {
             "id": 162,
             "fatherid": 1,
-            "label": "专家系统（Expert system）",
-            "label_en": "Expert system",
+            "label": "专家系统（Expert System）",
+            "label_en": "Expert System",
             "icon_url": "http://www.atariarchives.org/deli/expert_systems1.jpg",
             "description": "专家系统是早期人工智能的一个重要分支，它可以看作是一类具有专门知识和经验的计算机智能程序系统，一般采用人工智能中的知识表示和知识推理技术来模拟通常由领域专家才能解决的复杂问题。一般来说，专家系统=知识库+推理机，因此专家系统也被称为基于知识的系统。",
             "description_en": "In artificial intelligence, an expert system is a computer system that emulates the decision-making ability of a human expert."
@@ -1527,8 +1527,8 @@ def get_json():
         {
             "id": 163,
             "fatherid": 1,
-            "label": "数据挖掘（Data mining）",
-            "label_en": "Data mining",
+            "label": "数据挖掘（Data Mining）",
+            "label_en": "Data Mining",
             "icon_url": "http://blogs.lse.ac.uk/impactofsocialsciences/files/2014/03/data-mining.png",
             "description": "数据挖掘（data mining）是一个跨学科的计算机科学分支，它是用人工智能、机器学习、统计学和数据库的交叉方法在相对较大型的数据集中发现模式的计算过程。数据挖掘过程的总体目标是从一个数据集中提取信息，并将其转换成可理解的结构，以进一步使用。除了原始分析步骤，它还涉及到数据库和数据管理方面、数据预处理、模型与推断方面考量、兴趣度度量、复杂度的考虑，以及发现结构、可视化及在线更新等后处理。",
             "description_en": "Data mining is the process of discovering patterns in large data sets involving methods at the intersection of machine learning, statistics, and database systems."
@@ -1635,8 +1635,8 @@ def get_json():
         {
             "id": 175,
             "fatherid": 1,
-            "label": "推荐系统（Recommender system）",
-            "label_en": "Recommender system",
+            "label": "推荐系统（Recommender System）",
+            "label_en": "Recommender System",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "推荐系统是一种信息过滤系统，用于预测用户对物品的“评分”或“偏好”。",
             "description_en": 'A recommender system or a recommendation system (sometimes replacing "system" with a synonym such as platform or engine) is a subclass of information filtering system that seeks to predict the "rating" or "preference" a user would give to an item.'
@@ -1752,8 +1752,8 @@ def get_json():
         {
             "id": 188,
             "fatherid": 1,
-            "label": "计算机视觉（Computer vision）",
-            "label_en": "Computer vision",
+            "label": "计算机视觉（Computer Vision）",
+            "label_en": "Computer Vision",
             "icon_url": "http://silveiraneto.net/wp-content/uploads/2009/11/digital_eye.jpeg",
             "description": "计算机视觉是一门研究如何使机器“看”的科学，更进一步的说，就是指用摄影机和计算机代替人眼对目标进行识别、跟踪和测量等机器视觉，并进一步做图像处理，用计算机处理成为更适合人眼观察或传送给仪器检测的图像。",
             "description_en": "Computer vision is an interdisciplinary field that deals with how computers can be made for gaining high-level understanding from digital images or videos. "
@@ -1935,8 +1935,8 @@ def get_json():
         {
             "id": 208,
             "fatherid": 188,
-            "label": "图像检索（Image retrieval）",
-            "label_en": "Image retrieval",
+            "label": "图像检索（Image Retrieval）",
+            "label_en": "Image Retrieval",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "图像检索，又称图像检索，系统是一个电脑浏览的系统，从一个大型的数字图像数据库去检索和检索图像。大多传统和一般图像检索的方式是利用一些增加元数据(metadata)的方法，例如：字幕、关键词或是图像的说明，如此一来就可以通过注解词完成检索。人工的图像注解是费时、费力并且昂贵；为了解决这个问题，已经有大量的研究在做自动图像注解方面上。此外，越来越多的社会网络应用和语义网已经产生了数个以网络为基底发展的图像注解工具。",
             "description_en": "An image retrieval system is a computer system for browsing, searching and retrieving images from a large database of digital images. "
@@ -1945,7 +1945,7 @@ def get_json():
             "id": 209,
             "fatherid": 208,
             "label": "基于内容的图像检索",
-            "label_en": "Content-based image retrieval",
+            "label_en": "Content-based Image Retrieval",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "基于内容的图像检索（Content-based image retrieval，CBIR；或content-based visual information retrieval），属于图像分析的一个研究领域。基于内容的图像检索目的是在给定查询图像的前提下，依据内容信息或指定查询标准，在图像数据库中搜索并查找出符合查询条件的相应图片。",
             "description_en": "Content-based image retrieval (CBIR), also known as query by image content (QBIC) and content-based visual information retrieval (CBVIR) is the application of computer vision techniques to the image retrieval problem."
@@ -1980,8 +1980,8 @@ def get_json():
         {
             "id": 213,
             "fatherid": 188,
-            "label": "运动推断结构（Structure from motion）",
-            "label_en": "Structure from motion",
+            "label": "运动推断结构（Structure from Motion）",
+            "label_en": "Structure from Motion",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "运动推断结构（SfM）是一种摄影测量范围成像技术，用于估计二维图像序列中的三维结构，这些图像可能与局部运动信号相结合。它是在计算机视觉和视觉感知领域进行研究的。在生物视觉上，运动推断结指的是人类和其他生物能够从一个移动物体或场景中投射的二维（视网膜）运动场中恢复三维结构的现象。",
             "description_en": "Structure from motion (SfM) is a photogrammetric range imaging technique for estimating three-dimensional structures from two-dimensional image sequences that may be coupled with local motion signals."
