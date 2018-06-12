@@ -2161,6 +2161,141 @@ def get_json():
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "通过对大规模历史数据建模，预测虚拟股票未来趋势。",
             "description_en": "Predict the future trend of virtual stocks by modeling large-scale historical data."
+        },
+        {
+            "id": 232,
+            "fatherid": 223,
+            "label": "机械臂的自动理货、分拣系统",
+            "label_en": "",
+            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "description": "人类日常的生产流程中有大量的非确定性生产过程，需要计算机视觉来确定生产过程中物品的位置、种类等信息。如果用机械臂来代替人类执行这些生产流程，就需要计算机视觉作为眼、人工智能作为脑，进行手、眼、脑协调。",
+            "description_en": ""
+        },
+        {
+            "id": 233,
+            "fatherid": 223,
+            "label": "人流动线追踪",
+            "label_en": "",
+            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "description": "作为门店的运营者，了解顾客的行为动线（人们移动和停留的点，连合起来被称为动线），理解用户的店内行为，从而有针对性的对门店陈列、商品部署、人力部署作出相应的优化，对于门店运营状况感知、提升客户体验至关重要。",
+            "description_en": ""
+        },
+        {
+            "id": 234,
+            "fatherid": 223,
+            "label": "农作物病虫害检测",
+            "label_en": "",
+            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "description": "我们期待借助移动互联网和人工智能技术，通过机器学习训练出能用照片有效识别农作物病害的人工智能，让普通农民也能做到快速准确识别、精准防治。",
+            "description_en": ""
+        },
+        {
+            "id": 235,
+            "fatherid": 223,
+            "label": "AI有嘻哈：自动写歌词",
+            "label_en": "",
+            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "description": "在嘻哈独特的节奏、押韵要求下，如何借助人工智能在几秒内得到一首符合主题的freestyle作品，如何更进一步在battle赛场上一展风采？",
+            "description_en": ""
+        },
+        {
+            "id": 236,
+            "fatherid": 223,
+            "label": "AI好音乐：自动作曲",
+            "label_en": "",
+            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "description": "人工智能已经悄然在多个方面超越人类，并向更多人类专属的技能发起挑战，人工智能作曲就是其中一个颇为激动人心的领域。",
+            "description_en": ""
+        },
+        {
+            "id": 237,
+            "fatherid": 223,
+            "label": "知识图谱助力电影推荐",
+            "label_en": "",
+            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "description": "看了一场好看的电影，还想看更多？推荐系统就能猜透你的心。",
+            "description_en": ""
+        },
+        {
+            "id": 238,
+            "fatherid": 223,
+            "label": "环境不可控场景下拍照文档的地址文字识别",
+            "label_en": "",
+            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "description": "OCR虽然已经发展了近半个世纪，但近十年来基于相机拍照的图片获取方式给OCR带来了新的挑战。",
+            "description_en": ""
+        },
+        {
+            "id": 239,
+            "fatherid": 223,
+            "label": "盲人外卖语音助手演示系统",
+            "label_en": "",
+            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "description": "外卖已经成为大众生活中不可或缺的一部分，然而对于1000多万的盲人以及数千万视障人群来说，点外卖仍然是一件非常困难的事情。",
+            "description_en": ""
+        },
+        {
+            "id": 240,
+            "fatherid": 223,
+            "label": "基于文本语义的图片生成",
+            "label_en": "",
+            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "description": "输入一段文字描述机器自动生成相关的图片，例如机器根据输入“猫到底有多漂亮？”生成一张猫的图片。如何将自然语言理解与图片生成任务结合，也是一个前沿、有趣、实用的任务。",
+            "description_en": ""
+        },
+        {
+            "id": 241,
+            "fatherid": 223,
+            "label": "刘看山陪聊机器人",
+            "label_en": "",
+            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "description": "目前聊天机器人技术通常聚焦在开放域聊天和面向特定任务的对话，如何开发出一款能够以给定语言风格的对话机器人，让聊天机器人具有特定的调性、人格，将是一项挑战且有趣的任务。",
+            "description_en": ""
+        },
+        {
+            "id": 242,
+            "fatherid": 223,
+            "label": "3D人体骨架点检测",
+            "label_en": "",
+            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "description": "近年来，随着深度学习技术的发展，基于单张RGB图像的3D骨架点检测已经变得可能。",
+            "description_en": ""
+        },
+        {
+            "id": 243,
+            "fatherid": 223,
+            "label": "图像美学评价",
+            "label_en": "",
+            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "description": "美学评价是计算机视觉领域一个前沿课题，也是深度学习算法尚未很好解决的问题之一。",
+            "description_en": ""
+        },
+        {
+            "id": 244,
+            "fatherid": 223,
+            "label": "利用RL方法学习即时战略游戏",
+            "label_en": "",
+            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "description": "Reinforcement Learning 相关的算法和应用目前是一个非常活跃的研究领域。深度学习和RL的结合，在一些简单序列决策问题中达到了非常好的效果，比如Atari游戏和简单的连续控制问题。",
+            "description_en": ""
+        },
+        {
+            "id": 245,
+            "fatherid": 223,
+            "label": "基于2D图像和视频的行为识别",
+            "label_en": "",
+            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "description": "行为识别是当前计算机视觉研究的热点领域之一。相比于通用物体识别和检测技术，对于人的特定行为的分析和辨别，更多的涉及图像和视频数据的深层加工和理解，也更具挑战性和应用前景。",
+            "description_en": ""
+        },
+        {
+            "id": 246,
+            "fatherid": 223,
+            "label": "多摄像头行人轨迹和行人动作分析",
+            "label_en": "",
+            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "description": "在多个摄像头之间，确定多个行人的身份信息并分析他们的动作，在公共安全、智慧城市和智能零售中存在广泛应用。",
+            "description_en": ""
         }
     ]
 
