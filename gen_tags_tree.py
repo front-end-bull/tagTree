@@ -235,7 +235,7 @@ def get_json():
                 8,
                 137
             ],
-            "label": "语音识别(Speech Recognition)",
+            "label": "语音识别（Speech Recognition）",
             "label_en": "Speech Recognition",
             "icon_url": "http://www.wired.com/images_blogs/gadgetlab/2009/12/_g7i9162-660x440.jpg",
             "description": "语音识别（speech recognition；语音辨识／言语辨别）技术，也被称为自动语音识别（英语：Automatic Speech Recognition, ASR）、电脑语音识别（英语：Computer Speech Recognition）或是语音转文本识别（英语：Speech To Text, STT），其目标是以电脑自动将人类的语音内容转换为相应的文字。与说话人识别及说话人确认不同，后者尝试识别或确认发出语音的说话人而非其中所包含的词汇内容。",
@@ -520,7 +520,7 @@ def get_json():
         {
             "id": 55,
             "fatherid": 47,
-            "label": "长短期记忆(Long Short-Term Memory)",
+            "label": "长短期记忆（Long Short-Term Memory）",
             "label_en": "Long Short-Term Memory",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "长短期记忆（Long Short-Term Memory，LSTM）是一种时间递归神经网络（RNN），论文首次发表于1997年。由于独特的设计结构，LSTM适合于处理和预测时间序列中间隔和延迟非常长的重要事件。",
@@ -529,7 +529,7 @@ def get_json():
         {
             "id": 56,
             "fatherid": 47,
-            "label": "递归神经网络(RNN)",
+            "label": "递归神经网络（RNN）",
             "label_en": "RNN(Recurrent Neural Network)",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "递归神经网络（RNN）是两种人工神经网络的总称。一种是时间递归神经网络（recurrent neural network），另一种是结构递归神经网络（recursive neural network）。时间递归神经网络的神经元间连接构成矩阵，而结构递归神经网络利用相似的神经网络结构递归构造更为复杂的深度网络。RNN一般指代时间递归神经网络。",
@@ -695,7 +695,7 @@ def get_json():
         {
             "id": 73,
             "fatherid": [69,154],
-            "label": "神经机器翻译(Neural Machine Translation)",
+            "label": "神经机器翻译（Neural Machine Translation）",
             "label_en": "NMT（Neural Machine Translation）",
             "icon_url": "https://tse4-mm.cn.bing.net/th?id=OIP.XPWN_HT6wAZ7I7plgluohAHaEL&pid=15.1&P=0&w=287&h=163",
             "description": "神经机器翻译，Neural Machine Tranlation, 简称 NMT, 2014年开始兴起的机器翻译方法，逐渐应用卷积神经网络(CNN)，递归神经网络(RNN)，注意力机制等技术，2016年已基本全面取代传统的统计机器翻译(SMT)。Google，百度，搜狗等已上线神经机器翻译系统。",
@@ -785,15 +785,9 @@ def get_json():
         {
             "id": 83,
             "fatherid": [67,82,108],
-<<<<<<< HEAD
-            "label": "高斯过程（Gaussian Process）",
-            "label_en": "Gaussian Process",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-=======
             "label": "高斯过程（Gaussian process）",
             "label_en": "Gaussian process",
             "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Gaussianprocess_gap.svg/2000px-Gaussianprocess_gap.svg.png",
->>>>>>> 464fa483f9581041fd41973d7c0814cb39569fba
             "description": "高斯过程是基于统计学习理论和贝叶斯理论发展起来的一种机器学习方法，适于处理高维度、小样本和非线性等复杂回归问题，且泛化能力强，与神经网络、支持向量机相比，GP具有容易实现、超参数自适应获取、非参数推断灵活以及输出具有概率意义等优点。",
             "description_en": "In probability theory and statistics, a Gaussian process is a stochastic process (a collection of random variables indexed by time or space), such that every finite collection of those random variables has a multivariate normal distribution, i.e. every finite linear combination of them is normally distributed."
         },
@@ -840,15 +834,9 @@ def get_json():
         {
             "id": 88,
             "fatherid": 67,
-<<<<<<< HEAD
-            "label": "学习理论（Learning Theories）",
-            "label_en": "Learning Theories",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-=======
             "label": "学习理论（Learning theories）",
             "label_en": "Learning theories",
             "icon_url": "https://c1.staticflickr.com/5/4111/5067090661_1c03122123_b.jpg",
->>>>>>> 464fa483f9581041fd41973d7c0814cb39569fba
             "description": "学习理论是教育学和教育心理学的一门分支学科，描述或说明人类和动物学习的类型、过程，以及有效学习的条件。",
             "description_en": "Learning theories are conceptual frameworks that describe how students absorb, process, and retain knowledge during learning."
         },
@@ -1302,7 +1290,7 @@ def get_json():
         {
             "id": 137,
             "fatherid": 1,
-            "label": "自然语言处理(Natural Language Processing)",
+            "label": "自然语言处理（Natural Language Processing）",
             "label_en": "NLP (Natural Language Processing)",
             "icon_url": "https://mchromiak.github.io/articles/2017/Nov/30/img/nlp-cover.pngq",
             "description": "自然语言处理（natural language processing，缩写作 NLP）是人工智能和语言学领域的分支学科。此领域探讨如何处理及运用自然语言；自然语言认知则是指让电脑“懂”人类的语言。自然语言生成系统把计算机数据转化为自然语言。自然语言理解系统把自然语言转化为计算机程序更易于处理的形式。",
@@ -1365,7 +1353,7 @@ def get_json():
         {
             "id": 144,
             "fatherid": 143,
-            "label": "Sphinx(检索引擎）",
+            "label": "Sphinx（检索引擎）",
             "label_en": "Sphinx",
             "icon_url": "http://en.wikipedia.org/wiki/Special:FilePath/Sphinx_search_logo.jpg",
             "description": "<a href='http://sphinxsearch.com' target=_blank></a>",
@@ -1992,15 +1980,9 @@ def get_json():
         {
             "id": 213,
             "fatherid": 188,
-<<<<<<< HEAD
-            "label": "运动推断结构（Structure from Motion）",
-            "label_en": "Structure from Motion",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-=======
             "label": "运动推断结构（Structure from motion）",
             "label_en": "Structure from motion",
             "icon_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Sfm1.jpg",
->>>>>>> 464fa483f9581041fd41973d7c0814cb39569fba
             "description": "运动推断结构（SfM）是一种摄影测量范围成像技术，用于估计二维图像序列中的三维结构，这些图像可能与局部运动信号相结合。它是在计算机视觉和视觉感知领域进行研究的。在生物视觉上，运动推断结指的是人类和其他生物能够从一个移动物体或场景中投射的二维（视网膜）运动场中恢复三维结构的现象。",
             "description_en": "Structure from motion (SfM) is a photogrammetric range imaging technique for estimating three-dimensional structures from two-dimensional image sequences that may be coupled with local motion signals."
         },
