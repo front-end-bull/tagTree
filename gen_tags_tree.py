@@ -1988,6 +1988,7 @@ def get_json():
         },
         {
             "id": 214,
+            "fatherid":1,
             "label": "AI Challenger 全球AI挑战赛",
             "label_en": "AI Challenger",
             "icon_url": "https://www.datainnovation.org/wp-content/uploads/2017/09/ai-challenger.png",
@@ -2059,6 +2060,7 @@ def get_json():
         },
         {
             "id": 222,
+            "fatherid": 1,            
             "label": "高校教师AI培训班",
             "label_en": "The AI Training Program For Teachers",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
@@ -2067,6 +2069,7 @@ def get_json():
         },
         {
             "id": 223,
+            "fatherid": 1,            
             "label": "学生DeeCamp人工智能训练营",
             "label_en": "DeeCamp AI Training Program For Students",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
@@ -2075,6 +2078,7 @@ def get_json():
         },
         {
             "id": 224,
+            "fatherid": 1,            
             "label": "数据集",
             "label_en": "Datasets",
             "icon_url": "http://www.creative-commons-images.com/highway-signs/images/data.jpg",
