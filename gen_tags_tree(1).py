@@ -55,7 +55,7 @@ def get_json():
         {
             "id": 6,
             "fatherid": [3,174],
-            "label": "运动规划（Motion planning）",
+            "label": "运动规划（Motion Planning）",
             "label_en": "Motion Planning",
             "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Motion_planning_configuration_space_road_map_path.svg/768px-Motion_planning_configuration_space_road_map_path.svg.png",
             "description": "运动规划（Motion Planning）是一个过程，用来寻找从起始状态到目标状态的移动步骤。运动规划常常需要在运动受到约束的条件下找到最优解。运动规划多用于机器人学。",
@@ -124,8 +124,8 @@ def get_json():
         {
             "id": 13,
             "fatherid": 8,
-            "label": "声学指纹（Acoustic fingerprint）",
-            "label_en": "Acoustic fingerprint Recognition）",
+            "label": "声学指纹（Acoustic Fingerprint）",
+            "label_en": "Acoustic Fingerprint Recognition）",
             "icon_url": "http://i.stack.imgur.com/aW36s.png",
             "description": "声学指纹（Acoustic fingerprint）是通过特定算法从音频信号中提取的一段数字摘要，用于识别声音样本或者快速定位音频数据库中的相似音频。音频压缩技术的进步以及大容量存储器的出现使得互联网上出现了以音乐为主的海量音频信息，手工选取某首歌曲很多时候已经变得不可能，这直接促使产生了可以进行音乐自动识别的数字音频指纹技术。",
             "description_en": "An acoustic fingerprint is a condensed digital summary, a fingerprint, deterministically generated from an audio signal, that can be used to identify an audio sample or quickly locate similar items in an audio database."
@@ -160,8 +160,8 @@ def get_json():
                 17,
                 188
             ],
-            "label": "人脸识别（Face perception）",
-            "label_en": "Face perception",
+            "label": "人脸识别（Face Perception）",
+            "label_en": "Face Perception",
             "icon_url": "https://petapixel.com/assets/uploads/2016/06/facialrecognition_1.jpg",
             "description": "人脸识别，特指利用分析比较人脸视觉特征信息进行身份鉴别的计算机技术。广义的人脸识别实际包括构建人脸识别系统的一系列相关技术，包括人脸图像采集、人脸定位、人脸识别预处理、身份确认以及身份查找等；而狭义的人脸识别特指通过人脸进行身份确认或者身份查找的技术或系统。",
             "description_en": "Face perception is an individual's understanding and interpretation of the face, particularly the human face, especially in relation to the associated information processing in the brain."
@@ -187,8 +187,8 @@ def get_json():
         {
             "id": 19,
             "fatherid": 17,
-            "label": "指纹识别",
-            "label_en": "Autonomous Driving",
+            "label": "指纹识别（Fingerprint Identification）",
+            "label_en": "Fingerprint Identification",
             "icon_url": "http://digitalfire.ucd.ie/wp-content/uploads/2012/10/JackyFoxBlog.jpg",
             "description": "指纹识别技术是一种生物识别技术，指纹识别系统是一套包括指纹图像获取、处理、特征提取和比对等模块的模式识别系统。常用于需要人员身份确认的场所，如门禁系统、考勤系统、笔记本电脑、银行内部处理、银行支付等。",
             "description_en": ""
@@ -813,10 +813,10 @@ def get_json():
         {
             "id": 85,
             "fatherid": 84,
-            "label": "哈希函数",
-            "label_en": "Hash function",
+            "label": "哈希函数（Hash Function）",
+            "label_en": "Hash Function",
             "icon_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Hash_function.svg/520px-Hash_function.svg.png",
-            "description": "哈希函数（Hash function）又称散列算法、散列函数，是一种从任何一种数据中创建小的数字“指纹”的方法。散列函数把消息或数据压缩成摘要，使得数据量变小，将数据的格式固定下来。该函数将数据打乱混合，重新创建一个叫做散列值（hash values，hash codes，hash sums，或hashes）的指纹。散列值通常用一个短的随机字母和数字组成的字符串来代表。好的散列函数在输入域中很少出现散列冲突。在散列表和数据处理中，不抑制冲突来区别数据，会使得数据库记录更难找到。",
+            "description": "哈希函数（Hash Function）又称散列算法、散列函数，是一种从任何一种数据中创建小的数字“指纹”的方法。散列函数把消息或数据压缩成摘要，使得数据量变小，将数据的格式固定下来。该函数将数据打乱混合，重新创建一个叫做散列值（hash values，hash codes，hash sums，或hashes）的指纹。散列值通常用一个短的随机字母和数字组成的字符串来代表。好的散列函数在输入域中很少出现散列冲突。在散列表和数据处理中，不抑制冲突来区别数据，会使得数据库记录更难找到。",
             "description_en": "A hash function is any function that can be used to map data of arbitrary size to data of fixed size. The values returned by a hash function are called hash values, hash codes, digests, or simply hashes."
         },
         {
@@ -845,8 +845,8 @@ def get_json():
             "label_en": "Learning Theories",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
 =======
-            "label": "学习理论（Learning theories）",
-            "label_en": "Learning theories",
+            "label": "学习理论（Learning Theories）",
+            "label_en": "Learning Theories",
             "icon_url": "https://c1.staticflickr.com/5/4111/5067090661_1c03122123_b.jpg",
 >>>>>>> 464fa483f9581041fd41973d7c0814cb39569fba
             "description": "学习理论是教育学和教育心理学的一门分支学科，描述或说明人类和动物学习的类型、过程，以及有效学习的条件。",
@@ -1512,7 +1512,7 @@ def get_json():
         {
             "id": 160,
             "fatherid": 1,
-            "label": "语音合成（Speech Synthesi）",
+            "label": "语音合成（Speech Synthesis）",
             "label_en": "Speech Synthesis",
             "icon_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Modeling-Consonant-Vowel-Coarticulation-for-Articulatory-Speech-Synthesis-pone.0060603.s008.ogv/440px--Modeling-Consonant-Vowel-Coarticulation-for-Articulatory-Speech-Synthesis-pone.0060603.s008.ogv.jpg",
             "description": "语音合成是将人类语音用人工的方式所产生。若是将电脑系统用在语音合成上，则称为语音合成器，而语音合成器可以用软/硬件所实现。文字转语音（text-to-speech，TTS）系统则是将一般语言的文字转换为语音，其他的系统可以描绘语言符号的表示方式，就像音标转换至语音一样。",
@@ -1997,8 +1997,8 @@ def get_json():
             "label_en": "Structure from Motion",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
 =======
-            "label": "运动推断结构（Structure from motion）",
-            "label_en": "Structure from motion",
+            "label": "运动推断结构（Structure from Motion）",
+            "label_en": "Structure from Motion",
             "icon_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Sfm1.jpg",
 >>>>>>> 464fa483f9581041fd41973d7c0814cb39569fba
             "description": "运动推断结构（SfM）是一种摄影测量范围成像技术，用于估计二维图像序列中的三维结构，这些图像可能与局部运动信号相结合。它是在计算机视觉和视觉感知领域进行研究的。在生物视觉上，运动推断结指的是人类和其他生物能够从一个移动物体或场景中投射的二维（视网膜）运动场中恢复三维结构的现象。",
