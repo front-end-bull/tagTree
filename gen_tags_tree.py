@@ -1980,18 +1980,8 @@ def get_json():
         {
             "id": 213,
             "fatherid": 188,
-<<<<<<< HEAD:gen_tags_tree(1).py
-<<<<<<< HEAD
             "label": "运动推断结构（Structure from Motion）",
             "label_en": "Structure from Motion",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-=======
-            "label": "运动推断结构（Structure from Motion）",
-            "label_en": "Structure from Motion",
-=======
-            "label": "运动推断结构（Structure from motion）",
-            "label_en": "Structure from motion",
->>>>>>> 479808e6b437ea7332fec3e6cb84f3267574b645:gen_tags_tree.py
             "icon_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Sfm1.jpg",
             "description": "运动推断结构（SfM）是一种摄影测量范围成像技术，用于估计二维图像序列中的三维结构，这些图像可能与局部运动信号相结合。它是在计算机视觉和视觉感知领域进行研究的。在生物视觉上，运动推断结指的是人类和其他生物能够从一个移动物体或场景中投射的二维（视网膜）运动场中恢复三维结构的现象。",
             "description_en": "Structure from motion (SfM) is a photogrammetric range imaging technique for estimating three-dimensional structures from two-dimensional image sequences that may be coupled with local motion signals."
