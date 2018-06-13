@@ -2080,7 +2080,7 @@ def get_json():
         },
         {
             "id": 222,
-            "fatherid": 1,            
+            "fatherid": 1,
             "label": "高校教师AI培训班",
             "label_en": "The AI Training Program For Teachers",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
@@ -2089,7 +2089,7 @@ def get_json():
         },
         {
             "id": 223,
-            "fatherid": 1,            
+            "fatherid": 1,
             "label": "学生DeeCamp人工智能训练营",
             "label_en": "DeeCamp AI Training Program For Students",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
@@ -2098,7 +2098,7 @@ def get_json():
         },
         {
             "id": 224,
-            "fatherid": 1,            
+            "fatherid": 1,
             "label": "数据集",
             "label_en": "Datasets",
             "icon_url": "http://www.creative-commons-images.com/highway-signs/images/data.jpg",
@@ -2171,7 +2171,7 @@ def get_json():
 
         {
             "id": 247,
-            "fatherid": 223,            
+            "fatherid": 223,
             "label": "DeeCamp·2017",
             "label_en": "DeeCamp AI Training Program For Students",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
@@ -2181,7 +2181,7 @@ def get_json():
 
         {
             "id": 232,
-            "fatherid": 247,
+            "fatherid": 223,
             "label": "机械臂的自动理货、分拣系统",
             "label_en": "",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
@@ -2190,7 +2190,7 @@ def get_json():
         },
         {
             "id": 233,
-            "fatherid": 247,
+            "fatherid": 223,
             "label": "人流动线追踪",
             "label_en": "",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
@@ -2199,7 +2199,7 @@ def get_json():
         },
         {
             "id": 234,
-            "fatherid": 247,
+            "fatherid": 223,
             "label": "农作物病虫害检测",
             "label_en": "",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
@@ -2208,7 +2208,7 @@ def get_json():
         },
         {
             "id": 235,
-            "fatherid": 247,
+            "fatherid": 223,
             "label": "AI有嘻哈：自动写歌词",
             "label_en": "",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
@@ -2217,7 +2217,7 @@ def get_json():
         },
         {
             "id": 236,
-            "fatherid": 247,
+            "fatherid": 223,
             "label": "AI好音乐：自动作曲",
             "label_en": "",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
@@ -2226,7 +2226,7 @@ def get_json():
         },
         {
             "id": 237,
-            "fatherid": 247,
+            "fatherid": 223,
             "label": "知识图谱助力电影推荐",
             "label_en": "",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
@@ -2235,7 +2235,7 @@ def get_json():
         },
         {
             "id": 238,
-            "fatherid": 247,
+            "fatherid": 223,
             "label": "环境不可控场景下拍照文档的地址文字识别",
             "label_en": "",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
@@ -2244,7 +2244,7 @@ def get_json():
         },
         {
             "id": 239,
-            "fatherid": 247,
+            "fatherid": 223,
             "label": "盲人外卖语音助手演示系统",
             "label_en": "",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
@@ -2253,7 +2253,7 @@ def get_json():
         },
         {
             "id": 240,
-            "fatherid": 247,
+            "fatherid": 223,
             "label": "基于文本语义的图片生成",
             "label_en": "",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
@@ -2262,7 +2262,7 @@ def get_json():
         },
         {
             "id": 241,
-            "fatherid": 247,
+            "fatherid": 223,
             "label": "刘看山陪聊机器人",
             "label_en": "",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
@@ -2271,7 +2271,7 @@ def get_json():
         },
         {
             "id": 242,
-            "fatherid": 247,
+            "fatherid": 223,
             "label": "3D人体骨架点检测",
             "label_en": "",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
@@ -2280,7 +2280,7 @@ def get_json():
         },
         {
             "id": 243,
-            "fatherid": 247,
+            "fatherid": 223,
             "label": "图像美学评价",
             "label_en": "",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
@@ -2289,7 +2289,7 @@ def get_json():
         },
         {
             "id": 244,
-            "fatherid": 247,
+            "fatherid": 223,
             "label": "利用RL方法学习即时战略游戏",
             "label_en": "",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
@@ -2298,7 +2298,7 @@ def get_json():
         },
         {
             "id": 245,
-            "fatherid": 247,
+            "fatherid": 223,
             "label": "基于2D图像和视频的行为识别",
             "label_en": "",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
@@ -2307,7 +2307,7 @@ def get_json():
         },
         {
             "id": 246,
-            "fatherid": 247,
+            "fatherid": 223,
             "label": "多摄像头行人轨迹和行人动作分析",
             "label_en": "",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
