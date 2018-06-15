@@ -98,7 +98,7 @@ def get_json():
             "id": 10,
             "fatherid": 9,
             "label": "OCR（光学字符识别）",
-            "label_en": "Optical Character Recognition",
+            "label_en": "OCR(Optical Character Recognition)",
             "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Portable_scanner_and_OCR_%28video%29.webm/1200px--Portable_scanner_and_OCR_%28video%29.webm.jpg",
             "description": "光学字符识别（Optical Character Recognition, OCR）是指对文本资料的图像文件进行分析识别处理，获取文字及版面信息的过程。",
             "description_en": "Optical character recognition (also optical character reader, OCR) is the mechanical or electronic conversion of images of typed, handwritten or printed text into machine-encoded text."
@@ -1254,7 +1254,7 @@ def get_json():
         {
             "id": 133,
             "fatherid": 1,
-            "label": "智慧城市",
+            "label": "智慧城市（Smart City）",
             "label_en": "Smart City",
             "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Smart_City.jpg/1200px-Smart_City.jpg",
             "description": "智慧城市（Smart City）是指利用各种信息技术或创新意念，集成城市的组成系统和服务，以提升资源运用的效率，优化城市管理和服务，以及改善市民生活质素。智慧城市把新一代信息技术充分运用在城市的各行各业之中的基于知识社会下一代创新（创新2.0）的城市信息化高级形态，实现信息化、工业化与城镇化深度融合，有助于缓解“大城市病”，提高城镇化质量，实现精细化和动态管理，并提升城市管理成效和改善市民生活质素。",
@@ -2062,7 +2062,7 @@ def get_json():
             "id": 222,
             "fatherid": 1,
             "label": "高校教师AI培训班",
-            "label_en": "The AI Training Program For Teachers",
+            "label_en": "The AI Training Program for Teachers",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "由教育部、创新工场、北京大学联合主办，帮助教师获得在高校开设AI课程，帮助教师获得接触一线产业实践项目的机会，获得国际大师包括图灵奖得主，获得国际大师，包括图灵奖得主、中科院外籍院士John Hopcroft博士，深度学习发起人之一Geoffrey Hinton博士，创新工场创始人、创新工场人工智能工程院院长李开复博士的亲自授课。",
             "description_en": "由教育部、创新工场、北京大学联合主办，帮助教师获得在高校开设AI课程，帮助教师获得接触一线产业实践项目的机会，获得国际大师包括图灵奖得主，获得国际大师，包括图灵奖得主、中科院外籍院士John Hopcroft博士，深度学习发起人之一Geoffrey Hinton博士，创新工场创始人、创新工场人工智能工程院院长李开复博士的亲自授课。"
@@ -2071,7 +2071,7 @@ def get_json():
             "id": 223,
             "fatherid": 1,
             "label": "学生DeeCamp人工智能训练营",
-            "label_en": "DeeCamp AI Training Program For Students",
+            "label_en": "DeeCamp AI Training Program for Students",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "由教育部、创新工场、北京大学联合主办的人工智能训练营，授课老师既包括图灵奖得主、中科院外籍院士John Hopcroft以及来自北大、卡内基梅隆大学、加州伯克利大学等全球顶尖高校的教授，也有李开复老师和来自Google、科大讯飞、Face++、地平线机器人等产业界顶尖公司的专家。",
             "description_en": "由教育部、创新工场、北京大学联合主办的人工智能训练营，授课老师既包括图灵奖得主、中科院外籍院士John Hopcroft以及来自北大、卡内基梅隆大学、加州伯克利大学等全球顶尖高校的教授，也有李开复老师和来自Google、科大讯飞、Face++、地平线机器人等产业界顶尖公司的专家。"
