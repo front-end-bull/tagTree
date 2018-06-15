@@ -98,7 +98,7 @@ def get_json():
             "id": 10,
             "fatherid": 9,
             "label": "OCR（光学字符识别）",
-            "label_en": "Optical Character Recognition",
+            "label_en": "OCR(Optical Character Recognition)",
             "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Portable_scanner_and_OCR_%28video%29.webm/1200px--Portable_scanner_and_OCR_%28video%29.webm.jpg",
             "description": "光学字符识别（Optical Character Recognition, OCR）是指对文本资料的图像文件进行分析识别处理，获取文字及版面信息的过程。",
             "description_en": "Optical character recognition (also optical character reader, OCR) is the mechanical or electronic conversion of images of typed, handwritten or printed text into machine-encoded text."
