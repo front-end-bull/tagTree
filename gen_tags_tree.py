@@ -785,8 +785,8 @@ def get_json():
         {
             "id": 83,
             "fatherid": [67,82,108],
-            "label": "高斯过程（Gaussian process）",
-            "label_en": "Gaussian process",
+            "label": "高斯过程（Gaussian Process）",
+            "label_en": "Gaussian Process",
             "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Gaussianprocess_gap.svg/2000px-Gaussianprocess_gap.svg.png",
             "description": "高斯过程是基于统计学习理论和贝叶斯理论发展起来的一种机器学习方法，适于处理高维度、小样本和非线性等复杂回归问题，且泛化能力强，与神经网络、支持向量机相比，GP具有容易实现、超参数自适应获取、非参数推断灵活以及输出具有概率意义等优点。",
             "description_en": "In probability theory and statistics, a Gaussian process is a stochastic process (a collection of random variables indexed by time or space), such that every finite collection of those random variables has a multivariate normal distribution, i.e. every finite linear combination of them is normally distributed."
@@ -1254,7 +1254,7 @@ def get_json():
         {
             "id": 133,
             "fatherid": 1,
-            "label": "智慧城市",
+            "label": "智慧城市（Smart City）",
             "label_en": "Smart City",
             "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Smart_City.jpg/1200px-Smart_City.jpg",
             "description": "智慧城市（Smart City）是指利用各种信息技术或创新意念，集成城市的组成系统和服务，以提升资源运用的效率，优化城市管理和服务，以及改善市民生活质素。智慧城市把新一代信息技术充分运用在城市的各行各业之中的基于知识社会下一代创新（创新2.0）的城市信息化高级形态，实现信息化、工业化与城镇化深度融合，有助于缓解“大城市病”，提高城镇化质量，实现精细化和动态管理，并提升城市管理成效和改善市民生活质素。",
@@ -1263,7 +1263,7 @@ def get_json():
         {
             "id": 134,
             "fatherid": 133,
-            "label": "智能运输系统",
+            "label": "智能运输系统（Intelligent Transport System）",
             "label_en": "Intelligent Transport System",
             "icon_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/ERPBugis.JPG",
             "description": "智能运输系统（Intelligent Transport System、Intelligent Transportation System，缩写：ITS，又名：智能交通系统）是将先进的信息技术、通讯技术、传感技术、控制技术及计算机技术等有效率地集成运用于整个交通运输管理体系，而建立起的一种在大范围内及全方位发挥作用的，实时、准确及高效率的综合的运输和管理系统。美国、日本、欧洲率先展开相应的研究并成为ITS发展的三强，此外加拿大、中国、韩国、新加坡、澳大利亚、香港等国家的研究也具有相当规模。",
@@ -2062,7 +2062,7 @@ def get_json():
             "id": 222,
             "fatherid": 1,
             "label": "高校教师AI培训班",
-            "label_en": "The AI Training Program For Teachers",
+            "label_en": "The AI Training Program for Teachers",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "由教育部、创新工场、北京大学联合主办，帮助教师获得在高校开设AI课程，帮助教师获得接触一线产业实践项目的机会，获得国际大师包括图灵奖得主，获得国际大师，包括图灵奖得主、中科院外籍院士John Hopcroft博士，深度学习发起人之一Geoffrey Hinton博士，创新工场创始人、创新工场人工智能工程院院长李开复博士的亲自授课。",
             "description_en": "由教育部、创新工场、北京大学联合主办，帮助教师获得在高校开设AI课程，帮助教师获得接触一线产业实践项目的机会，获得国际大师包括图灵奖得主，获得国际大师，包括图灵奖得主、中科院外籍院士John Hopcroft博士，深度学习发起人之一Geoffrey Hinton博士，创新工场创始人、创新工场人工智能工程院院长李开复博士的亲自授课。"
@@ -2071,7 +2071,7 @@ def get_json():
             "id": 223,
             "fatherid": 1,
             "label": "学生DeeCamp人工智能训练营",
-            "label_en": "DeeCamp AI Training Program For Students",
+            "label_en": "DeeCamp AI Training Program for Students",
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "由教育部、创新工场、北京大学联合主办的人工智能训练营，授课老师既包括图灵奖得主、中科院外籍院士John Hopcroft以及来自北大、卡内基梅隆大学、加州伯克利大学等全球顶尖高校的教授，也有李开复老师和来自Google、科大讯飞、Face++、地平线机器人等产业界顶尖公司的专家。",
             "description_en": "由教育部、创新工场、北京大学联合主办的人工智能训练营，授课老师既包括图灵奖得主、中科院外籍院士John Hopcroft以及来自北大、卡内基梅隆大学、加州伯克利大学等全球顶尖高校的教授，也有李开复老师和来自Google、科大讯飞、Face++、地平线机器人等产业界顶尖公司的专家。"
@@ -2079,7 +2079,7 @@ def get_json():
         {
             "id": 224,
             "fatherid": 1,
-            "label": "数据集",
+            "label": "数据集（Datasets）",
             "label_en": "Datasets",
             "icon_url": "http://www.creative-commons-images.com/highway-signs/images/data.jpg",
             "description": "AI Challenger发布了千万量级的机器翻译数据集、百万量级的计算机视觉数据集。",
@@ -2149,15 +2149,7 @@ def get_json():
             "description_en": "Predict the future trend of virtual stocks by modeling large-scale historical data."
         },
 
-        {
-            "id": 247,
-            "fatherid": 223,
-            "label": "DeeCamp·2017",
-            "label_en": "DeeCamp AI Training Program For Students",
-            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
-            "description": "由教育部、创新工场、北京大学联合主办的人工智能训练营，授课老师既包括图灵奖得主、中科院外籍院士John Hopcroft以及来自北大、卡内基梅隆大学、加州伯克利大学等全球顶尖高校的教授，也有李开复老师和来自Google、科大讯飞、Face++、地平线机器人等产业界顶尖公司的专家。",
-            "description_en": "由教育部、创新工场、北京大学联合主办的人工智能训练营，授课老师既包括图灵奖得主、中科院外籍院士John Hopcroft以及来自北大、卡内基梅隆大学、加州伯克利大学等全球顶尖高校的教授，也有李开复老师和来自Google、科大讯飞、Face++、地平线机器人等产业界顶尖公司的专家。"
-        },
+
 
         {
             "id": 232,
@@ -2293,7 +2285,16 @@ def get_json():
             "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
             "description": "在多个摄像头之间，确定多个行人的身份信息并分析他们的动作，在公共安全、智慧城市和智能零售中存在广泛应用。",
             "description_en": ""
-        }
+        },
+        {
+            "id": 247,
+            "fatherid": 223,
+            "label": "DeeCamp·2017",
+            "label_en": "DeeCamp AI Training Program For Students",
+            "icon_url": "https://img-ac.oss-cn-zhangjiakou.aliyuncs.com/ai_icon_201804281521.jpg",
+            "description": "由教育部、创新工场、北京大学联合主办的人工智能训练营，授课老师既包括图灵奖得主、中科院外籍院士John Hopcroft以及来自北大、卡内基梅隆大学、加州伯克利大学等全球顶尖高校的教授，也有李开复老师和来自Google、科大讯飞、Face++、地平线机器人等产业界顶尖公司的专家。",
+            "description_en": "由教育部、创新工场、北京大学联合主办的人工智能训练营，授课老师既包括图灵奖得主、中科院外籍院士John Hopcroft以及来自北大、卡内基梅隆大学、加州伯克利大学等全球顶尖高校的教授，也有李开复老师和来自Google、科大讯飞、Face++、地平线机器人等产业界顶尖公司的专家。"
+        },
     ]
 
 
